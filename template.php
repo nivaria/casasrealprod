@@ -3,7 +3,7 @@
 /**
  * Add body classes if certain regions have content.
  */
-function casasreal_preprocess_html(&$variables) {
+function casasrealprod_preprocess_html(&$variables) {
   if (!empty($variables['page']['featured'])) {
     $variables['classes_array'][] = 'featured';
   }
@@ -29,7 +29,7 @@ function casasreal_preprocess_html(&$variables) {
 /**
  * Override or insert variables into the page template for HTML output.
  */
-function casasreal_process_html(&$variables) {
+function casasrealprod_process_html(&$variables) {
   // Hook into color.module.
   if (module_exists('color')) {
     _color_html_alter($variables);
@@ -39,7 +39,7 @@ function casasreal_process_html(&$variables) {
 /**
  * Override or insert variables into the page template.
  */
-function casasreal_process_page(&$variables) {
+function casasrealprod_process_page(&$variables) {
   // Hook into color.module.
   if (module_exists('color')) {
     _color_page_alter($variables);
@@ -74,7 +74,7 @@ function casasreal_process_page(&$variables) {
   if (isset($variables['node']) && 
       $variables['node']->type == "casas" && 
       strpos(drupal_get_path_alias(), '/booking')>0) {
-    drupal_add_js(drupal_get_path('theme', 'casasreal') . '/js/casas_booking_manager.js');
+    drupal_add_js(drupal_get_path('theme', 'casasrealprod') . '/js/casas_booking_manager.js');
     $breadcrumbs = array();
     $breadcrumbs[] = l(t('Home'), '<front>');
     $breadcrumbs[] = l(t('Las Casas'), 'node/10');
@@ -84,14 +84,14 @@ function casasreal_process_page(&$variables) {
   }
 
   if (strpos(drupal_get_path_alias(), 'bookings') !== FALSE) {
-    drupal_add_js(drupal_get_path('theme', 'casasreal') . '/js/casas_booking_manager.js');
+    drupal_add_js(drupal_get_path('theme', 'casasrealprod') . '/js/casas_booking_manager.js');
   }
 }
 
 /**
  * Implements hook_preprocess_maintenance_page().
  */
-function casasreal_preprocess_maintenance_page(&$variables) {
+function casasrealprod_preprocess_maintenance_page(&$variables) {
   // By default, site_name is set to Drupal if no db connection is available
   // or during site installation. Setting site_name to an empty string makes
   // the site and update pages look cleaner.
@@ -99,13 +99,13 @@ function casasreal_preprocess_maintenance_page(&$variables) {
   if (!$variables['db_is_active']) {
     $variables['site_name'] = '';
   }
-  drupal_add_css(drupal_get_path('theme', 'casasreal') . '/css/maintenance-page.css');
+  drupal_add_css(drupal_get_path('theme', 'casasrealprod') . '/css/maintenance-page.css');
 }
 
 /**
  * Override or insert variables into the maintenance page template.
  */
-function casasreal_process_maintenance_page(&$variables) {
+function casasrealprod_process_maintenance_page(&$variables) {
   // Always print the site name and slogan, but if they are toggled off, we'll
   // just hide them visually.
   $variables['hide_site_name']   = theme_get_setting('toggle_name') ? FALSE : TRUE;
@@ -123,7 +123,7 @@ function casasreal_process_maintenance_page(&$variables) {
 /**
  * Override or insert variables into the node template.
  */
-function casasreal_preprocess_node(&$variables) {
+function casasrealprod_preprocess_node(&$variables) {
   if ($variables['view_mode'] == 'full' && node_is_page($variables['node'])) {
     $variables['classes_array'][] = 'node-full';
   }
@@ -132,7 +132,7 @@ function casasreal_preprocess_node(&$variables) {
 /**
  * Override or insert variables into the block template.
  */
-function casasreal_preprocess_block(&$variables) {
+function casasrealprod_preprocess_block(&$variables) {
   // In the header region visually hide block titles.
   if ($variables['block']->region == 'header') {
     $variables['title_attributes_array']['class'][] = 'element-invisible';
@@ -142,14 +142,14 @@ function casasreal_preprocess_block(&$variables) {
 /**
  * Implements theme_menu_tree().
  */
-function casasreal_menu_tree($variables) {
+function casasrealprod_menu_tree($variables) {
   return '<ul class="menu clearfix">' . $variables['tree'] . '</ul>';
 }
 
 /**
  * Implements theme_field__field_type().
  */
-function casasreal_field__taxonomy_term_reference($variables) {
+function casasrealprod_field__taxonomy_term_reference($variables) {
   $output = '';
 
   // Render the label, if it's not hidden.
@@ -170,7 +170,7 @@ function casasreal_field__taxonomy_term_reference($variables) {
   return $output;
 }
 
-function casasreal_commerce_price_formatted_components($variables) {
+function casasrealprod_commerce_price_formatted_components($variables) {
   if (strpos(drupal_get_path_alias(), 'bookings') !== FALSE ||
       strpos(drupal_get_path_alias(), 'chekcout') !== FALSE) {
     $content = array();
@@ -192,7 +192,7 @@ function casasreal_commerce_price_formatted_components($variables) {
 /**
  * Implements hook_field_widget_form_alter().
  */
-function casasreal_field_widget_form_alter(&$element, &$form_state, $context) {
+function casasrealprod_field_widget_form_alter(&$element, &$form_state, $context) {
   if ($element['#field_name'] == 'field_cr_customer_condiciones') {
     $element['#title'] = t('Acepto la !policy',
       array(
@@ -205,7 +205,7 @@ function casasreal_field_widget_form_alter(&$element, &$form_state, $context) {
   }
 }
 
-function casasreal_preprocess_mimemail_message(&$variables) {
+function casasrealprod_preprocess_mimemail_message(&$variables) {
   global $base_url;
   $variables['logo'] = $base_url . theme_get_setting('logo');
   $variables['front_page'] = url();
