@@ -17,8 +17,17 @@
 <head>
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
-  <?php print $styles; ?>
-  <?php print $scripts; ?>
+  <?php print $styles;
+  global $base_url;?>
+    
+  <?php print $scripts; ?> <link href="<?php echo $base_url; ?>/sites/all/themes/casasreal/css/fgc.css" rel="stylesheet" type="text/css"/>
+  <link href="<?php echo $base_url; ?>/sites/all/themes/casasreal/css/jquery.selectBox.css" rel="stylesheet" type="text/css"/>
+  <script>
+      var $j = jQuery.noConflict();
+      $j(function(){
+          alert("teet");
+      })
+  </script>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
 

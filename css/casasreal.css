@@ -1,0 +1,16 @@
+
+/* ---------- Booking results ----------- */
+
+.unit-search-result-alt-list {
+  display: none;
+}
+
+/* ---------- Booking cart services ----------- */
+
+.show-more .link-more {
+  cursor: pointer;
+}
+
+.show-more .content-more {
+  display: none;
+}

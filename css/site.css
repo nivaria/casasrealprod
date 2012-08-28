@@ -1,8 +1,6 @@
 
 /* ---------- Color Module Styles ----------- */
-a{
-    outline: none;
-}
+
 body,
 body.overlay {
     color: #3b3b3b;
@@ -31,11 +29,9 @@ body.overlay {
       background-image: linear-gradient(top, #0779bf 0%, #48a9e4 100%);*/
     background: #fff
 }
-
 a {
-    color: #2C8AB6;
+    color: #0071B3;
 }
-
 a:hover,
 a:focus {
     color: #018fe2;
@@ -56,29 +52,32 @@ a:active {
 #secondary-menu-links li a {
     color: #000;
 }
-#sidebar-second .section{
-    padding-top: 15px;
-}
 /*
 contact
 */
-#breadcrumb #page-title{
-    font-weight: bold;
+body.node-type-webform #breadcrumb,
+body.page-servicios-extras #breadcrumb,
+body.node-type-instalaciones #breadcrumb,
+body.node-type-page #breadcrumb,
+body.node-type-webform #breadcrumb,
+body.node-type-que-hacer #breadcrumb,
+body.page-reservas #breadcrumb,
+body.page-que-hacer #breadcrumb,
+body.page-booking #breadcrumb{
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 5px 15px 0;
+    padding: 10px 20px;
 }
-#breadcrumb{
-    background: url("../images/bgbreadcrumb.png") repeat-x scroll center top transparent;
-    height: 60px;
-    margin: 0;
-    padding: 20px 0 15px 44px;
-}
-.node-type-webform #breadcrumb,
-body.page-node-13 #breadcrumb{
-    height: 60px;
-    margin: 0;
-    padding: 20px 0 15px 40px;
-}
-h1#page-title{
-    font-size: 2em;
+body.node-type-webform #breadcrumb h2.page-title,
+body.page-servicios-extras #breadcrumb h2.page-title,
+body.node-type-instalaciones #breadcrumb h2.page-title,
+body.node-type-page #breadcrumb h2.page-title,
+body.node-type-webform #breadcrumb h1#page-title,
+body.page-servicios-extras #breadcrumb h1#page-title,
+body.node-type-instalaciones #breadcrumb h1#page-title,
+body.node-type-page #breadcrumb h1#page-title,
+body.page-booking #breadcrumb h1#page-title{
+    font-size: 1.5em;
     margin: 15px 0 0;
     text-transform: uppercase;
 }
@@ -88,18 +87,17 @@ body.node-type-webform #content{
     width: 705px;
 }
 body.node-type-webform #content .region.region-content{
-    padding: 20px 40px;
-
+    padding-left: 20px;
 }
 #edit-submitted-nombre-contacto,
 #edit-submitted-email-contacto{
-    background: url("../images/bginput.png") no-repeat scroll 0 0 transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/bginput.png") no-repeat scroll 0 0 transparent;
     border: medium none;
     height: 22px;
     width: 417px;
 }
 #edit-submitted-comentario-contacto{
-    background: url("../images/bgtextarea.png") no-repeat scroll 0 0 transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/bgtextarea.png") no-repeat scroll 0 0 transparent;
     border: medium none;
     height: 121px;
     padding: 7px;
@@ -122,65 +120,50 @@ body.node-type-webform #content img{
     padding-right: 10px;
 }
 body.node-type-webform #content #edit-captcha-response{
-    background: url("../images/bginputcapcha.png") no-repeat scroll 0 0 transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/bginputcapcha.png") no-repeat scroll 0 0 transparent;
     border: medium none;
     height: 23px;
     width: 230px;
 }
 body.node-type-webform #content #edit-submit{
-    background: url("../images/bgbuttoncontact.png") no-repeat scroll 0 0 transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/bgbuttoncontact.png") no-repeat scroll 0 0 transparent;
     border: medium none;
     border-radius: 0 0 0 0;
     color: #FFFFFF;
     float: right;
     font-weight: bold;
-    height: 35px;
+    height: 45px;
     margin-right: 40px;
-    width: 120px;
+    width: 150px;
 }
 #block-locationmap-image .content{
-    /*    background: url("../images/arrow-circle.png") no-repeat bottom center #fff;*/
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/arrow-circle.png") no-repeat bottom center #fff;
 }
 /*
 right
 */
 
-#sidebar-second{
+body.node-type-webform #sidebar-second{
 
 }
-#sidebar-second .block,
-#sidebar-second .block{
+body.node-type-webform #sidebar-second .block,
+body.page-node-13 #sidebar-second .block{
     padding: 15px 0px;
 }
-#sidebar-second #block-nodeblock-6 .content,
-#sidebar-second #block-nodeblock-6 .content{
+body.node-type-webform #sidebar-second #block-nodeblock-6 .content,
+body.page-node-13 #sidebar-second #block-nodeblock-6 .content{
     padding-left: 20px;
 }
-#sidebar-second h2,
-#sidebar-second h2{
-    background: url("../images/eye.png") no-repeat scroll 10px 0 transparent;
+body.node-type-webform #sidebar-second h2,
+body.page-node-13 #sidebar-second h2{
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/eye.png") no-repeat scroll 10px 0 transparent;
     font-weight: bold;
     padding-left: 40px;
     margin-bottom: 15px;
     padding-bottom: 10px;
 }
-#sidebar-second li{
-    list-style: url("../images/check.png");
-}
-#sidebar-second #block-nodeblock-5 h2{
-    background: none repeat scroll 0 0 transparent;
-    border: medium none;
-    bottom: 81px;
-    display: block;
-    padding-left: 0;
-    position: absolute;
-    width: 100%;
-}
-#block-nodeblock-5{
-    position: relative;
-}
-#sidebar-second #block-nodeblock-5 .field-name-body{
-    padding-top: 20px;
+body.node-type-webform #sidebar-second li{
+    list-style: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/check.png");
 }
 /*
 Spa
@@ -193,7 +176,7 @@ body.node-type-que-hacer #page-wrapper,
 body.page-reservas #page-wrapper,
 body.page-que-hacer  #page-wrapper,
 body.page-booking  #page-wrapper{
-    background: url("../images/bg_spa.png");
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/bg_spa.png");
 }
 .page-servicios-extras #page-wrapper .section,
 .node-type-instalaciones #page-wrapper .section{
@@ -202,13 +185,11 @@ body.page-booking  #page-wrapper{
 }
 body.page-servicios-extras #content,
 body.node-type-instalaciones #content, 
-body.page-booking #content,
-.page-reservas #content
-{
+body.page-booking #content{
     background: none repeat scroll 0 0 #FFFFFF;
-    margin-top: 1px;
+    margin-top: 3px;
     padding: 0 30px;
-    width: 640px;
+    width: 615px
 }
 body.page-servicios-extras .view-header,
 body.node-type-instalaciones .view-header{
@@ -230,7 +211,7 @@ body.node-type-instalaciones .group-right{
     width: 25%;
 }
 body.page-servicios-extras #content .group-left h2{
-    background: url("../images/bookfade.png") no-repeat scroll 0 0 transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/bookfade.png") no-repeat scroll 0 0 transparent;
     color: #0071B3;
     padding-left: 40px;
     vertical-align: middle;
@@ -251,7 +232,7 @@ body.page-servicios-extras .views-row .field-item{
     margin: 0;
 }
 body.page-servicios-extras .view-footer a{
-    background: url("../images/bgbuttonr.png") no-repeat scroll center center transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/bgbuttonr.png") no-repeat scroll center center transparent;
     color: #FFFFFF;
     display: block;
     font-weight: bold;
@@ -271,78 +252,6 @@ body.page-servicios-extras .group-left .field-name-commerce-service-pricing-meth
 body.page-servicios-extras .group-right img{
     margin: 60px 0 0;
     padding-right: 20px;
-}
-
-.node-type-instalaciones .group-second
-{
-    float: none;
-    width: 100%;
-}
-.node-type-instalaciones .group-third{
-    float: right;
-    position: absolute;
-    right: 0;
-    top: 495px;
-    width: 45%;
-}
-.node-type-instalaciones .group-fourth{
-    position: absolute;
-    right: 0;
-    top: 740px;
-    width: 45%;
-}
-.node-type-instalaciones .group-fourth .field-item p
-/*.node-type-instalaciones .group-first .field-name-body .field-item p*/{
-    background: url("../images/note1.png") no-repeat scroll 30px 10px, url("../images/bg_menu.png") repeat scroll center top transparent;
-    padding: 20px;
-}
-.node-type-instalaciones .group-first .field-name-body .field-item p{
-    /*    padding: 15px;
-        margin: 0*/
-
-}
-.node-type-instalaciones .group-fourth .field-item p{
-    padding: 30px;
-}
-.node-type-instalaciones .group-first{
-    padding-top: 447px;
-    width: 45%;
-}
-/*.node-type-instalaciones .group-first .field-name-body .field-item p strong{
-      background: url("../images/note1.png") no-repeat scroll left top transparent;
-    display: block;
-    height: 31px;
-    padding-left: 29px;
-    padding-top: -50px;
-    position: relative;
-    top: 6px;
-    margin: 20px 0 2px 0;
-}*/
-
-.node-type-instalaciones .group-second{
-    position: absolute;
-    top: 0;
-}
-.node-type-instalaciones .field-slideshow-caption{
-    background: url("../images/bg_des_slide.png") repeat scroll 0 0 transparent;
-    bottom: 20px;
-    left: 0;
-    padding: 10px 20px;
-    position: absolute;
-    width: 100%;
-}
-.field-slideshow-caption-text{
-    color: #fff;
-}
-.node-type-instalaciones #block-nodeblock-30 p {
-    margin: 0 0 0 -20px;
-}
-.node-type-instalaciones .group-third .field-name-field-caracteristicas .field-item ul,
-.node-type-instalaciones .group-third .field-name-field-caracteristicas .field-item p{
-    margin: 0;
-}
-.node-type-instalaciones .group-third li{
-    list-style: disc outside url("../images/checkfade.png");
 }
 /*
 end
@@ -371,7 +280,7 @@ body.node-type-instalaciones .sidebar .block.block-menu-block li.leaf{
 }
 body.page-servicios-extras .sidebar .block.block-menu-block li.leaf.active,
 body.node-type-instalaciones .sidebar .block.block-menu-block li.leaf.active{
-    background: url("../images/menutop.png") no-repeat scroll 0 0 transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/menutop.png") no-repeat scroll 0 0 transparent;
     min-height: 90px;
     vertical-align: middle;
     padding: 2px 10px 2px 20px;
@@ -395,8 +304,8 @@ body.page-booking .sidebar .block.block-nodeblock{
     border: medium none;
     padding: 0;
 }
-body.page-servicios-extras .sidebar .block.block-nodeblock h2
-{
+body.page-servicios-extras .sidebar .block.block-nodeblock h2,
+#block-nodeblock-20 h2{
     display: none;
 }
 body.page-servicios-extras .sidebar .block.block-nodeblock .field-type-image img,
@@ -412,7 +321,7 @@ body.page-booking .sidebar .block.block-nodeblock .field-name-body.field-type-te
 }
 body.node-type-instalaciones .sidebar .block.block-nodeblock h2,
 body.page-booking .sidebar .block.block-nodeblock h2{
-    background: url("../images/bagfade.png") no-repeat scroll 15px center transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/bagfade.png") no-repeat scroll 15px center transparent;
     font-weight: bold;
     padding: 5px 10px 5px 40px;
 }
@@ -426,16 +335,16 @@ body.page-booking .sidebar .block.block-nodeblock ul{
 }
 body.node-type-instalaciones .sidebar .block.block-nodeblock li,
 body.page-booking .sidebar .block.block-nodeblock li{
-    list-style: disc outside url("../images/checkfade.png");
+    list-style: disc outside url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/checkfade.png");
     padding-bottom: 10px;
     padding-left: 5px;
 }
 #block-nodeblock-30 .field-name-body.field-type-text-with-summary{
     text-align: left;
 }
-/*body.page-booking #block-nodeblock-30 .field-item p,
+body.page-booking #block-nodeblock-30 .field-item p,
 body.node-type-instalaciones #block-nodeblock-30 .field-item p{
-    background: url("../images/bgbuttonr.png") no-repeat scroll 0 center transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/bgbuttonr.png") no-repeat scroll 0 center transparent;
     color: #FFFFFF;
     font-weight: bold;
     margin-bottom: 10px;
@@ -443,18 +352,18 @@ body.node-type-instalaciones #block-nodeblock-30 .field-item p{
     padding: 10px;
     text-align: center;
     width: 180px;
-}*/
+}
 /*
 nuestra-historia
 */
 body.page-node-13 #page-wrapper{
-    background: url("../images/bg_spa.png") repeat scroll 0 0 transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/bg_spa.png") repeat scroll 0 0 transparent;
 }
 body.page-node-13 #content{
     background: none repeat scroll 0 0 #FFFFFF;
-    margin: 1px 0 15px;
-    padding: 0 40px;
-    width: 620px;
+    margin: 3px 0 15px 15px;
+    padding: 0 20px;
+    width: 665px;
 }
 body.page-node-13 #content #block-system-main .field-items h2,
 body.page-node-13 #content #block-system-main .field-items h3{
@@ -472,8 +381,10 @@ body.node-type-webform #sidebar-second .block,
 body.page-node-13 #sidebar-second .block{
     background: none repeat scroll 0 0 #FFFFFF;
 }
-body.node-type-webform #sidebar-second #block-nodeblock-5 h2
-body.page-node-13 #sidebar-second #block-nodeblock-5 h2{
+body.node-type-webform #sidebar-second #block-nodeblock-5 h2,
+body.node-type-webform #sidebar-second #block-locationmap-image h2,
+body.page-node-13 #sidebar-second #block-nodeblock-5 h2,
+body.page-node-13 #sidebar-second #block-locationmap-image h2{
     display: none;
 }
 body.node-type-webform #sidebar-second #block-nodeblock-5 .field-item img,
@@ -482,7 +393,7 @@ body.page-node-13 #sidebar-second #block-nodeblock-5 .field-item img{
 }
 body.node-type-webform #sidebar-second #block-nodeblock-5 .field-item a,
 body.page-node-13 #sidebar-second #block-nodeblock-5 .field-item a{
-    background: url("../images/bgbuttonr.png") no-repeat scroll 0 center transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/bgbuttonr.png") no-repeat scroll 0 center transparent;
     color: #FFFFFF;
     display: block;
     margin: 0 10px 10px;
@@ -498,61 +409,16 @@ body.node-type-webform #sidebar-second #block-locationmap-image{
 }
 body.page-node-13 #sidebar-second #block-locationmap-image .content,
 body.node-type-webform #sidebar-second #block-locationmap-image .content{
-    /*    padding: 0 10px 20px;*/
+    padding: 0 10px 20px;
     text-align: center;
-    padding-top: 10px;
-}
-body.page-node-13 #sidebar-second #block-locationmap-image .content img,
-body.node-type-webform #sidebar-second #block-locationmap-image .content img{
-    height: 248px;
-    width: 230px;
-}
-
-#block-locationmap-image .content{
-    padding-bottom: 120px;
-    padding-top: 15px;
-    position: relative;
-
-}
-#sidebar-second #block-locationmap-image h2 {
-    background: none repeat scroll 0 center transparent;
-    border: medium none;
-    bottom: 90px;
-    display: block;
-    padding-left: 0;
-    position: absolute;
-    text-align: center;
-    width: 94%;
-    color: #000;
-    font-size: 18px;
-}
-#locationmap-block-text-top {
-    bottom: 50px;
-    position: absolute;
-    width: 93%;
-}
-#locationmap-block-text-top a{
-    background: url("../images/arrow-circle.png") no-repeat scroll 0 0 transparent;
-    bottom: -70px;
-    display: block;
-    height: 62px;
-    left: 42%;
-    position: absolute;
-    text-indent: -9999px;
-    width: 62px;
-}
-#block-locationmap-image p {
-    margin-bottom: 0;
 }
 body.page-node-13 #sidebar-second li{
-    list-style: disc outside url("../images/checkfade.png");
-    padding: 0px 0px 5px 10px;
+    list-style: disc outside url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/checkfade.png");
+    padding-bottom: 5px;
     text-transform: uppercase;
-    font-size: 12px;
-
 }
-#sidebar-second h2{
-    background: url("../images/eyefade.png") no-repeat scroll 10px 0 transparent;
+body.page-node-13 #sidebar-second h2{
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/eyefade.png") no-repeat scroll 10px 0 transparent;
 }
 /*
 booking
@@ -562,7 +428,6 @@ body.page-booking #rooms-booking-availability-search-form > div > div{
     float: left;
 }
 body.page-booking #rooms-booking-availability-search-form > div div{
-    margin: 0;
     padding: 0;
 }
 body.page-booking #edit-actions{
@@ -570,16 +435,9 @@ body.page-booking #edit-actions{
 }
 body.page-booking .form-actions #edit-submit,
 body.page-booking .form-actions .form-submit{
-    background: url("../images/bgbutton.png") no-repeat scroll left top transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/bgbuttonr.png") no-repeat scroll 0 center transparent;
     border: medium none;
-    color: #BDDCE9;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: bold;
-    height: 33px;
-    margin-top: 0;
-    text-transform: uppercase;
-    width: 190px;
+    padding: 5px 15px;
 }
 body.page-booking #edit-actions #edit-submit:hover{
     cursor: pointer;
@@ -588,13 +446,10 @@ body.page-booking #rooms-booking-availability-search-form > div > div label,
 body.page-booking #rooms-booking-availability-search-form > div > div .description{
     display: none;
 }
-#rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0,
-#rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0 {
-    background: url("../images/inputsearch.png") no-repeat scroll left top transparent;
+body.page-booking #rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0,
+body.page-booking #rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0 {
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/inputsearch.png") no-repeat scroll left top transparent;
     border: medium none;
-    color: #CCCCCC;
-    font-size: 11px;
-    font-weight: bold;
     height: 25px;
     width: 115px;
 }
@@ -631,7 +486,7 @@ product
     padding-top: 60px;
 }
 .unit-result h2 {
-    background: url("../images/home.png") no-repeat scroll 0 center transparent;
+    background: url("http://maychu/2012/nivaria01/sites/all/themes/casasreal/images/home.png") no-repeat scroll 0 center transparent;
     color: #0071B3;
     margin: 15px 0 20px;
     padding-left: 40px;
@@ -649,174 +504,10 @@ product
 .booking-price span.label{
     padding: 6px 15px 5px 0;
 }
-/*.content form{
+.content form{
     margin-right: 100px;
     text-align: right;
-}*/
+}
 #rooms-booking-availability-search-form{
     margin-right: 0;
-}
-/*
-fix
-*/
-body.node-type-webform #content {
-    background: none repeat scroll 0 0 #FFFFFF;
-    margin: 1px 0 0;
-    width: 700px;
-}
-#main-wrapper .sidebar .section{
-    padding-right: 0;
-}
-#main-wrapper {
-    background-color: #EDEDED;
-    padding-top: 10px;
-}
-.page-booking #sidebar-first{
-    padding-top: 2px;
-}
-li.active-trail{
-    background: url("../images/arrowmenu.png") no-repeat scroll center 20px transparent;
-}
-/*#field-slideshow-1-controls{
-    display: none;
-}*/
-/*header menu*/
-/*.page-que-hacer #header #logo,
-.page-reservas #header #logo{
-    margin-top: 25px;
-}*/
-#header > .section.clearfix > .region.region-header{
-    background: none repeat scroll 0 0 #000000;
-    height: 30px;
-    left: -20px;
-    margin: 0;
-    padding: 0 20px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-#header > .section.clearfix > .region.region-header #block-menu-menu-superior-menu li a.active{
-    color: #1F83B1;
-}
-#header > .section.clearfix > .region.region-header a{
-    border: medium none;
-    color: #FFFFFF;
-    font-size: 11px;
-    font-weight: bold;
-    line-height: 24px;
-    text-transform: uppercase;
-}
-#header > .section.clearfix > .region.region-header a{
-    color: #fff;
-}
-#header .region-header .block-menu{
-    padding: 0;
-    width: 100%;
-    border: none;
-}
-.front #block-rooms-booking-manager-rooms-availability-search .form-type-select{
-    margin-right: 26px;
-}
-.page-reservas #block-rooms-booking-manager-rooms-availability-search .form-type-select{
-    margin-right: 40px;
-}
-#block-rooms-booking-manager-rooms-availability-search .form-type-select.form-item-children-count{
-    margin-right: 0;
-}
-.node-type-que-hacer #sidebar-first .section{
-    margin-top: 2px;
-    margin-right: 2px;
-}
-.node-type-que-hacer #content{
-    background: none repeat scroll 0 0 #FFFFFF;
-}
-.front.no-sidebars #content{
-    background: none;
-    padding: 0;
-    width: 970px;
-}
-.no-sidebars #content{
-    background: none repeat scroll 0 0 #FFFFFF;
-    margin-top: 1px;  
-    width: 890px;
-    padding: 20px;
-}
-.one-sidebar #content, .page-que-hacer #sidebar-first{
-    margin-top: 1px;
-}
-.node-type-que-hacer #content{
-    padding: 20px 40px;
-    /*    width: 930px;*/
-}
-#block-views-casas-block .field-content{
-    text-align: center;
-}
-#block-views-casas-block span.field-content{
-    background: url("../images/eyefade.png") no-repeat scroll 10px center transparent;
-    border-bottom: 1px solid #DDDDDD;
-    display: block;
-    padding: 5px 40px;
-    text-align: left;
-}
-#block-views-casas-block .views-field-field-subtitulo{
-    padding: 5px 15px;
-}
-#block-views-casas-block .views-field-field-subtitulo .field-content{
-    text-align: left;
-}
-.page-libro-de-visitas #content{
-    padding: 0 40px;
-    width: 620px
-}
-.page-reservas #main-wrapper #main #sidebar-first .section{
-    margin: 1px 2px 2px 0;
-}
-.page-reservas #main-wrapper #main #sidebar-first .section .form-submit{
-    width: 225px;
-}
-#secondary-menu li{
-    float: left;
-}
-/*
-page-libro-de-visitas
-*/
-.page-libro-de-visitas .field-name-title.field-type-ds{
-    float: left;
-}
-.page-libro-de-visitas .field-name-title.field-type-ds h2{
-    background: url("../images/heart1.png") no-repeat scroll 0 center transparent;
-    padding: 0 0 0 40px;
-}
-.page-libro-de-visitas .field-name-field-valoracion{
-    float: right;
-    margin-bottom: 30px;
-}
-.page-libro-de-visitas .field-name-field-casas{
-    clear: both;
-    float: none;
-}
-.page-libro-de-visitas .field-name-field-valoracion .description{
-    display: none;
-}
-.page-libro-de-visitas .field-name-field-fecha-de-la-estancia .date-display-single{
-    font-style: italic;
-}
-.page-libro-de-visitas .field-name-body{
-    padding: 10px 0;
-}
-.page-libro-de-visitas .field-name-field-nombre{
-    float: left;
-    font-weight: bold;
-    padding-right: 10px;
-}
-.page-libro-de-visitas .views-row{
-    background: url("../images/bgbreadcrumb.png") repeat scroll center top transparent;
-    border: medium none;
-    margin-bottom: 20px;
-    padding: 20px;
-}
-.page-libro-de-visitas .views-row > div{
-    border: medium none;
-    margin-bottom: 0;
 }
