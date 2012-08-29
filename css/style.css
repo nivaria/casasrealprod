@@ -565,7 +565,7 @@ h1#site-name {
 .node-type-casas #main-wrapper #main #content .section .group-right .field-items p.position7{
     background: url("../images/note1.png") no-repeat scroll 27px 35px, url("../images/bg_menu.png") repeat scroll center top transparent;
     border-bottom: 2px solid #FFFFFF;
-    padding: 35px 0 10px 53px;
+    padding: 35px 0 10px 60px;
     font-weight: bold;
     color:#000;
 
@@ -579,7 +579,11 @@ h1#site-name {
     height: 450px;
 }
 
-
+.node-type-casas #content .section .region-content{
+     left: 0;
+    position: relative;
+    top: 0;
+}
 .node-type-casas .group-right .field-name-field-comentario{
     left: 322px;
     position: relative;
@@ -596,13 +600,14 @@ h1#site-name {
     padding-top: 420px;
 }
 .node-type-casas #main-wrapper #main #content .section .content .group-left{
-
+padding-bottom: 75px;
     width: 45%;
 }
 .node-type-casas #main-wrapper #main #content .section .content .group-left .field-name-field-caracteristicas{
-    position: relative;
     left: 320px;
-    top: -460px;
+    position: absolute;
+    top: 500px;
+    width: 296px;
 }
 .node-type-casas #main-wrapper #main #content .section .content .group-left .field-items {
     color :#8c8c8c;
@@ -1286,7 +1291,7 @@ ul.links {
     text-transform: uppercase;
 }
 #footer-wrapper #block-menu-menu-inferior-menu{
-    width: 670px;
+    width: 720px;
     float: left;
        min-height: 161px;
 }
@@ -1294,9 +1299,9 @@ ul.links {
 #footer-wrapper #block-menu-menu-inferior-menu li.expanded,
 #footer-wrapper #block-menu-menu-inferior-menu li.last{
     border-right: 1px solid #5C5C5C;
-    margin-right: 20px;
+    margin-right: 25px;
     padding-left: 50px;
-    width: 150px;
+    width: 163px;
 }
 #footer-wrapper .region-footer #block-user-login{
     bottom: 0;

@@ -1,15 +1,22 @@
 
 name = casasrealprod
-description = A flexible, recolorable theme with many regions.
+description = A flexible, recolorable theme with many regions fgc.
 package = Core
 version = VERSION
 core = 7.x
 
 stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/fgc.css
+stylesheets[all][] = css/select.fgc.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/colors.css
-stylesheets[all][] = css/casasrealprod.css
+stylesheets[all][] = css/casasreal.css
+stylesheets[all][] = css/jquery.selectBox.css
 stylesheets[print][] = css/print.css
+scripts[] = js/script.js
+scripts[] = js/select.fgc.js
+scripts[] = js/jquery.selectBox.js
+
 
 regions[header] = Header
 regions[help] = Help

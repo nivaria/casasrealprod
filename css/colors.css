@@ -44,7 +44,7 @@ a:active {
     color: #23aeff;
 }
 .sidebar .block {
-    background-color: #f6f6f2;
+    background-color: #fff;
     border-color: #f9f9f9;
 }
 
@@ -202,7 +202,6 @@ body.page-booking  #page-wrapper{
 }
 body.page-servicios-extras #content,
 body.node-type-instalaciones #content, 
-body.page-booking #content,
 .page-reservas #content
 {
     background: none repeat scroll 0 0 #FFFFFF;
@@ -210,6 +209,7 @@ body.page-booking #content,
     padding: 0 30px;
     width: 640px;
 }
+
 body.page-servicios-extras .view-header,
 body.node-type-instalaciones .view-header{
     padding: 10px 0 30px;
@@ -675,7 +675,7 @@ body.node-type-webform #content {
     padding-top: 2px;
 }
 li.active-trail{
-    background: url("../images/arrowmenu.png") no-repeat scroll center 20px transparent;
+/*    background: url("../images/arrowmenu.png") no-repeat scroll center 20px transparent;*/
 }
 /*#field-slideshow-1-controls{
     display: none;
@@ -800,7 +800,7 @@ page-libro-de-visitas
     display: none;
 }
 .page-libro-de-visitas .field-name-field-fecha-de-la-estancia .date-display-single{
-    font-style: italic;
+/*    font-style: italic;*/
 }
 .page-libro-de-visitas .field-name-body{
     padding: 10px 0;
@@ -820,3 +820,90 @@ page-libro-de-visitas
     border: medium none;
     margin-bottom: 0;
 }
+/* libro-de-visitas page */
+div.fivestar-widget-static .star{
+    background: none;
+}
+div.fivestar-widget-static .star span.off{
+      background: none repeat scroll 0 0 #DDDDDD;
+    border-radius: 15px 15px 15px 15px;
+    height: 12px;
+    width: 12px;
+}
+div.fivestar-widget-static .star span.on{
+    background: none;
+}
+.page-libro-de-visitas div.fivestar-widget-static .star-1 span.on{
+    background: url("../images/circle1.gif") no-repeat scroll center top transparent;
+}
+.page-libro-de-visitas div.fivestar-widget-static .star-2 span.on{
+    background: url("../images/circle2.gif") no-repeat scroll center top transparent;
+}
+.page-libro-de-visitas div.fivestar-widget-static .star-3 span.on{
+    background: url("../images/circle3.gif") no-repeat scroll center top transparent;
+}
+.page-libro-de-visitas div.fivestar-widget-static .star-4 span.on{
+    background: url("../images/circle4.gif") no-repeat scroll center top transparent;
+}
+.page-libro-de-visitas div.fivestar-widget-static .star-5 span.on{
+    background: url("../images/circle5.gif") no-repeat scroll center top transparent;
+}
+.page-libro-de-visitas #page-wrapper #page #main #breadcrumb h1#page-title{
+    color: #9c5b3d;
+    font-weight: normal;
+    font-size: 20px;
+}
+.page-libro-de-visitas .field-name-field-casas{
+    border-top: 2px solid #FFFFFF;
+    margin-left: -20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: relative;
+    width: 600px;
+}
+.page-libro-de-visitas .field-name-field-casas .field-items > div >a{
+    color: #3a92ba;
+    font-weight: bold;
+}
+.page-libro-de-visitas .field-name-field-valoracion .field-items{
+    padding-top: 10px;
+}
+.page-libro-de-visitas #page-wrapper #sidebar-second .section .content .view-content .views-row{
+    background: #fff;
+    padding: 0px;
+}
+.page-libro-de-visitas #page-wrapper #sidebar-second .section .content .view-content .views-row .views-field .field-content img{
+    width:255px;
+    height: 150px;
+}
+.page-libro-de-visitas #page-wrapper #sidebar-second .section #block-views-casas-block{
+    background: none;
+    border: none;
+}
+#block-views-casas-block span.field-content {
+    background: none;
+    text-align: center;
+    border: none;
+}
+#block-views-casas-block span.field-content a{
+    color:#000;
+    /*font-weight: bold;*/
+    font-size: 20px;
+    
+}
+.page-libro-de-visitas #page-wrapper #sidebar-second .section .content .view-content .views-field-field-subtitulo{
+    padding:0 35px 15px 35px
+}
+.page-libro-de-visitas #page-wrapper #sidebar-second .section .content .view-content .views-field-field-subtitulo .field-content{
+    color:#666;
+}
+
+
+
+
+
+
+
+
+
+

@@ -41,14 +41,31 @@ jQuery(function($){
     //$(".form-item-adults-count #edit-adults-count").fgcSelect();
     //$(".form-item-children-count #edit-children-count").fgcSelect();
     //string
-    $("#block-nodeblock-39 h2").html("José Luís <span style='color: #333333;  padding-top: 8px; display: block; font-weight: normal; padding-bottom: 8px;font-size: 12px;text-transform: uppercase;'> 12 Abril 2012</span>")
-    $("#block-nodeblock-32 h2").html("<span style='color: #999'>Las casas</span></br>del camino real");
-//   alert(tx);
-//    var myArray = tx.split(",");
-//    var st1=myArray[0];
-//    var st1=myArray[1];
-//    st1.append("<span>st1</span>")
-//    $("#block-nodeblock-39 h2").text(st1.css({'color','red'}));
+    var tx=$("#block-nodeblock-39 h2").text();
+    var tx1=$("#block-nodeblock-32 h2").text();
+   var myArray = tx.split(",");
+   
+   var st1=myArray[0];
+   var st2=myArray[1];
+     var str_array = tx1.split(" ");
+   var st3=str_array[0];
+   var st4=str_array[1];
+    var st5=str_array[2];
+     var st6=str_array[3];
+      var st7=str_array[4];
+    $("#block-nodeblock-39 h2").html(st1+"<span style='color: #333;  padding-top: 8px; display: block; font-weight: normal; padding-bottom: 8px;font-size: 12px;text-transform: uppercase;'>"+st2+"</span>")
+    //$("#block-nodeblock-32 h2").html("<span style='color: #666'>"+st3+" "+st4+"</span></br>"+st5+" "+st6+ " "+st7);
+//or
+            var n=Math.round((str_array.length)/2);
+                $("#block-nodeblock-32 h2").html("");//xoa bo dl cũ
+                for(var j = 0; j < n-1; j++){
+                $("#block-nodeblock-32 h2").append("<span style='color:#666'>"+str_array[j]+" "+"</span>");
+                }
+                $("#block-nodeblock-32 h2").append("</br>");
+                for(var i = n-1; i < str_array.length; i++)
+                {
+                   $("#block-nodeblock-32 h2").append("<span>"+str_array[i]+" "+"</span>");
+                }
 })
 jQuery(document).ready(function($){
     var sidebar_first = $("#sidebar-first").height();

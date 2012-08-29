@@ -24,7 +24,6 @@
     text-transform: uppercase;
     width: 234px;
     cursor: pointer;
- 
 }
 .form-submit:hover{
             background: url(../images/bgbutton.png)  no-repeat left top;
@@ -198,7 +197,7 @@ node-type-casas
 .node-type-casas #content .section  .region-content .node-casas .group-left .field-name-field-caracteristicas .field-label,
 .node-type-instalaciones .group-third .field-name-field-caracteristicas .field-item p {
           background: url("../images/heart.png") no-repeat scroll 27px 35px, url("../images/bg_menu.png") repeat scroll center top transparent;
-    padding: 35px 0 10px 60px;
+    padding: 35px 0 10px 53px;
     border-bottom: 2px solid #fff;
 }
 .node-type-casas #content .section  .region-content .node-casas .group-left .field-name-field-caracteristicas  .field-items,
@@ -384,8 +383,7 @@ padding: 20px;
         color: #1F83B1;
     padding-left: 61px;
 }
-.page-node-booking .unit-search .unit-description .field-type-image img,
-.page-booking .unit-search .unit-description .field-type-image img{
+.page-node-booking .unit-search .unit-description .field-type-image img{
     width: 180px;
     height: 130px;
 }
@@ -399,32 +397,24 @@ padding: 20px;
 .page-node-booking .unit-search .unit-search-result .booking-info{
     
 }
-.page-node-booking .unit-search .booking-info .booking-price
-{
+.page-node-booking .unit-search .booking-info .booking-price{
     bottom: -83px;
     left: 161px;
     padding: 16px;
     position: absolute;
 }
-.page-node-booking .unit-search .booking-info .booking-price .label,
-.page-booking .booking-info .booking-price .label{
+.page-node-booking .unit-search .booking-info .booking-price .label{
         float: left;
-/*    line-height: 33px;*/
+    line-height: 33px;
     text-transform: uppercase;
     width: 150px;
-    text-align: right;
 }
-.page-booking .booking-info .booking-price .label{
-    
-}
-.page-node-booking .unit-search .booking-info .booking-price .data,
-.page-booking  .booking-info .booking-price .data{
+.page-node-booking .unit-search .booking-info .booking-price .data{
         float: left;
-    font-size: 30px;
-    margin-top: -7px;
+    font-size: 40px;
+    margin-top: -18px;
 }
-.page-node-booking .unit-search  .booking-info .label,
-.page-booking  .booking-info .label{
+.page-node-booking .unit-search  .booking-info .label{
     text-transform: uppercase;
     margin-right: 30px;
 }
@@ -434,9 +424,8 @@ padding: 20px;
     position: relative;
     top: 0;
 }
-.page-node-booking  .unit-search-result .booking-info  .data,
-.page-booking   .booking-info  .data{
-    color: #999;
+.page-node-booking  .unit-search-result .booking-info  .data{
+    color: #787878;
 }
 .page-node-booking  .unit-search .unit-search-result-alt .unit-search-result-alt-list .alt-booking-result-title h2{
         font-size: 32px;
@@ -549,73 +538,4 @@ padding: 20px;
 /*node-type-que-hacer*/
 .node-type-que-hacer #main-wrapper #content{
     
-}
-/*************29**************/
-/**booking**/
-body.page-booking #content{
-   width: 910px !important;
-}
-body.page-booking  #content .section{
-     background: url("../0_files/bgbreadcrumb.png") repeat scroll left top transparent;    
-}
-body.page-booking .form-actions #edit-submit, body.page-booking .form-actions .form-submit{
-    margin-left: 10px;
-}
-body.page-booking #rooms-booking-availability-search-form {
-    border-bottom: 2px solid #FFFFFF;
-    display: block;
-    float: left;
-    margin:  20px 0 55px 0;
-    overflow: hidden;
-    padding:  0 0 25px 20px;
-    width: 100%;
-}
-.unit-result .unit-description .node-casas .field-name-title{
-    border-bottom: 2px solid #FFFFFF;
-    margin: -45px 0 0 -20px;
-    padding: 0 0 10px 20px;
-    width: 100%;
-}
-.unit-result .unit-description .node-casas .field-name-field-imagenes img{
-    width: 180px!important;
-    height: 130px!important;
-        padding-top: 20px;
-}
-.unit-result  .booking-info{
-    padding-top: 30px!important;
-}
-.unit-result{
-     border-bottom: 15px solid #fff;    
-    left: 0;
-    position: relative;
-    top: 0;
-    padding-bottom: 80px!important;
-}
-.unit-result .field-name-field-imagenes{
-    padding-top: 10px!important;
-}
-
-.page-booking  .booking-info .booking-price{
-    border-top: 2px solid #FFFFFF;
-    display: block;
-    margin-top: 20px;
-    padding: 20px 0 0;
-    position: absolute;
-    width: 100%;
-    z-index: 99999;
-
-}
-.page-booking  .booking-info .booking-price .data{
-        color: #000;
-}
-
-body.page-booking #rooms-booking-availability-search-form .form-submit{
-    position: relative;
-    left: 0;
-    top: 0;
-}
-.page-booking .form-submit{
-        left: 320px;
-    position: relative;
-    top: -90px;
 }
