@@ -84,8 +84,7 @@
  * @see bartik_process_page()
  * @see html.tpl.php
  */
-?>
-
+print $hide_site_name;?>
 <div id="page-wrapper">
   <div id="page">
 <!--header-->

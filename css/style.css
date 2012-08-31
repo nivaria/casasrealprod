@@ -624,6 +624,8 @@ padding-bottom: 75px;
     color: #1f84b2;
     font-size: 17px!important;
     font-weight: bold;
+    display: block;
+    width: 300px;
 
 }
 .node-type-casas #main-wrapper #main #content .section .group-left .field-items p.position2 span {
@@ -690,19 +692,19 @@ padding-bottom: 75px;
     margin-left: 20px;
     position: absolute;
     left: 0;
-    text-indent: -999px;
+    text-indent: -99999px;
     top: 1px;
     width: 55px;
 }
 .node-type-casas #main-wrapper #main #content .section .group-right .field-items #field-slideshow-1-controls .next,
 .node-type-instalaciones .content .field-items #field-slideshow-1-controls .next{
      background: url(../images/next.png) no-repeat center center;
-       display: block;
+       display: block;  
     height: 49px;
     margin-right: 20px;
     position: absolute;
     right: 0;
-    text-indent: -999px;
+    text-indent: -99999px;
     top: 1px;
     width: 55px;
 }
@@ -1248,6 +1250,9 @@ ul.links {
     font-size: 16px
 
 }
+#footer-wrapper #block-user-login h2{
+    font-size: 13px;
+}
 #footer-wrapper #block-menu-menu-inferior-menu li.expanded  .menu-link-title a{
     color: #999999;
     font-size: 13px;
@@ -1329,8 +1334,9 @@ ul.links {
     background: none repeat scroll 0 0 transparent !important;
     padding-left: 0;
 }
-#footer-wrapper #block-user-login #edit-submit,
-#footer-wrapper #block-user-login #edit-submit--2{
+#footer-wrapper #block-user-login .form-actions #edit-submit,
+#footer-wrapper #block-user-login .form-actions .form-submit,
+#footer-wrapper #block-user-login .form-actions #edit-submit--2{
 
     background: url(../images/arrowfooter.png)  no-repeat left top;
     border: medium none;
@@ -2072,6 +2078,9 @@ header*/
 #top_header #top-bar .region-header .block-menu{
     margin: 0;
 }
+#top_header #top-bar .region-header #block-menu-menu-superior-menu h2{
+    display: none;
+} 
 #top_header #block-menu-menu-superior-menu {
     width: 80%;
     float: left;

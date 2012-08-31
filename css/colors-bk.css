@@ -891,57 +891,11 @@ div.fivestar-widget-static .star span.on{
     text-align: center;
     width: 227px;
 }
-
 .page-libro-de-visitas #page-wrapper #sidebar-second .section #block-nodeblock-42 .field-type-link-field a{
         font-size: 14px;
     line-height: 48px;
     text-transform: uppercase;
     color: #fff;
-}
-/*page*/
-.page-libro-de-visitas .view-libro-de-visitas .item-list{
-            background: none repeat scroll 0 0 #F7F7F7;
-    height: 50px;
-    line-height: 50px;
-        margin-bottom: 30px;
-}
-.page-libro-de-visitas .view-libro-de-visitas .item-list .pager{
-width: 300px;   margin: 0 auto;
-}
-.page-libro-de-visitas .view-libro-de-visitas .item-list .pager li.pager-current{
-        color: #1F84B2;
-    font-size: 20px;
-    font-weight: normal;
-}
-.page-libro-de-visitas .view-libro-de-visitas .item-list .pager li a
-{
-        color: #787878;
-   font-size: 20px;
-    font-weight: normal;
-}
-.page-libro-de-visitas .view-libro-de-visitas .item-list .pager li{
-    float: left;
-        padding: 0 10px;
-}
-.page-libro-de-visitas .view-libro-de-visitas .item-list .pager li.pager-last,
-.page-libro-de-visitas .view-libro-de-visitas .item-list .pager li.pager-first{
-  display: none;  
-}
-.page-libro-de-visitas .view-libro-de-visitas .item-list .pager li.pager-previous a{
-        display: block;
-    height: 35px;
-    padding-top: 11px;
-    text-indent: -99999px;
-    width: 35px;
-   background: url("../images/arrowfooter_left.png") no-repeat scroll center center transparent; 
-}
-.page-libro-de-visitas .view-libro-de-visitas .item-list .pager li.pager-next a{
-    display: block;
-    height: 35px;
-    padding-top: 11px;
-    text-indent: -99999px;
-    width: 35px;
-   background: url("../images/arrowfooter.png") no-repeat scroll center center transparent; 
 }
 #block-views-casas-block span.field-content {
     background: none;

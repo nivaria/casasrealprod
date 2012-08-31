@@ -413,15 +413,16 @@ padding: 20px;
     text-transform: uppercase;
     width: 150px;
     text-align: right;
+      margin-left: 65px;
 }
 .page-booking .booking-info .booking-price .label{
     
 }
 .page-node-booking .unit-search .booking-info .booking-price .data,
 .page-booking  .booking-info .booking-price .data{
-        float: left;
-    font-size: 30px;
-    margin-top: -7px;
+    float: left;
+    font-size: 27px;
+    margin-top: -3px;
 }
 .page-node-booking .unit-search  .booking-info .label,
 .page-booking  .booking-info .label{
@@ -553,13 +554,13 @@ padding: 20px;
 /*************29**************/
 /**booking**/
 body.page-booking #content{
-   width: 910px !important;
+   width: 930px !important;
 }
 body.page-booking  #content .section{
-     background: url("../0_files/bgbreadcrumb.png") repeat scroll left top transparent;    
+     background: url("../images/bgbreadcrumb.png") repeat scroll left top transparent;    
 }
 body.page-booking .form-actions #edit-submit, body.page-booking .form-actions .form-submit{
-    margin-left: 10px;
+/*    margin-left: 10px;*/
 }
 body.page-booking #rooms-booking-availability-search-form {
     border-bottom: 2px solid #FFFFFF;
@@ -615,7 +616,7 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     top: 0;
 }
 .page-booking .form-submit{
-        left: 320px;
+        left: 445px;
     position: relative;
     top: -90px;
 }

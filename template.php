@@ -74,7 +74,7 @@ function casasrealprod_process_page(&$variables) {
   if (isset($variables['node']) && 
       $variables['node']->type == "casas" && 
       strpos(drupal_get_path_alias(), '/booking')>0) {
-    drupal_add_js(drupal_get_path('theme', 'casasreal') . '/js/casas_booking_manager.js');
+    drupal_add_js(drupal_get_path('theme', 'casasrealprod') . '/js/casas_booking_manager.js');
     $breadcrumbs = array();
     $breadcrumbs[] = l(t('Home'), '<front>');
     $breadcrumbs[] = l(t('Las Casas'), 'node/10');
@@ -84,7 +84,7 @@ function casasrealprod_process_page(&$variables) {
   }
 
   if (strpos(drupal_get_path_alias(), 'bookings') !== FALSE) {
-    drupal_add_js(drupal_get_path('theme', 'casasreal') . '/js/casas_booking_manager.js');
+    drupal_add_js(drupal_get_path('theme', 'casasrealprod') . '/js/casas_booking_manager.js');
   }
 }
 
@@ -99,7 +99,7 @@ function casasrealprod_preprocess_maintenance_page(&$variables) {
   if (!$variables['db_is_active']) {
     $variables['site_name'] = '';
   }
-  drupal_add_css(drupal_get_path('theme', 'casasreal') . '/css/maintenance-page.css');
+  drupal_add_css(drupal_get_path('theme', 'casasrealprod') . '/css/maintenance-page.css');
 }
 
 /**
