@@ -2213,16 +2213,19 @@ mainbody
 .front #main-wrapper .region-content #block-nodeblock-40 .field-type-link-field a{
      top: -25px;
 }
+.front.background3,.front.background2,.front.background1,.front.background0{
+    
+}
 /* footer
 */
 #block-system-powered-by,
 #main-menu h2,#name-and-slogan{
     display: none;
 }
-.background3,.background2,.background1
+/*.background3,.background2,.background1
 {
     background: none!important;
-}
+}*/
 .node-type-casas #content{
     padding-bottom: 100px;
 }

@@ -6,7 +6,14 @@
 
 jQuery(function($){
     //alert('fgc');   
-
+    //change price
+$("span.fc-event-title").each(function(i){
+           //alert("sss");
+           var curentcy=$(this).text()
+              $(this).html(curentcy+ "€");
+       })
+       
+       ///
     var txt1=$(".form-item-name label").text();
     var txt2=$(".form-type-password label").text();
     //alert(txt1);
@@ -89,7 +96,9 @@ jQuery(document).ready(function($){
     $("#rooms-booking-availability-search-form #edit-children-count").find('option')
     .removeAttr('selected')
     .eq(0).attr('selected', 'selected').prepend("<option value=''>NIÑOS*</option>");
+    //add select
     $("#rooms-booking-availability-search-form SELECT").selectBox();
+    $("#nivaria-rooms-booking-display-unit-availability-search-form SELECT").selectBox();
 })
 jQuery(document).ready(function($){
     $('.node-type-casas #main-wrapper #main #content .section .group-left .field-items p:first').next().addClass('position1');

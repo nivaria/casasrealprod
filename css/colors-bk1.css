@@ -66,7 +66,7 @@ contact
     font-weight: bold;
 }
 #breadcrumb{
-    background: url("../images/bgbreadcrumb.png") repeat scroll center top transparent;
+    background: url("../images/bgbreadcrumb.png") repeat-x scroll center top transparent;
     height: 60px;
     margin: 0;
     padding: 20px 0 15px 44px;
@@ -128,7 +128,7 @@ body.node-type-webform #content #edit-captcha-response{
     width: 230px;
 }
 body.node-type-webform #content #edit-submit{
-    background: url("../images/bgbuttoncontact.png") repeat-x scroll 0 0 transparent;
+    background: url("../images/bgbuttoncontact.png") no-repeat scroll 0 0 transparent;
     border: medium none;
     border-radius: 0 0 0 0;
     color: #FFFFFF;
@@ -251,7 +251,7 @@ body.page-servicios-extras .views-row .field-item{
     margin: 0;
 }
 body.page-servicios-extras .view-footer a{
-    background: url("../images/bgbuttonr.png") repeat-x scroll center center transparent;
+    background: url("../images/bgbuttonr.png") no-repeat scroll center center transparent;
     color: #FFFFFF;
     display: block;
     font-weight: bold;
@@ -482,7 +482,7 @@ body.page-node-13 #sidebar-second #block-nodeblock-5 .field-item img{
 }
 body.node-type-webform #sidebar-second #block-nodeblock-5 .field-item a,
 body.page-node-13 #sidebar-second #block-nodeblock-5 .field-item a{
-    background: url("../images/bgbuttonr.png") repeat-x scroll 0 center transparent;
+    background: url("../images/bgbuttonr.png") no-repeat scroll 0 center transparent;
     color: #FFFFFF;
     display: block;
     margin: 0 10px 10px;
@@ -589,8 +589,6 @@ body.page-booking #rooms-booking-availability-search-form > div > div .descripti
     display: none;
 }
 #rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0,
-#nivaria-rooms-booking-display-unit-availability-search-form #edit-rooms-start-date-datepicker-popup-0,
-#nivaria-rooms-booking-display-unit-availability-search-form #edit-rooms-end-date-datepicker-popup-0,
 #rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0 {
     background: url("../images/inputsearch.png") no-repeat scroll left top transparent;
     border: medium none;
