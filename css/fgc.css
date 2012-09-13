@@ -37,7 +37,7 @@
     cursor: pointer;  
 }*/
 
-#rooms-booking-availability-search-form #edit-submit--2
+/*#rooms-booking-availability-search-form #edit-submit--2
 {
       background: url(../images/bgbutton.png)  repeat-x left 1px;
           border: medium none;
@@ -48,7 +48,7 @@
     width: 190px;
     cursor: pointer;
     font-size: 12px;
-}
+}*/
 /**/
 #block-nodeblock-30  .field-item p {
     background: url(../images/bgbutton.png)  repeat-x left top;
@@ -63,7 +63,11 @@
     width: 210px;
     
 }
-
+.front #rooms-booking-availability-search-form .form-submit{
+    font-size: 12px;
+    height: 50px;
+    width: 190px;
+}
 /*page-reservas*/
 .page-reservas {
     
@@ -270,6 +274,8 @@ padding: 20px;
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar table.fc-header{
        width: 293px !important;
+       margin-top: -4px;
+       margin-left: -4px;
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar table.fc-header td{
     background: #666;
@@ -297,14 +303,20 @@ padding: 20px;
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar #calendar1{
     margin-left: 8px;
-    margin-right: 10px;
+    margin-right: 13px;
+/*      margin-top: -42px;*/
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar #calendar1,
 .page-node-booking .nivaria-rooms-availability-field-calendar #calendar2{
-        border: 1px solid #DDDDDD;
-    padding: 4px;
+    border: 1px solid #DDDDDD;
+    padding:4px;
+    overflow: hidden;
     width: 285px;
-     background: none repeat scroll 0 0 #F5F5F5;
+/*    height: 458px;*/
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+table.fc-border-separate td{
+    background: #fff;
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar .navigation{
     
@@ -314,10 +326,10 @@ padding: 20px;
 /*    border-radius: 15px 15px 15px 15px;*/
     display: block;
     height: 20px;
-    left: 20px!important;
+    left: 25px!important;
     position: absolute;
     text-indent: -99999px;
-    top: 103px!important;
+    top: 102px!important;
     width: 20px;
       z-index: 99999;
 }
@@ -326,10 +338,10 @@ padding: 20px;
 /*    border-radius: 25px 25px 25px 25px;*/
     display: block;
     height: 20px;
-    left: 568px!important;
+    left: 579px!important;
     position: absolute;
     text-indent: -99999px;
-    top: 103px!important;
+    top: 102px!important;
     width: 20px;
     z-index: 99999;
 }
@@ -345,7 +357,7 @@ padding: 20px;
 .page-node-booking .nivaria-rooms-availability-field-calendar tr td
  {
     padding: 0!important;
-    background: #fff;
+/*    background: #fff;*/
   
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar tbody{
@@ -358,6 +370,7 @@ padding: 20px;
     font-size: 11px;
     padding-bottom: 8px;
     text-transform: uppercase;
+
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar  .fc-border-separate tbody tr.fc-first td,
 .page-node-booking .nivaria-rooms-availability-field-calendar  .fc-border-separate tbody tr.fc-first th
@@ -376,16 +389,24 @@ padding: 20px;
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar .fc-event .fc-event-inner.fc-event-skin{
 /*.page-node-booking .nivaria-rooms-availability-field-calendar .fc-event-skin{*/
-    background-color: #F5F5F5 !important;
-    border-color: #CCCCCC !important;
-    height: 21px;
-    padding-top: 18px;
+/*    background-color: #F5F5F5 !important;
+    border: none !important;
+    height: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     position: relative;
     text-align: center;
-    top: -13px;
-    width: 35px !important;
+    top: -20px;
+    width: 39px !important;
     z-index: 1;
-    left: -2px;
+    left: -2px;*/
+    background-color: #FFFFFF !important;
+    border: medium none !important;
+     text-align: center;
+}
+#calendar1 .fc-grid .fc-day-content div,
+#calendar2 .fc-grid .fc-day-content div{
+
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar .fc-event-time, 
 .page-node-booking .nivaria-rooms-availability-field-calendar .fc-event-title {
@@ -397,7 +418,12 @@ padding: 20px;
     padding: 15px;
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar   #legend .available {
-    background-color: #F5F5F5;
+    background-color: #fff;
+      border: 1px solid #999999;
+}
+.page-node-booking .nivaria-rooms-availability-field-calendar   #legend .not-available {
+  
+      border: 1px solid #999999;
 }
 .page-node-booking #nivaria-rooms-booking-display-unit-availability-search-form .form-actions .form-submit{
         background: url("../images/bgbuttonr.png") repeat-x scroll left top transparent;
@@ -435,13 +461,13 @@ margin: 0!important;
 /*     background: url("../image/bg_menu.png")  repeat center center transparent;*/
     
 }
-.page-node-booking .unit-search .field-name-title {
-    background: url("../images/homefade.png")  repeat left top transparent;
+/*.page-node-booking .unit-search .field-name-title {
+    background: url("../images/homefade.png")  no-repeat left top transparent;
     border-bottom: 2px solid #FFFFFF;
     position: absolute;
     top: -69px;
     width: 100%;
-}
+}*/
 .page-node-booking .unit-search  .unit-description .field-name-title h2,
 .page-booking .unit-search  .unit-description .field-name-title h2
 {
@@ -532,13 +558,15 @@ margin: 0!important;
     margin: 0 !important;
     padding: 10px 25px;
 }
-.page-node-booking .unit-search .unit-search-result-alt-hide span{
+.page-node-booking .unit-search .unit-search-result-alt-hide span,
+.page-node-booking .unit-search .unit-search-result-alt-show span{
     color: #1f83b1;
     text-transform: uppercase;
     margin: 10px 0;
 }
 
-.page-node-booking .unit-search .unit-search-result-alt-hide{
+.page-node-booking .unit-search .unit-search-result-alt-hide,
+.page-node-booking .unit-search .unit-search-result-alt-show{
         background: none repeat scroll 0 0 #FFFFFF;
     text-align: right;
 }
@@ -561,16 +589,22 @@ margin: 0!important;
 .unit-search #nivaria-rooms-booking-display-unit-availability-search-form .start-date,
 .unit-search #nivaria-rooms-booking-display-unit-availability-search-form .end-date{
         float: left;
-    width: 128px!important;
+    width: 125px!important;
+}
+
+.unit-search #nivaria-rooms-booking-display-unit-availability-search-form .start-date .container-inline-date .form-item,
+.unit-search #nivaria-rooms-booking-display-unit-availability-search-form .end-date .container-inline-date .form-item{
+       margin: 0;
+    width: 125px;
 }
 .unit-search #nivaria-rooms-booking-display-unit-availability-search-form .start-date input,
 .unit-search #nivaria-rooms-booking-display-unit-availability-search-form .end-date input{
     width: 140px;
 }
 .unit-search #nivaria-rooms-booking-display-unit-availability-search-form .form-type-select{
-        clear: none;
+    clear: none;
     float: left;
-    margin: 0;
+    margin: 4px;
     width: 80px;
 }
 .unit-search #nivaria-rooms-booking-display-unit-availability-search-form select.form-select {
@@ -580,7 +614,7 @@ margin: 0!important;
 }
 .unit-search #nivaria-rooms-booking-display-unit-availability-search-form .form-actions{
         float: left;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 6px;
     padding: 0;
     width: 180px!important;
 }
@@ -749,12 +783,14 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
 }
 .page-booking .form-submit
 {
-        left: 445px;
+    left: 445px;
     position: relative;
-    top: -84px;
+    top: -80px;
+    height: 50px;
 }
 .page-node-booking .form-submit{
-    bottom: 23px;
+    bottom: 26px;
+    height: 50px;
     left: 442px;
     position: absolute;
     width: 163px;

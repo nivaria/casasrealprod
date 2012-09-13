@@ -13,6 +13,9 @@ body,
     overflow: hidden;
     width: 100%;
 }
+.front #page-wrapper {
+    background: none;
+}
 #header div.section,
 #featured div.section,
 #messages div.section,
@@ -81,7 +84,7 @@ body,
 /*.front #main-wrapper {*/
 .front.background0{
   min-height: 300px;
-  background: url(../images/bghome.jpg) no-repeat center center transparent;
+  background: url(../images/bghome.jpg) no-repeat center 160px transparent;
 }
 
 .sidebar .section {

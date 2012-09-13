@@ -22,14 +22,10 @@ body.overlay {
     border-bottom: 1px solid #ffffff;
 }
 #header {
-    /*  background-color: #48a9e4;
-      background-image: -moz-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
-      background-image: -ms-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
-      background-image: -o-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
-      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0779bf), color-stop(1, #48a9e4));
-      background-image: -webkit-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
-      background-image: linear-gradient(top, #0779bf 0%, #48a9e4 100%);*/
-    background: #fff
+    background: none repeat scroll 0 0 #FFFFFF;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 a {
@@ -570,7 +566,7 @@ body.page-booking #edit-actions{
 }
 body.page-booking .form-actions #edit-submit,
 body.page-booking .form-actions .form-submit{
-    background: url("../images/bgbutton.png") no-repeat scroll left top transparent;
+    background: url("../images/bgbutton.png") repeat-x scroll left top transparent;
     border: medium none;
     color: #BDDCE9;
     cursor: pointer;
@@ -672,6 +668,7 @@ body.node-type-webform #content {
 #main-wrapper {
 /*    background-color: #EDEDED;*/
     padding-top: 10px;
+      margin-top: 160px;
 }
 .page-booking #sidebar-first{
     padding-top: 2px;
@@ -887,7 +884,7 @@ div.fivestar-widget-static .star span.on{
 }
 .page-libro-de-visitas #page-wrapper #sidebar-second .section #block-nodeblock-42 .field-type-link-field
 {
-    background: url("../images/bgbutton.png") no-repeat scroll center center transparent;
+    background: url("../images/bgbutton.png") repeat-x scroll center center transparent;
     height: 50px;
     margin: 0 auto;
     text-align: center;

@@ -202,7 +202,7 @@ table tbody tr th {
 tr td,
 tr th {
     padding: 4px 9px;
-    border: 1px solid #fff;
+/*    border: 1px solid #fff;*/
     text-align: left; /* LTR */
 }
 #footer-wrapper tr td,
@@ -538,7 +538,7 @@ h1#site-name {
     margin-right: 22px;
 }
 .node-type-casas #main-wrapper #main #content .section .content .group-header .field-items a.link_disponibilidad{
-    background:  url(../images/bgbuttonr.png) no-repeat top center ;
+    background:  url(../images/bgbuttonr.png) repeat-x top center ;
      color: #FFFFFF;
     display: inline-block;
     font-size: 11px;

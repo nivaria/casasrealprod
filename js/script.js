@@ -7,13 +7,11 @@
 jQuery(function($){
     //alert('fgc');   
     //change price
-$("span.fc-event-title").each(function(i){
-           //alert("sss");
-           var curentcy=$(this).text()
-              $(this).html(curentcy+ "€");
-       })
-       
-       ///
+          setTimeout(function(){
+        
+        $('.nivaria-rooms-availability-field-calendar').find(".fc-event-title").append("<span> â‚¬ </span>");;
+        },8000)
+    ///
     var txt1=$(".form-item-name label").text();
     var txt2=$(".form-type-password label").text();
     //alert(txt1);
@@ -50,29 +48,29 @@ $("span.fc-event-title").each(function(i){
     //string
     var tx=$("#block-nodeblock-39 h2").text();
     var tx1=$("#block-nodeblock-32 h2").text();
-   var myArray = tx.split(",");
+    var myArray = tx.split(",");
    
-   var st1=myArray[0];
-   var st2=myArray[1];
-     var str_array = tx1.split(" ");
-   var st3=str_array[0];
-   var st4=str_array[1];
+    var st1=myArray[0];
+    var st2=myArray[1];
+    var str_array = tx1.split(" ");
+    var st3=str_array[0];
+    var st4=str_array[1];
     var st5=str_array[2];
-     var st6=str_array[3];
-      var st7=str_array[4];
+    var st6=str_array[3];
+    var st7=str_array[4];
     $("#block-nodeblock-39 h2").html(st1+"<span style='color: #333;  padding-top: 8px; display: block; font-weight: normal; padding-bottom: 8px;font-size: 12px;text-transform: uppercase;'>"+st2+"</span>")
     //$("#block-nodeblock-32 h2").html("<span style='color: #666'>"+st3+" "+st4+"</span></br>"+st5+" "+st6+ " "+st7);
-//or
-            var n=Math.round((str_array.length)/2);
-                $("#block-nodeblock-32 h2").html("");//xoa bo dl cũ
-                for(var j = 0; j < n-1; j++){
-                $("#block-nodeblock-32 h2").append("<span style='color:#666'>"+str_array[j]+" "+"</span>");
-                }
-                $("#block-nodeblock-32 h2").append("</br>");
-                for(var i = n-1; i < str_array.length; i++)
-                {
-                   $("#block-nodeblock-32 h2").append("<span>"+str_array[i]+" "+"</span>");
-                }
+    //or
+    var n=Math.round((str_array.length)/2);
+    $("#block-nodeblock-32 h2").html("");//xoa bo dl c?
+    for(var j = 0; j < n-1; j++){
+        $("#block-nodeblock-32 h2").append("<span style='color:#666'>"+str_array[j]+" "+"</span>");
+    }
+    $("#block-nodeblock-32 h2").append("</br>");
+    for(var i = n-1; i < str_array.length; i++)
+    {
+        $("#block-nodeblock-32 h2").append("<span>"+str_array[i]+" "+"</span>");
+    }
 })
 jQuery(document).ready(function($){
     var sidebar_first = $("#sidebar-first").height();
@@ -95,7 +93,7 @@ jQuery(document).ready(function($){
     .prepend("<option value=''>ADULTOS</option>");
     $("#rooms-booking-availability-search-form #edit-children-count").find('option')
     .removeAttr('selected')
-    .eq(0).attr('selected', 'selected').prepend("<option value=''>NIÑOS*</option>");
+    .eq(0).attr('selected', 'selected').prepend("<option value=''>NI�OS*</option>");
     //add select
     $("#rooms-booking-availability-search-form SELECT").selectBox();
     $("#nivaria-rooms-booking-display-unit-availability-search-form SELECT").selectBox();
