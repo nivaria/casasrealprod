@@ -89,15 +89,15 @@ body.node-type-webform #content .region.region-content{
 }
 #edit-submitted-nombre-contacto,
 #edit-submitted-email-contacto{
-    background: url("../images/bginput.png") no-repeat scroll 0 0 transparent;
+background: url("../images/bg_input_contact.png") no-repeat scroll -8px 0 transparent;
     border: medium none;
-    height: 22px;
+    height: 25px;
     width: 417px;
 }
 #edit-submitted-comentario-contacto{
-    background: url("../images/bgtextarea.png") no-repeat scroll 0 0 transparent;
+       background: url("../images/bg_input_contact.png") no-repeat scroll -7px -33px transparent;
+    height: 128px;
     border: medium none;
-    height: 121px;
     padding: 7px;
     width: 426px;
 }
@@ -118,7 +118,7 @@ body.node-type-webform #content img{
     padding-right: 10px;
 }
 body.node-type-webform #content #edit-captcha-response{
-    background: url("../images/bginputcapcha.png") no-repeat scroll 0 0 transparent;
+   background: url("../images/bg_input_contact.png") no-repeat scroll -6px -168px transparent;
     border: medium none;
     height: 23px;
     width: 230px;
@@ -148,9 +148,9 @@ right
 #sidebar-second .block{
     padding: 15px 0px;
 }
-#sidebar-second #block-nodeblock-6 .content,
+
 #sidebar-second #block-nodeblock-6 .content{
-    padding-left: 20px;
+    padding-left: 18px;
 }
 #sidebar-second h2,
 #sidebar-second h2{
@@ -160,8 +160,15 @@ right
     margin-bottom: 15px;
     padding-bottom: 10px;
 }
-#sidebar-second li{
-    list-style: url("../images/check.png");
+#sidebar-second .block-nodeblock li{
+      background: url("../images/icon_select_check.png") no-repeat scroll -90px 6px transparent;
+        font-size: 12px;
+    list-style: none outside none;
+    padding: 3px 0 3px 28px;
+    text-transform: uppercase;
+}
+#sidebar-second .block-nodeblock ul{
+    padding: 0;
 }
 #sidebar-second #block-nodeblock-5 h2{
     background: none repeat scroll 0 0 transparent;
@@ -528,27 +535,29 @@ body.node-type-webform #sidebar-second #block-locationmap-image .content img{
     width: 93%;
 }
 #locationmap-block-text-top a{
-    background: url("../images/arrow-circle.png") no-repeat scroll 0 0 transparent;
-    bottom: -70px;
+    background: url("../images/all_arrow.png") no-repeat scroll -2px -3px transparent;
+    border: 10px solid #FFFFFF;
+    border-radius: 60px 60px 60px 60px;
+    bottom: -78px;
     display: block;
-    height: 62px;
+    height: 42px;
     left: 42%;
     position: absolute;
     text-indent: -9999px;
-    width: 62px;
+    width: 45px;
 }
 #block-locationmap-image p {
     margin-bottom: 0;
 }
 body.page-node-13 #sidebar-second li{
-    list-style: disc outside url("../images/checkfade.png");
-    padding: 0px 0px 5px 10px;
+/*    list-style: disc outside url("../images/checkfade.png");
+    padding: 0px 0px 5px 10px;*/
     text-transform: uppercase;
     font-size: 12px;
 
 }
 #sidebar-second h2{
-    background: url("../images/eyefade.png") no-repeat scroll 10px 0 transparent;
+   background: url("../images/all_icon1.png") no-repeat scroll 7px -886px transparent;
 }
 /*
 booking
@@ -584,11 +593,12 @@ body.page-booking #rooms-booking-availability-search-form > div > div label,
 body.page-booking #rooms-booking-availability-search-form > div > div .description{
     display: none;
 }
-#rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0,
+
 #nivaria-rooms-booking-display-unit-availability-search-form #edit-rooms-start-date-datepicker-popup-0,
 #nivaria-rooms-booking-display-unit-availability-search-form #edit-rooms-end-date-datepicker-popup-0,
-#rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0 {
-    background: url("../images/inputsearch.png") no-repeat scroll left top transparent;
+#rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0, 
+#rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0{
+   background: url("../images/input_search.png") no-repeat scroll -4px -86px transparent;
     border: medium none;
     color: #CCCCCC;
     font-size: 11px;
@@ -629,7 +639,7 @@ product
     padding-top: 60px;
 }
 .unit-result h2 {
-    background: url("../images/home.png") no-repeat scroll 0 center transparent;
+       background: url("../images/all_icon1.png") no-repeat scroll 0 -164px transparent;
     color: #0071B3;
     margin: 15px 0 20px;
     padding-left: 40px;
@@ -784,7 +794,7 @@ page-libro-de-visitas
     float: left;
 }
 .page-libro-de-visitas .field-name-title.field-type-ds h2{
-    background: url("../images/heart1.png") no-repeat scroll 0 center transparent;
+     background: url("../images/all_icon1.png") no-repeat scroll 0 -309px transparent;
     padding: 0 0 0 40px;
 }
 .page-libro-de-visitas .field-name-field-valoracion{
@@ -833,19 +843,19 @@ div.fivestar-widget-static .star span.on{
     background: none;
 }
 .page-libro-de-visitas div.fivestar-widget-static .star-1 span.on{
-    background: url("../images/circle1.gif") no-repeat scroll center top transparent;
+    background: url("../images/all_circle.png") no-repeat scroll -64px 0 transparent
 }
 .page-libro-de-visitas div.fivestar-widget-static .star-2 span.on{
-    background: url("../images/circle2.gif") no-repeat scroll center top transparent;
+    background: url("../images/all_circle.png") no-repeat scroll 2px 0 transparent;
 }
 .page-libro-de-visitas div.fivestar-widget-static .star-3 span.on{
-    background: url("../images/circle3.gif") no-repeat scroll center top transparent;
+    background: url("../images/all_circle.png") no-repeat scroll -14px 0 transparent;
 }
 .page-libro-de-visitas div.fivestar-widget-static .star-4 span.on{
-    background: url("../images/circle4.gif") no-repeat scroll center top transparent;
+    background: url("../images/all_circle.png") no-repeat scroll -30px 0 transparent;
 }
 .page-libro-de-visitas div.fivestar-widget-static .star-5 span.on{
-    background: url("../images/circle5.gif") no-repeat scroll center top transparent;
+    background: url("../images/all_circle.png") no-repeat scroll -47px 0 transparent;
 }
 .page-libro-de-visitas #page-wrapper #page #main #breadcrumb h1#page-title{
     color: #9c5b3d;
@@ -935,7 +945,7 @@ width: 300px;   margin: 0 auto;
     padding-top: 11px;
     text-indent: -99999px;
     width: 38px;
-   background: url("../images/arrowfooter_left.png") no-repeat scroll center center transparent; 
+     background: url("../images/all_arrow.png") no-repeat scroll -100px 0 transparent;
    position: absolute;
    left: 30px;
 }
@@ -945,7 +955,7 @@ width: 300px;   margin: 0 auto;
     padding-top: 11px;
     text-indent: -99999px;
     width: 35px;
-   background: url("../images/arrowfooter.png") no-repeat scroll center center transparent; 
+   background: url("../images/all_arrow.png") no-repeat scroll -142px 0 transparent;
    position: absolute;
    right: 30px;
 }

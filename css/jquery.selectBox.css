@@ -9,7 +9,7 @@
     outline: none;
     vertical-align: middle;
     background: #F2F2F2;
-    background: url("../images/bgselected.png") no-repeat;
+    background: url("../images/icon_select_check.png") no-repeat -7px -63px;
 /*    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #F8F8F8), color-stop(100%, #E1E1E1));
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8F8F8', endColorstr='#E1E1E1', GradientType=0);
     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .75);

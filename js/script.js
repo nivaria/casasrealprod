@@ -9,7 +9,7 @@ jQuery(function($){
     //change price
           setTimeout(function(){
         
-        $('.nivaria-rooms-availability-field-calendar').find(".fc-event-title").append("<span> â‚¬ </span>");;
+        $('.nivaria-rooms-availability-field-calendar').find(".fc-event-title").append("<span>€</span>");;
         },8000)
     ///
     var txt1=$(".form-item-name label").text();
