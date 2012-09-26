@@ -322,7 +322,7 @@ table.fc-border-separate td{
 
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar .navigation .prev{
-    background:  url(../images/arrowdateleft.png) no-repeat center center;
+  background: url("../images/all_arrow.png") no-repeat scroll -184px -26px; 
     /*    border-radius: 15px 15px 15px 15px;*/
     display: block;
     height: 20px;
@@ -334,7 +334,7 @@ table.fc-border-separate td{
     z-index: 99999;
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar .navigation .next{
-    background:  url(../images/arrowdateright.png) no-repeat  center center;
+    background: url("../images/all_arrow.png") no-repeat scroll -184px -3px transparent;
     /*    border-radius: 25px 25px 25px 25px;*/
     display: block;
     height: 20px;
