@@ -93,7 +93,7 @@ jQuery(document).ready(function($){
     .prepend("<option value=''>ADULTOS</option>");
     $("#rooms-booking-availability-search-form #edit-children-count").find('option')
     .removeAttr('selected')
-    .eq(0).attr('selected', 'selected').prepend("<option value=''>NI�OS*</option>");
+    .eq(0).attr('selected', 'selected').prepend("<option value=''>NIÑOS*</option>");
     //add select
     $("#rooms-booking-availability-search-form SELECT").selectBox();
     $("#nivaria-rooms-booking-display-unit-availability-search-form SELECT").selectBox();
