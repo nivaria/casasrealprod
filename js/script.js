@@ -98,7 +98,7 @@ jQuery(document).ready(function($){
     //add select
     $("#rooms-booking-availability-search-form SELECT").selectBox();
     $("#nivaria-rooms-booking-display-unit-availability-search-form SELECT").selectBox();
-    $("#rooms-booking-availability-search-form #edit-children-count").next().after('<div class="description"><12 años</div>');
+    $("#rooms-booking-availability-search-form #edit-children-count").next().after('<div class="description"><12 ' + Drupal.t('years') + '</div>');
 })
 jQuery(document).ready(function($){
     $('.node-type-casas #main-wrapper #main #content .section .group-left .field-items p:first').next().addClass('position1');
