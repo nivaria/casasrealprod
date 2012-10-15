@@ -2239,8 +2239,8 @@ mainbody
      top: -25px;
 }
 .front.background3,.front.background2,.front.background1,.front.background0{
+    background-position: 0 160px;
     background-repeat: no-repeat;
-    background-position: center;
 }
 /* footer
 */
