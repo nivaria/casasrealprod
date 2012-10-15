@@ -87,16 +87,17 @@ jQuery(document).ready(function($){
     }
     $("#rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0").attr("value","ENTRADA");
     $("#rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0").attr("value","SALIDA");
-    $("#rooms-booking-availability-search-form #edit-adults-count").find('option')
-    .removeAttr('selected')
-    .eq(0).attr('selected', 'selected')
-    .prepend("<option value=''>ADULTOS</option>");
-    $("#rooms-booking-availability-search-form #edit-children-count").find('option')
-    .removeAttr('selected')
-    .eq(0).attr('selected', 'selected').prepend("<option value=''>NIÑOS*</option>");
+    //$("#rooms-booking-availability-search-form #edit-adults-count").find('option')
+    //.removeAttr('selected')
+    //.eq(0).attr('selected', 'selected')
+    //.prepend("<option value=''>ADULTOS</option>");
+    //$("#rooms-booking-availability-search-form #edit-children-count").find('option')
+    //.removeAttr('selected')
+    //.eq(0).attr('selected', 'selected').prepend("<option value=''>NIÑOS*</option>");
     //add select
     $("#rooms-booking-availability-search-form SELECT").selectBox();
     $("#nivaria-rooms-booking-display-unit-availability-search-form SELECT").selectBox();
+    $("#rooms-booking-availability-search-form #edit-children-count").next().after('<div class="description"><12 años</div>');
 })
 jQuery(document).ready(function($){
     $('.node-type-casas #main-wrapper #main #content .section .group-left .field-items p:first').next().addClass('position1');
