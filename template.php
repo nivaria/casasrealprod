@@ -233,3 +233,34 @@ function casasrealprod_preprocess_mimemail_message(&$variables) {
   $variables['logo'] = $base_url . theme_get_setting('logo');
   $variables['front_page'] = url();
 }
+
+function casasrealprod_preprocess_views_view(&$vars) {
+  if (isset($vars['view']->name)) {
+    if ($vars['view']->name == 'casas_checkout_form') {
+      $title = '';
+      $parts = explode('/', current_path());
+      $last = array_pop($parts);
+      if (is_numeric($last)) {
+        $title = t('Enjoy your experience for');
+      }
+      else if ($last == 'review') {
+        $title = t('Billing information');
+      }      
+      $title = '<div class="commerce-order-handler-area-order-total-title">'. $title .'</div>';      
+      $vars['footer'] = '<div class="commerce-order-handler-area-order-total-wrapper">'. $title . $vars['footer'] .'</div>';
+    }
+  }
+}
+
+function casasrealprod_preprocess_views_view_fields(&$vars) {
+  if (isset($vars['view']->name)) {
+    if ($vars['view']->name == 'casas_checkout_form') {
+      if ($vars['row']->commerce_line_item_field_data_commerce_line_items_type == 'rooms_service_booking') {
+        $label = 'Total';
+        $label_html = $vars['fields']['commerce_total']->wrapper_prefix . $label .':'. $vars['fields']['commerce_total']->wrapper_prefix;
+        $vars['fields']['commerce_total']->label = $label;
+        $vars['fields']['commerce_total']->label_html = $label_html;
+      }
+    }    
+  }
+}
