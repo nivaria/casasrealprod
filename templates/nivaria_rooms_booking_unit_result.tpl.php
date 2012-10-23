@@ -2,6 +2,9 @@
   <?php print render($calendar); ?>
 </div>
 <div class="unit-search">
+  <div class="unit-search-info">
+    <?php print t('Remember that there is minimum of two nights for reservation.'); ?>
+  </div>
   <div class="unit-search-form">
     <?php print render($booking_search_form); ?>
   </div>
