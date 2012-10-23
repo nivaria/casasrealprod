@@ -1,3 +1,6 @@
+<div class="unit-return">
+  <?php print l(t('Return to room'), 'node/'.$calendar['#object']->nid, array('attributes' => array('class' => array('link-disponibilidad')))); ?>
+</div>
 <div class="unit-availability">
   <?php print render($calendar); ?>
 </div>
