@@ -76,16 +76,7 @@
 
 }
 
-#block-nodeblock-30 li{
-   background: url("../images/icon_select_check.png") no-repeat scroll -89px 7px transparent;
-    color: #666666;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 26px;
-    list-style: none outside none;
-    padding-left: 30px;
-    text-transform: uppercase;
-}
+
 #block-nodeblock-20 .field-name-field-imagen img{
     height: 155px;
     margin-left: -30px;

@@ -45,6 +45,19 @@ body.front #pre-footer{
     background-position: center 156px;
     background-repeat: no-repeat;
 }
+/* lists */
+.select_check li{
+   background: url("../images/icon_select_check.png") no-repeat scroll -89px 7px transparent;
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 26px;
+    list-style: none outside none;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+/* end lists */
+
 /* front blocks */
 #block-rooms-booking-manager-rooms-availability-search{
     background-color: #FFFFFF;
@@ -200,6 +213,14 @@ fieldset.group-comentario,
 .node-type-casas .field-items {
     color :#666;
 }
+.lista-instalaciones ul,
+.lista-servicios ul{
+    margin:0;
+    padding:0;
+}
+.view-servicios .view-footer{
+    text-align:right;
+}
 .lista-instalaciones li{
     list-style:none;
     padding:0;
@@ -210,5 +231,15 @@ fieldset.group-comentario,
 }
 .lista-instalaciones li:first-child{
     margin-left:0;
+}
+.lista-instalaciones li .views-field-title a{
+    font-size:14px;
+    font-weight:normal;
+    color:#000;
+}
+.lista-instalaciones li .views-field-field-subtitulo{
+    font-size:13px;
+    font-weight:normal;
+    color:#666;
 }
 /* end las casas */
