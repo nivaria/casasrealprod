@@ -74,7 +74,6 @@ body.page-node-13 #breadcrumb{
     padding: 20px 0 15px 40px;
 }
 h1#page-title{
-    font-size: 2em;
     margin: 15px 0 0;
     text-transform: uppercase;
 }
@@ -724,14 +723,8 @@ li.active-trail{
     width: 100%;
     border: none;
 }
-.front #block-rooms-booking-manager-rooms-availability-search .form-type-select{
-    margin-right: 26px;
-}
 .page-reservas #block-rooms-booking-manager-rooms-availability-search .form-type-select{
     margin-right: 40px;
-}
-#block-rooms-booking-manager-rooms-availability-search .form-type-select.form-item-children-count{
-    margin-right: 0;
 }
 .node-type-que-hacer #sidebar-first .section{
     margin-top: 2px;

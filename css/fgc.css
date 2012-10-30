@@ -15,17 +15,6 @@
     border: none;
 } 
 /* search submit*/
-.form-submit{
-    background: url(../images/bgbutton.png)  repeat-x left top;
-    border: medium none;
-    color: #BDDCE9;
-    font-weight: bold;
-    height: 50px;
-    text-transform: uppercase;
-    width: 234px;
-    cursor: pointer;
-
-}
 /*.form-submit:hover{
             background: url(../images/bgbutton.png)  no-repeat left top;
           border: medium none;
@@ -64,9 +53,7 @@
 
 }
 .front #rooms-booking-availability-search-form .form-submit{
-    font-size: 12px;
-    height: 50px;
-    width: 190px;
+    width: 100%;
 }
 /*page-reservas*/
 .page-reservas {
@@ -201,8 +188,8 @@ node-type-casas
 */
 .node-type-casas #content .section  .region-content .node-casas .group-left .field-name-field-caracteristicas .field-label,
 .node-type-instalaciones .group-third .field-name-field-caracteristicas .field-item p {
-    background: url("../images/all_icon1.png") no-repeat scroll 20px -359px, url("../images/bg_menu.png") repeat scroll center top transparent;
-    padding: 35px 0 10px 60px;
+    background: url("../images/all_icon1.png") no-repeat scroll 20px -383px, url("../images/bg_menu.png") repeat scroll center top transparent;
+    padding: 12px 0 10px 60px;
     border-bottom: 2px solid #fff;
 }
 .node-type-casas #content .section  .region-content .node-casas .group-left .field-name-field-caracteristicas  .field-items,
@@ -586,7 +573,6 @@ table.fc-border-separate td{
 }
 .unit-search #nivaria-rooms-booking-display-unit-availability-search-form label,
 .front #rooms-booking-availability-search-form label,
-.front #rooms-booking-availability-search-form .description,
 .unit-search #nivaria-rooms-booking-display-unit-availability-search-form .description,
 .region-sidebar-first #block-rooms-booking-manager-rooms-availability-search #rooms-booking-availability-search-form label,
 .region-sidebar-first #block-rooms-booking-manager-rooms-availability-search #rooms-booking-availability-search-form .description{
@@ -831,8 +817,5 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     display: block !important;
 }
 #rooms-booking-availability-search-form .form-item-children-count label {
-    display: block !important;
-}
-#rooms-booking-availability-search-form .form-item-children-count div.description {
     display: block !important;
 }

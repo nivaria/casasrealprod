@@ -1,0 +1,214 @@
+body.not-logged-in .tabs{
+    display:none;
+}
+#pre-footer-holder{
+    background-color: #FFFFFF;
+    height: 74px;
+    width: 100%;
+}
+#pre-footer{
+    background-image: url('../images/logo2.png');
+    background-position: center left;
+    background-repeat: no-repeat;
+    width:970px;
+    margin:0 auto;
+    height:100%;
+}
+body.front #pre-footer{
+    background-image: url('../images/logo2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width:100%;
+}
+.breadcrumb span,
+.breadcrumb a{
+    vertical-align:middle;
+}
+.form-item .description {
+    color: #999999;
+    font-size: 11px;
+    display:none;
+}
+.form-submit{
+    background: url(../images/bgbutton.png)  repeat-x left top;
+    border: medium none;
+    color: #BDDCE9;
+    font-weight: bold;
+    height: 48px;
+    text-transform: uppercase;
+    width: 234px;
+    cursor: pointer;
+    padding:0;
+    margin:0;
+}
+.front.background3,.front.background2,.front.background1,.front.background0{
+    background-position: center 156px;
+    background-repeat: no-repeat;
+}
+/* front blocks */
+#block-rooms-booking-manager-rooms-availability-search{
+    background-color: #FFFFFF;
+    height: 244px;
+    height:274px;
+    width: 192px;
+    overflow: hidden;
+    margin-bottom: 64px;
+    padding: 24px 36px;
+    margin-top:58px;
+}
+#block-rooms-booking-manager-rooms-availability-search h2{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    white-space:nowrap;
+    margin-top:0;
+    margin-bottom:18px;
+}
+#block-rooms-booking-manager-rooms-availability-search .container-inline-date > .form-item {
+    margin-right:0;
+}
+#block-rooms-booking-manager-rooms-availability-search .container-inline-date .date-padding,
+#block-rooms-booking-manager-rooms-availability-search .container-inline-date .form-item .form-item{
+    float: none;
+    padding: 0px;
+}
+#rooms-booking-availability-search-form .form-item-adults-count,
+#rooms-booking-availability-search-form .form-item-children-count{
+    margin-right:0;
+}
+#rooms-booking-availability-search-form .form-item-children-count{
+    float:right;
+}
+#rooms-booking-availability-search-form .form-item-children-count div.description {
+    display: block;
+}
+.front-block{
+    float:left;
+    width:300px;
+    margin-right:25px;
+    position:relative;
+}
+#block-nodeblock-52{
+    margin-right:0px;
+}
+.front-block h2{
+    color: #1f83b1;
+    margin-bottom: 2px;
+    margin-top: 0;
+    text-align: center;
+    padding: 15px 20px 38px;
+    font-size: 25px;
+    font-weight: bold;
+    white-space:nowrap;
+}
+.front-block .content{
+    padding: 30px;
+}
+.front-block .content,
+.front-block h2{
+    background: #fff;
+}
+.front-block .content .field-name-field-subtitulo .field-item{
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 44px;
+    width: 100%;
+}
+.front-block .field-type-link-field a{
+   background: url("../images/all_arrow.png") no-repeat scroll -5px -6px transparent;
+    border: 10px solid #FFFFFF;
+    border-radius: 60px 60px 60px 60px;
+    border-radius: 50px;
+    display: block;
+    height: 37px;
+    left: 100px;
+    position: relative;
+    text-indent: -99999px;
+    top: -10px;
+    width: 40px;
+}
+/* end bront blocks */
+
+/* casas */
+.node-type-casas .group-header {
+    background-color: #F7F7F7;
+    margin-top: 16px;
+    padding: 24px 20px;
+}
+.node-type-casas .group-header .field-name-field-capacidad .field-label,
+.node-type-casas .group-header .field-name-field-precio-desde .field-label{
+     color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 178px;
+}
+.node-type-casas .group-header .field-name-field-capacidad .field-item,
+    .node-type-casas .group-header .field-name-field-precio-desde .field-item{
+     color: #1F84B2;
+    font-size: 20px;
+    font-weight: normal;
+}
+fieldset.group-comentario{
+    float: right;
+    width: 296px;
+    border:0 none;
+}
+fieldset.group-comentario .fieldset-wrapper{
+    margin:0;
+}
+fieldset.group-comentario legend{
+    display:none;
+}
+#block-views-instalaciones-block h2,
+#block-views-servicios-block-2 h2{
+    border:0 none;
+    border-bottom: 2px solid #FFFFFF;
+    padding: 12px 0 10px 60px;
+    font-weight:bold;
+}
+#block-views-instalaciones-block h2{
+         background: url("../images/all_icon1.png") no-repeat scroll 20px -466px, url("../images/bg_menu.png") repeat scroll center top transparent;
+}
+#block-views-servicios-block-2 h2{
+         background: url("../images/all_icon.png") no-repeat scroll 20px -464px, url("../images/bg_menu.png") repeat scroll center top transparent;
+}
+#block-views-servicios-block-2{
+    clear:both;
+}
+#block-views-instalaciones-block .content,
+#block-views-servicios-block-2 .content{
+         background: url("../images/bg_menu.png") repeat scroll center top transparent;
+    border:0 none;
+    padding: 12px 0 10px 24px;
+}
+
+fieldset.group-comentario .field-name-field-titulo-comentario{
+     background: url("../images/all_icon1.png") no-repeat scroll 20px -466px, url("../images/bg_menu.png") repeat scroll center top transparent;     
+    border:0 none;
+    border-bottom: 2px solid #FFFFFF;
+    padding: 12px 0 10px 60px;
+    font-weight:bold;
+}
+fieldset.group-comentario .field-name-field-comentario{
+     background: url("../images/bg_menu.png") repeat scroll center top transparent;
+    border:0 none;
+    padding: 12px 0 10px 24px;
+}
+fieldset.group-comentario,
+.node-type-casas .field-items {
+    color :#666;
+}
+.lista-instalaciones li{
+    list-style:none;
+    padding:0;
+    width:178px;
+    margin-left:20px;
+    display:block;
+    float:left;
+}
+.lista-instalaciones li:first-child{
+    margin-left:0;
+}
+/* end las casas */
