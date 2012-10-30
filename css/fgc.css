@@ -828,11 +828,11 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     bottom: 0;
 }
 #rooms-booking-availability-search-form .form-item-adults-count label {
-    display: block;
+    display: block !important;
 }
 #rooms-booking-availability-search-form .form-item-children-count label {
-    display: block;
+    display: block !important;
 }
 #rooms-booking-availability-search-form .form-item-children-count div.description {
-    display: block;
+    display: block !important;
 }
