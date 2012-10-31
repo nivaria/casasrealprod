@@ -20,6 +20,9 @@ body.front #pre-footer{
     background-repeat: no-repeat;
     width:100%;
 }
+.field-type-text-with-summary .field-item p:last-child{
+    margin-bottom:0;
+}
 .breadcrumb span,
 .breadcrumb a{
     vertical-align:middle;
@@ -45,12 +48,57 @@ body.front #pre-footer{
     background-position: center 156px;
     background-repeat: no-repeat;
 }
+.link-disponibilidad,
+#block-nodeblock-42 .field-type-link-field a,
+.default_button{
+    background: url(../images/button-ft.png) repeat-x top center;
+    width:100%;
+    max-width: 300px;
+    height: 49px;
+    display:inline-block;
+    color: #fff;
+    line-height: 49px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align:center;
+    cursor:pointer;
+}
+.link-disponibilidad:hover,
+#block-nodeblock-42 .field-type-link-field a:hover,
+.default_button:hover{
+    color:#fff;
+    text-decoration:none;
+}
+.link-disponibilidad{
+        font-weight: bold;
+        font-size:11px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 16px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: auto;
+    z-index:100;
+}
+#ui-datepicker-div {
+    z-index:9999 !important;
+}
 /* lists */
+#sidebar-second .block-views ul,
+#sidebar-second .block-nodeblock ul,
+#sidebar-first .block-nodeblock ul{
+    margin:0;
+    padding:0;
+}
+#sidebar-second .block-views li,
+#sidebar-second .block-nodeblock li,
+#sidebar-first .block-nodeblock li,
 .select_check li{
    background: url("../images/icon_select_check.png") no-repeat scroll -89px 7px transparent;
     color: #666666;
     font-size: 12px;
-    font-weight: bold;
     line-height: 26px;
     list-style: none outside none;
     padding-left: 30px;
@@ -174,6 +222,13 @@ fieldset.group-comentario .fieldset-wrapper{
 fieldset.group-comentario legend{
     display:none;
 }
+#block-views-que-hacer-block-3{
+    margin-top:1em;
+}
+#block-views-que-hacer-block-3 .view-footer{
+    text-align:right;
+}
+#block-views-que-hacer-block-3 h2,
 #block-views-instalaciones-block h2,
 #block-views-servicios-block-2 h2{
     border:0 none;
@@ -184,12 +239,14 @@ fieldset.group-comentario legend{
 #block-views-instalaciones-block h2{
          background: url("../images/all_icon1.png") no-repeat scroll 20px -466px, url("../images/bg_menu.png") repeat scroll center top transparent;
 }
+#block-views-que-hacer-block-3 h2,
 #block-views-servicios-block-2 h2{
          background: url("../images/all_icon.png") no-repeat scroll 20px -464px, url("../images/bg_menu.png") repeat scroll center top transparent;
 }
 #block-views-servicios-block-2{
     clear:both;
 }
+#block-views-que-hacer-block-3 .content,
 #block-views-instalaciones-block .content,
 #block-views-servicios-block-2 .content{
          background: url("../images/bg_menu.png") repeat scroll center top transparent;
@@ -243,3 +300,49 @@ fieldset.group-comentario,
     color:#666;
 }
 /* end las casas */
+#sidebar-second .block,
+#sidebar-first .block{
+    width:202px;
+    overflow:hidden;
+    padding: 15px 20px;
+}
+#sidebar-second .block{
+    width:212px;
+}
+#sidebar-first .block.block-menu-block{
+    width:auto;
+}
+.views-exposed-form .views-exposed-widget .form-submit {
+    height: 30px;
+    margin-top: 1.6em;
+    padding: 0 16px;
+    width: auto;
+    color:#fff;
+}
+.views-exposed-form .views-exposed-widget select{
+    width:100%;
+}
+td.active {
+    background-color: transparent;
+}
+body.node-type-que-hacer #content .field-name-field-tipo-de-que-hacer{
+    color: #666666;
+    margin: 0;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+body.node-type-que-hacer #content .field-name-field-tipo-de-que-hacer li{
+    padding: 0;
+}
+body.node-type-que-hacer #content .field-name-field-telefono{
+     color: #9C5B3D;
+    font-size: 14px;
+    position: absolute;
+    right: 16px;
+    top: 32px;
+}
+#block-views-casas-block{
+    padding: 0;
+    width: 252px;
+}

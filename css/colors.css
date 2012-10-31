@@ -58,9 +58,9 @@ a:active {
 /*
 contact
 */
-#breadcrumb #page-title{
+/*#breadcrumb #page-title{
     font-weight: bold;
-}
+}*/
 #breadcrumb{
     background: url("../images/bgbreadcrumb.png") repeat scroll center top transparent;
     height: 60px;
@@ -407,25 +407,25 @@ body.page-booking .sidebar .block.block-nodeblock .field-type-image img{
     width: 100%;
     height: 100%;
 }
-body.page-servicios-extras .sidebar .block.block-nodeblock .field-name-body.field-type-text-with-summary,
+/*body.page-servicios-extras .sidebar .block.block-nodeblock .field-name-body.field-type-text-with-summary,
 body.node-type-instalaciones .sidebar .block.block-nodeblock .field-name-body.field-type-text-with-summary,
 body.page-booking .sidebar .block.block-nodeblock .field-name-body.field-type-text-with-summary{
     text-align: center;
-}
-body.node-type-instalaciones .sidebar .block.block-nodeblock h2,
+}*/
+/*body.node-type-instalaciones .sidebar .block.block-nodeblock h2,
 body.page-booking .sidebar .block.block-nodeblock h2{
     background: url("../images/bagfade.png") no-repeat scroll 15px center transparent;
     font-weight: bold;
     padding: 5px 10px 5px 40px;
-}
+}*/
 body.node-type-instalaciones #block-nodeblock-30 .content{
     padding-left: 10px;
 }
-body.node-type-instalaciones .sidebar .block.block-nodeblock ul,
+/*body.node-type-instalaciones .sidebar .block.block-nodeblock ul,
 body.page-booking .sidebar .block.block-nodeblock ul{
     padding-left: 25px;
     padding-right: 10px;
-}
+}*/
 body.node-type-instalaciones .sidebar .block.block-nodeblock li,
 body.page-booking .sidebar .block.block-nodeblock li{
     list-style: disc outside url("../images/checkfade.png");
@@ -515,6 +515,11 @@ body.node-type-webform #sidebar-second #block-locationmap-image .content img{
     padding-top: 15px;
     position: relative;
 
+}
+#block-nodeblock-5,
+#sidebar-second #block-locationmap-image{
+    width:252px;
+    overflow:visible;
 }
 #sidebar-second #block-locationmap-image h2 {
     background: none repeat scroll 0 center transparent;
@@ -747,9 +752,8 @@ li.active-trail{
 .one-sidebar #content, .page-que-hacer #sidebar-first{
     margin-top: 1px;
 }
-.node-type-que-hacer #content{
-    padding: 20px 40px;
-    /*    width: 930px;*/
+.node-type-que-hacer #content > .section{
+    padding: 20px;
 }
 #block-views-casas-block .field-content{
     text-align: center;
@@ -792,7 +796,6 @@ page-libro-de-visitas
 }
 .page-libro-de-visitas .field-name-field-valoracion{
     float: right;
-    margin-bottom: 30px;
 }
 .page-libro-de-visitas .field-name-field-casas{
     clear: both;
@@ -850,11 +853,11 @@ div.fivestar-widget-static .star span.on{
 .page-libro-de-visitas div.fivestar-widget-static .star-5 span.on{
     background: url("../images/all_circle.png") no-repeat scroll -47px 0 transparent;
 }
-.page-libro-de-visitas #page-wrapper #page #main #breadcrumb h1#page-title{
+/*.page-libro-de-visitas #page-wrapper #page #main #breadcrumb h1#page-title{
     color: #9c5b3d;
     font-weight: normal;
     font-size: 20px;
-}
+}*/
 .page-libro-de-visitas .field-name-field-casas{
     border-top: 2px solid #FFFFFF;
     margin-left: -20px;
@@ -884,21 +887,6 @@ div.fivestar-widget-static .star span.on{
 }
 .page-libro-de-visitas #page-wrapper #sidebar-second .section #block-nodeblock-42 h2{
     display: none;
-}
-.page-libro-de-visitas #page-wrapper #sidebar-second .section #block-nodeblock-42 .field-type-link-field
-{
-    background: url("../images/bgbutton.png") repeat-x scroll center center transparent;
-    height: 50px;
-    margin: 0 auto;
-    text-align: center;
-    width: 227px;
-}
-
-.page-libro-de-visitas #page-wrapper #sidebar-second .section #block-nodeblock-42 .field-type-link-field a{
-        font-size: 14px;
-    line-height: 48px;
-    text-transform: uppercase;
-    color: #fff;
 }
 /*page*/
 .page-libro-de-visitas .view-libro-de-visitas .item-list{

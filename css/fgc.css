@@ -38,8 +38,8 @@
     cursor: pointer;
     font-size: 12px;
 }*/
-/**/
-#block-nodeblock-30  .field-item p {
+/*DELETE: "Consulta nuestra política de cancelación*/
+/*#block-nodeblock-30  .field-item p {
     background: url(../images/bgbutton.png)  repeat-x left top;
     color: #FFFFFF;
     cursor: pointer;
@@ -51,7 +51,7 @@
     text-transform: uppercase;
     width: 210px;
 
-}
+}*/
 .front #rooms-booking-availability-search-form .form-submit{
     width: 100%;
 }
@@ -59,41 +59,39 @@
 .page-reservas {
 
 }
-#block-nodeblock-30 h2, #block-nodeblock-30  ul{
+/*#block-nodeblock-30 h2,
+#block-nodeblock-30  ul{
     padding: 0;
-}
+}*/
 #block-nodeblock-30 h2
 {
-    background: url("../images/all_icon1.png") no-repeat scroll 5px 11px transparent;
+    background: url("../images/all_icon1.png") no-repeat scroll 5px 3px transparent;
     color: #000000;
     display: block !important;
-    font-size: 18px;
+    /*font-size: 18px;
     font-weight: bold !important;
     margin-bottom: 10px;
-    margin-left: -21px;
-    padding: 15px 0 15px 41px;
-    width: 216px;
-
+    margin-left: -21px;*/
+    padding: 0 0 0 41px;
 }
 
 
 #block-nodeblock-20 .field-name-field-imagen img{
-    height: 155px;
-    margin-left: -30px;
-    width: 255px;
+    margin-left: -21px;
+    margin-top:16px;
 }
-#block-nodeblock-20,
+/*#block-nodeblock-20,
 #block-nodeblock-30{
     left: 0;
     padding-top: 0 !important;
     position: relative;
     top: 0;
     width: 215px;
-}
+}*/
 /*#block-nodeblock-30 .content{
       padding: 15px 20px;
 }*/
-#block-nodeblock-20 h2{
+/*#block-nodeblock-20 h2{
     border-bottom: medium none;
     color: #000000;
     display: block !important;
@@ -112,7 +110,7 @@
     color: #999;
     margin: 0;
     padding-top: 25px;
-}
+}*/
 /*
 menu sidebar*/
 /*phan menu dung chung ko thay doi*/
@@ -160,9 +158,6 @@ menu sidebar*/
     padding-right: 5px;
     width: 227px;
 
-}
-#sidebar-first .block{
-    padding: 15px 20px;
 }
 #main-wrapper #main .sidebar .block-menu-block .content ul li span.menu-link-title a {
     color: #1F83B1;
@@ -319,7 +314,7 @@ table.fc-border-separate td{
     left: 579px!important;
     position: absolute;
     text-indent: -99999px;
-    top: 102px!important;
+    top: 106px!important;
     width: 20px;
     z-index: 99999;
 }
@@ -616,11 +611,11 @@ table.fc-border-separate td{
     width: 100%;
 }
 /*page-node-8*/
-.page-node-8 #content .section,
+/*.page-node-8 #content .section,
 .page-node-7 #content .section,
 .page-node-9 #content .section{
     padding: 0 40px;
-}
+}*/
 .page-node-8 #content .section  .group-right,
 .page-node-7 #content .section  .group-right,
 .page-node-9 #content .section  .group-right{

@@ -95,7 +95,7 @@
         <?php if ($breadcrumb): ?>
         <div id="breadcrumb"><?php print $breadcrumb; ?>
           <?php if ($title != ""): ?>
-          <div class="breadcrumb">&raquo; <?php print t($title) ?></div>
+          <div class="breadcrumb">&nbsp;|&nbsp;&nbsp;<span><?php print t($title) ?></span></div>
           <?php endif; ?>
         </div>
         <?php endif; ?>
@@ -219,6 +219,7 @@
     <!-- /#triptych, /#triptych-wrapper -->
     <?php endif; ?>
 <!--footer-->
+    <div id="pre-footer-holder"><div id="pre-footer"></div></div>
     <div id="footer-wrapper">
       <div class="section">
         <?php if ($page['footer_firstcolumn'] || $page['footer_secondcolumn'] || $page['footer_thirdcolumn'] || $page['footer_fourthcolumn']): ?>

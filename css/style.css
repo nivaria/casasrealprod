@@ -32,7 +32,13 @@ h1 {
     color: #000;
 }
 h2 {
-    font-size: 1.143em;
+    font-size: 1.143em;/* 16 */
+}
+h2 {
+    margin:0 0 16px 0;
+    font-size: 1.429em;/* 20 - default */
+    line-height: 1.4;
+    color:#000;
 }
 p {
     margin: 0 0 1.2em;
@@ -476,21 +482,11 @@ h1#site-name {
     padding: 20px 0 15px 44px;
     margin: 0px;
 }
-.node-type-casas #main-wrapper #main #content .section h1#page-title,
-.page-que-hacer #main-wrapper #main #content .section h1#page-title,
-.page-reservas #main-wrapper #main #content .section h1#page-title{
-    left: -230px;
-    position: absolute;
-    top: -59px;
-}
 .node-type-casas #main-wrapper #main #breadcrumb h1{
     margin: 10px 0 0 0;
 }
 .node-type-casas #main-wrapper #main #breadcrumb .breadcrumb a:link{
     color: #1f83b1;
-}
-.node-type-casas #main-wrapper  #main #sidebar-first h2{
-    display: none;
 }
 
 
@@ -702,17 +698,6 @@ h1#site-name {
     text-align: center;;
     padding-top: 20px;
 }
-.node-type-casas #main-wrapper #main #content .section .group-footer .field-items > div > a.link_reservar_ahora{
-    background: url(../images/button-ft.png) repeat-x top center;
-    width: 301px;
-    height: 49px;
-    display:inline-block;
-    color: #fff;
-    line-height: 49px;
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
 /*end*/
 #main-menu-links {
     font-size: 0.929em;
@@ -824,11 +809,7 @@ h1#page-title {
     font-size: 20px;
     line-height: 1;
 }
-#content h2 {
-    margin-bottom: 2px;
-    font-size: 1.429em;
-    line-height: 1.4;
-}
+
 .node .content {
     font-size: 1.071em;
 }
@@ -1007,12 +988,12 @@ ul.links {
     margin: 0 0 20px;
 }
 .sidebar h2 {
-    margin: 0 0 0.5em;
+    /*margin: 0 0 0.5em;
     border-bottom: 1px solid #d6d6d6;
     padding-bottom: 5px;
     text-shadow: 0 1px 0 #fff;
     font-size: 1.071em;
-    line-height: 1.2;
+    line-height: 1.2;*/
 }
 .sidebar .block .content {
     font-size: 0.914em;
