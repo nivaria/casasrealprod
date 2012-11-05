@@ -619,14 +619,17 @@ product
 .unit-result .booking-date span.label {
     float: left;
     width: 190px;
+    width:216px;
 }
 .unit-result .booking-occupants span.label {
     float: left;
     width: 190px;
+    width:216px;
 }
 .unit-result .booking-avg-price span.label {
     float: left;
     margin-right: 28px;
+    width:216px;
 }
 .unit-result{
     padding-left: 20px;

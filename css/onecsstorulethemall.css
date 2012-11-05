@@ -70,6 +70,14 @@ body.front #pre-footer{
     color:#fff;
     text-decoration:none;
 }
+.small_button{
+    font-size:14px;
+    font-weight:normal;
+    height:32px;
+    line-height:32px;
+    width:auto;
+    padding:0 16px;
+}
 .link-disponibilidad{
         font-weight: bold;
         font-size:11px;
@@ -246,6 +254,9 @@ fieldset.group-comentario legend{
 #block-views-servicios-block-2{
     clear:both;
 }
+body.page-checkout-complete #content .block.block-casasreal-functions .content,
+body.page-checkout-complete #content .block.block-block .content,
+body.page-checkout-complete #content .block.block-views .content,
 #block-views-que-hacer-block-3 .content,
 #block-views-instalaciones-block .content,
 #block-views-servicios-block-2 .content{
@@ -253,7 +264,12 @@ fieldset.group-comentario legend{
     border:0 none;
     padding: 12px 0 10px 24px;
 }
-
+body.page-checkout-complete #content .block.block-casasreal-functions .content ul,
+body.page-checkout-complete #content .block.block-block .content ul,
+body.page-checkout-complete #content .block.block-views .content ul{
+    margin:0;
+    padding:0;
+}
 fieldset.group-comentario .field-name-field-titulo-comentario{
      background: url("../images/all_icon1.png") no-repeat scroll 20px -466px, url("../images/bg_menu.png") repeat scroll center top transparent;     
     border:0 none;
@@ -345,4 +361,438 @@ body.node-type-que-hacer #content .field-name-field-telefono{
 #block-views-casas-block{
     padding: 0;
     width: 252px;
+}
+/* booking page 1 */
+body.page-bookings #content .section{
+    padding:32px 24px 32px 64px;
+}
+body.page-bookings #block-block-1{
+     color: #000000;
+    margin-top: -60px;
+    width: 224px;
+}
+body.page-bookings .commerce-order-handler-area-order-total{
+    text-align:right;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+body.page-bookings .commerce-order-handler-area-order-total .commerce-price-formatted-components{
+    width:auto;
+    margin:0;
+}
+body.page-bookings .commerce-order-handler-area-order-total .commerce-price-formatted-components div{
+    padding-bottom:0.6em;
+}
+body.page-bookings .commerce-order-handler-area-order-total .commerce-price-formatted-components span{
+    padding-left:1em;
+    padding-bottom:1em;
+}
+body.page-checkout .component-type-base-price,
+body.page-bookings .commerce-order-handler-area-order-total .component-type-base-price{
+    color:#000;
+    text-transform:uppercase;
+}
+body.page-checkout .component-type-discount,
+body.page-bookings .commerce-order-handler-area-order-total .component-type-discount{
+    color:#000;
+    text-transform:uppercase;
+}
+body.page-checkout .component-type-commerce-price-formatted-amount,
+body.page-bookings .commerce-order-handler-area-order-total div.component-type-commerce-price-formatted-amount{
+    color:#000;
+    padding-bottom:1em;
+    text-transform:uppercase;
+}
+body.page-checkout-complete #content #block-views-servicios-block-3 .views-row,
+body.page-checkout-complete #content .block-casasreal-functions .content li,
+body.page-checkout-complete #content .block.block-block .content li,
+body.page-checkout-complete #content .block.block-views .content li,
+body.page-checkout .component-type-payment-split-pay .component-title,
+body.page-bookings .commerce-order-handler-area-order-total .component-type-payment-split-pay{
+    color:#666;
+    font-size:13px;
+    text-transform:uppercase;
+    
+    background: url("../images/icon_select_check.png") no-repeat scroll -89px 10px transparent;
+    line-height: 26px;
+    list-style: none outside none;
+    padding-left: 18px;
+}
+body.page-checkout .component-type-payment-split-pay-defferred .component-title,
+body.page-bookings .commerce-order-handler-area-order-total .component-type-payment-split-pay-defferred{
+    color:#666;
+    font-size:13px;
+    text-transform:uppercase;
+    
+    background: url("../images/icon_select_check.png") no-repeat scroll -89px 10px transparent;
+    line-height: 26px;
+    list-style: none outside none;
+    padding-left: 18px;
+}
+
+body.page-bookings #block-views-servicios-block-1 h2{
+    font-size:32px;
+    color:#333;
+}
+body.page-checkout .component-type-base-price .component-total,
+body.page-bookings .commerce-order-handler-area-order-total .component-type-base-price span{
+    color:#333;
+    font-size:18px;
+}
+body.page-checkout .component-type-discount .component-total,
+body.page-bookings .commerce-order-handler-area-order-total .component-type-discount span{
+    color:#666;
+    font-size:20px;
+}
+body.page-checkout .component-type-commerce-price-formatted-amount .component-total,
+body.page-bookings .commerce-order-handler-area-order-total .component-type-commerce-price-formatted-amount span{
+    color:#333;
+    font-size:32px;
+}
+body.page-checkout .component-type-payment-split-pay .component-total,
+body.page-bookings .commerce-order-handler-area-order-total .component-type-payment-split-pay span{
+    color:#;
+}
+body.page-checkout .component-type-payment-split-pay-defferred .component-total,
+body.page-bookings .commerce-order-handler-area-order-total .component-type-payment-split-pay-defferred span{
+    color:#;
+}
+.view-casas-checkout-complete .views-row,
+.view-casas-booking-cart-form .views-row{
+    position:relative;
+    overflow:hidden;
+}
+body.page-checkout-complete #content .block-casasreal-functions h2,
+body.page-checkout-complete #content .block.block-block h2,
+body.page-checkout-complete #content .block.block-views h2,
+.view-casas-checkout-complete .views-row .views-field-title,
+.view-casas-booking-cart-form .views-row .views-field-title{
+    margin: 0;
+    padding: 15px 7px;
+    background: url("../images/all_icon1.png") no-repeat scroll -6px -147px transparent;
+    color: #0071B3;
+    margin: 15px 0 20px;
+    padding-left: 40px;
+    vertical-align: middle;
+    color: #000000;
+    font-size: 1.429em;
+    line-height: 1.4;
+    margin: 0 0 16px;
+}
+body.page-checkout-complete #content .block-casasreal-functions h2,
+body.page-checkout-complete #content .block.block-block h2,
+body.page-checkout-complete #content .block.block-views h2{
+         background: url("../images/all_icon.png") no-repeat scroll 3px -464px, url("../images/bg_menu.png") repeat scroll center top transparent;
+}
+.view-casas-checkout-complete .views-row .views-field-field-imagenes,
+.view-casas-booking-cart-form .views-row .views-field-field-imagenes{
+    padding: 60px 10px 50px 0;
+    padding-bottom: 15px !important;
+    padding-top: 10px !important;
+    
+    width:168px;
+    margin-right:20px;
+    float:left;
+}
+.view-casas-checkout-complete .views-row .field-content{
+    display:inline;
+}
+.view-casas-booking-cart-form .views-row .views-label{
+    font-weight: normal;
+    margin-right: 30px;
+    text-transform: uppercase;
+    float: left;
+    width: 160px;
+    color:#000;
+}
+.view-casas-booking-cart-form .views-row .views-field-commerce-total{
+    clear: both;
+    text-align: right;
+    white-space: nowrap;
+}
+.view-casas-booking-cart-form .views-row .views-field-commerce-total .views-label{
+    float: none;
+    width: auto;
+}
+.view-casas-booking-cart-form .views-row .views-field-commerce-total .field-content.price{
+        color: #333333;
+    font-size: 32px;
+       display: inline;
+    vertical-align: middle;
+}
+.view-casas-booking-cart-form .views-row .views-field-edit-delete input{
+     background: none repeat scroll 0 0 transparent;
+    clear: both;
+    color: #1F83B1;
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+    width: auto;
+}
+body.page-bookings .view-servicios{
+    
+}
+body.page-checkout .view-casas-checkout-form .view-footer,
+body.page-checkout .view-casas-checkout-form .views-row,
+body.page-bookings .view-servicios .views-row{
+    clear: both;
+    overflow: hidden;
+    position:relative;
+    background: url("../images/bg_menu.png") repeat scroll center top transparent;
+    margin-bottom:6px;
+    padding:24px;
+}
+.commerce-order-handler-area-order-total-title,
+body.page-checkout .view-casas-checkout-form .views-row .views-field-title,
+body.page-bookings .view-servicios .views-row .views-field-title{
+    color: #1F83B1;
+    font-size: 20px;
+    font-weight: normal;
+}
+body.page-bookings .view-servicios .views-row .views-field-commerce-service-pricing-method{
+      color: #000000;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+body.page-bookings .view-servicios .views-row .views-field-body{
+     color: #666666;
+    font-size: 13px;
+    float:left;
+    width:370px;
+}
+body.page-checkout .view-casas-checkout-form .views-row .views-field-field-imagenes,
+body.page-bookings .view-servicios .views-row .views-field-field-image{
+     float: right;
+    height: 124px;
+    overflow: hidden;
+    width: 180px;
+}
+body.page-checkout .view-casas-checkout-form .views-row .views-field-commerce-total,
+body.page-bookings .view-servicios .views-row .views-field-commerce-price-1{
+     float: left;
+    overflow: hidden;
+    text-align: right;
+    width: 378px;
+    clear:both;
+}
+body.page-checkout .view-casas-checkout-form .views-row .views-field-commerce-total .views-label,
+body.page-bookings .view-servicios .views-row .views-field-commerce-price-1 .views-label{
+    color: #000000;
+    line-height: 44px;
+}
+body.page-checkout .view-casas-checkout-form .views-row .views-field-commerce-total .field-content,
+body.page-bookings .view-servicios .views-row .views-field-commerce-price-1 .field-content{
+     color: #333333;
+    float: right;
+    font-size: 32px;
+    margin-left: 28px;
+    margin-right: 0.5em;
+}
+body.page-checkout .view-casas-checkout-form .views-row .views-field-commerce-total{
+   float: none;
+    text-align: left;
+    width: auto;
+}
+body.page-checkout .view-casas-checkout-form .views-row .views-field-commerce-total .views-label{
+color: #666666;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+body.page-checkout .view-casas-checkout-form .views-row .views-field-commerce-total .field-content{
+        color: #333333;
+    display: inline;
+    float: none;
+    font-size: 14px;
+    margin: 0 0 0 1em;
+}
+body.page-bookings .view-servicios .views-row .views-field-add-to-cart-form .form-submit{
+       color: #FFFFFF;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    width: 180px;
+}
+body.page-checkout .view-casas-checkout-form .views-row .views-field-rooms-booking-dates-1,
+body.page-checkout .view-casas-checkout-form .views-row .views-field-rooms-booking-dates,
+body.page-checkout .view-casas-checkout-form .views-row .views-field-rooms-booked-group-size{
+    background: url("../images/icon_select_check.png") no-repeat scroll -89px 10px transparent;
+    color: #666666;
+    font-size: 12px;
+    line-height: 26px;
+    list-style: none outside none;
+    padding-left: 18px;
+}
+body.page-checkout .view-casas-checkout-form .views-row .views-field-rooms-booking-dates-1 div,
+body.page-checkout .view-casas-checkout-form .views-row .views-field-rooms-booking-dates div,
+body.page-checkout .view-casas-checkout-form .views-row .views-field-rooms-booked-group-size div{
+    display:inline;
+}
+/* checkout */
+body.page-checkout #content > .section{
+    padding: 16px 42px;
+}
+#block-commerce-checkout-progress-indication{
+    background-repeat:no-repeat;
+    background-image:url('../images/indication.png');
+    width:620px;
+    height:96px;
+    position:relative;
+    margin-bottom:1em;
+}
+#block-commerce-checkout-progress-indication ol{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+#block-commerce-checkout-progress-indication li{
+    font-size:16px;
+    color:#999;
+    float:none;
+    width:auto;
+}
+#block-commerce-checkout-progress-indication li.active{
+    color:#000;
+}
+#block-commerce-checkout-progress-indication li.checkout{
+       bottom: 8px;
+    left: 50px;
+    position: absolute;
+}
+#block-commerce-checkout-progress-indication li.review{
+    bottom: 8px;
+    left: 250px;
+    position: absolute;
+}
+#block-commerce-checkout-progress-indication li.complete{
+    bottom: 8px;
+    left: 430px;
+    position: absolute;
+    white-space: nowrap;
+}
+body.page-checkout fieldset{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    margin: 0;
+    position: static;
+    
+     background: url("../images/bg_menu.png") repeat scroll center top transparent;
+    clear: both;
+    margin-bottom: 6px;
+    overflow: hidden;
+    padding: 24px;
+    position: relative;
+}
+body.page-checkout legend{
+    font-size:20px;
+    color:#000;
+    font-weight:normal;
+     background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+    height: auto;
+    position: static;
+    text-indent: 0;
+    text-shadow: none;
+    
+    color:#1F83B1;
+}
+body.page-checkout label,
+body.page-checkout textarea,
+body.page-checkout input[type=text]{
+    color:#666;
+    font-weight:normal;
+}
+body.page-checkout input[type=text],
+body.page-checkout textarea{
+    -webkit-box-shadow: inset 0px 1px 1px 1px #bbb;
+    box-shadow: inset 0px 1px 1px 1px #bbb;
+    border:0 none;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+}
+#edit-cart-contents legend{
+    display:none;
+}
+body.page-checkout .fieldset-wrapper{
+    padding:0;
+    margin:0;
+}
+.view-casas-checkout-form h3{
+    display:none;
+}
+.commerce-order-handler-area-order-total .commerce-price-formatted-components {
+    margin:0;
+    width: auto;
+}
+body.page-checkout.html tbody,
+body.page-checkout.html th,
+body.page-checkout.html tr,
+body.page-checkout.html td{
+    background:none;
+    background-color:transparent;
+    border:0 none;
+}
+.checkout-help{
+    display:none;
+}
+body.page-checkout .pane-title{
+    color:#1F83B1;
+    font-size:20px;
+    font-weight:bold;
+}
+table.checkout-review .pane-data-full {
+    padding:0;
+}
+body.page-checkout .pane-title td{
+    padding:0;
+    font-weight:normal;
+}
+body.page-checkout .pane-data-full .field-label{
+    color:#666;
+    font-size:13px;
+    display:inline;
+    padding-right:0.4em;
+    font-weight:bold;
+}
+body.page-checkout .pane-data-full .field-items div,
+body.page-checkout .pane-data-full .field-items{
+    color:#666;
+    font-size:13px;
+    display:inline;
+}
+.form-submit {
+    padding: 0 1em;
+    width: auto;
+}
+/* layout checkout complete */
+body.page-checkout-complete #block-block-6{
+     float: left;
+    width: 48%;
+}
+body.page-checkout-complete #block-block-7{
+    float: right;
+    width: 48%;
+}
+body.page-checkout-complete #block-casasreal-functions-casas-purchase-info{
+        clear: both;
+    float: left;
+    width: 48%;
+    margin-top:1em;
+}
+body.page-checkout-complete #block-views-servicios-block-3{
+        clear: right;
+    float: right;
+    width: 48%;
+    margin-top:1em;
+}
+body.page-checkout-complete #block-views-2665b9c087df1fe94339a321de598d08{
+    clear:both;
 }

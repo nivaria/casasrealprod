@@ -513,7 +513,7 @@ h1#site-name {
     padding : 40px;
     padding-top: 0px;
 }
-.node-type-casas .group-header a.link-disponibilidad{
+/*.node-type-casas .group-header a.link-disponibilidad{
     background:  url(../images/bgbuttonr.png) repeat-x top center ;
      color: #FFFFFF;
     display: inline-block;
@@ -528,7 +528,7 @@ h1#site-name {
     position: absolute;
     right: 24px;
     top: 26px;
-}
+}*/
 .node-type-casas #main-wrapper #main #content .section .content .group-right{
     position: absolute;
     width: 615px;

@@ -493,6 +493,7 @@ table.fc-border-separate td{
     /*    line-height: 33px;*/
     text-transform: uppercase;
     width: 200px!important;
+    width: 242px!important;
     text-align: right;
     margin-left: 5px!important;
 }
@@ -505,11 +506,16 @@ table.fc-border-separate td{
     font-size: 27px;
     margin-top: -3px;
     color: #000;
+    
+    font-weight:normal;
+    font-size:32px;
+    color:#333;
 }
 .page-node-booking .unit-search  .booking-info .label,
 .page-booking  .booking-info .label{
     text-transform: uppercase;
     margin-right: 30px;
+    font-weight:normal;
 }
 .page-node-booking .unit-search  .booking-info .booking-avg-price .label,
 .page-booking .unit-search  .booking-info .booking-avg-price .label{
@@ -518,7 +524,7 @@ table.fc-border-separate td{
 .page-node-booking  .unit-search-result .unit-result{
     left: 0;
     padding-bottom: 0px!important;
-    padding-top: 100px;
+    padding-top: 68px;
     position: relative;
     top: 0;
 }
@@ -746,9 +752,7 @@ body.page-booking #rooms-booking-availability-search-form {
 
     width: 930px;
 }
-.page-booking  .booking-info .booking-price .data{
-    color: #000;
-}
+
 
 body.page-booking #rooms-booking-availability-search-form .form-submit{
     position: relative;
@@ -766,18 +770,19 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     cursor: pointer;
     height: 50px;
     left: 445px;
+    left:465px;
     position: absolute;
     top: -80px;
     z-index: 999999;
 }
-.page-booking .form-submit:hover{
+/*.page-booking .form-submit:hover{
     cursor: pointer;
     height: 50px;
     left: 445px;
     position: absolute;
     top: -79px;
     z-index: 999999;
-}
+}*/
 .page-node-booking .form-submit{
     bottom: 26px;
     cursor: pointer;
@@ -786,15 +791,18 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     position: absolute;
     width: 163px;
     z-index: 99999;
+    
+    left:465px;
 }
-.page-node-booking .form-submit:hover{
+/*.page-node-booking .form-submit:hover{
     bottom: 22px;
     left: 442px;
     position: absolute;
     width: 163px; 
     cursor: pointer;
     z-index: 99999;
-}.page-node-booking .unit-search-result-alt form{
+}*/
+.page-node-booking .unit-search-result-alt form{
     position: relative;
     left: 0;
     bottom: 0;
