@@ -32,7 +32,13 @@ h1 {
     color: #000;
 }
 h2 {
-    font-size: 1.143em;
+    font-size: 1.143em;/* 16 */
+}
+h2 {
+    margin:0 0 16px 0;
+    font-size: 1.429em;/* 20 - default */
+    line-height: 1.4;
+    color:#000;
 }
 p {
     margin: 0 0 1.2em;
@@ -476,22 +482,11 @@ h1#site-name {
     padding: 20px 0 15px 44px;
     margin: 0px;
 }
-.node-type-casas #main-wrapper #main #content .section h1#page-title,
-.page-que-hacer #main-wrapper #main #content .section h1#page-title,
-.page-reservas #main-wrapper #main #content .section h1#page-title{
-    font-weight: bold;
-    left: -230px;
-    position: absolute;
-    top: -59px;
-}
 .node-type-casas #main-wrapper #main #breadcrumb h1{
     margin: 10px 0 0 0;
 }
 .node-type-casas #main-wrapper #main #breadcrumb .breadcrumb a:link{
     color: #1f83b1;
-}
-.node-type-casas #main-wrapper  #main #sidebar-first h2{
-    display: none;
 }
 
 
@@ -518,25 +513,7 @@ h1#site-name {
     padding : 40px;
     padding-top: 0px;
 }
-.node-type-casas #main-wrapper #main #content .section .content .group-header{
-    /*position: absolute;*/
-    /*    top:400px;
-        z-index: 9999;*/
-}
-
-
-/**/
-.node-type-casas #main-wrapper #main #content .section .content .group-header .field-items{
-    height: 88px;
-    background: #f7f7f7;
-    width: 615px;
-}
-.node-type-casas #main-wrapper #main #content .section .content .group-header .field-items .field-item{
-    line-height: 88px;
-    float: right;
-    margin-right: 22px;
-}
-.node-type-casas #main-wrapper #main #content .section .content .group-header .field-items a.link_disponibilidad{
+/*.node-type-casas .group-header a.link-disponibilidad{
     background:  url(../images/bgbuttonr.png) repeat-x top center ;
      color: #FFFFFF;
     display: inline-block;
@@ -547,8 +524,11 @@ h1#site-name {
     text-align: center;
     text-transform: uppercase;
     width: 145px;
-    /*float: right;*/
-}
+      display: block;
+    position: absolute;
+    right: 24px;
+    top: 26px;
+}*/
 .node-type-casas #main-wrapper #main #content .section .content .group-right{
     position: absolute;
     width: 615px;
@@ -583,23 +563,16 @@ h1#site-name {
     position: relative;
     top: 0;
 }
-.node-type-casas .group-right .field-name-field-comentario{
-    left: 322px;
-    position: relative;
-    top: 255px;
-    width: 276px;
-    color: #999;
-}
 
 /* Group left*/
 .node-type-casas #main-wrapper #main #content .section .content .group-left{
     left: 0;
     position: relative;
     top: 0;
-    padding-top: 420px;
+    /*padding-top: 420px;*/
+    padding-top:512px;
 }
 .node-type-casas #main-wrapper #main #content .section .content .group-left{
-padding-bottom: 75px;
     width: 45%;
 }
 .node-type-casas #main-wrapper #main #content .section .content .group-left .field-name-field-caracteristicas{
@@ -608,9 +581,7 @@ padding-bottom: 75px;
     top: 500px;
     width: 296px;
 }
-.node-type-casas #main-wrapper #main #content .section .content .group-left .field-items {
-    color :#8c8c8c;
-}
+
 .node-type-casas #main-wrapper #main #content .section .group-left .field-items p.position1{
     padding-left: 20px;
     position: absolute;
@@ -676,39 +647,38 @@ padding-bottom: 75px;
     font-weight: bold;
 }
 /*slide show control*/
-.node-type-casas #main-wrapper #main #content .section .group-right .field-items #field-slideshow-1-controls,
-.node-type-instalaciones .content .field-items #field-slideshow-1-controls {
+.field-slideshow{
+    height:696px !important;
+}
+#field-slideshow-1-controls{
     position: absolute;
     top: 204px;
     z-index: 99999;
     width: 100%;
 }
-.node-type-casas #main-wrapper #main #content .section .group-right .field-items #field-slideshow-1-controls .prev,
-.node-type-instalaciones .content .field-items #field-slideshow-1-controls .prev{
-  background: url("../images/icon_slide.png") no-repeat scroll 10px center transparent;
+#field-slideshow-1-controls .prev{
+  background: url("../images/gallery-arrows.png") no-repeat scroll 0 center transparent;
        display: block;
-    height: 53px;
+    height: 55px;
     margin-left: 20px;
     position: absolute;
     left: 0;
     text-indent: -99999px;
     top: 1px;
-    width: 55px;
+    width: 31px;
 }
-.node-type-casas #main-wrapper #main #content .section .group-right .field-items #field-slideshow-1-controls .next,
-.node-type-instalaciones .content .field-items #field-slideshow-1-controls .next{
-     background: url("../images/icon_slide.png") no-repeat scroll -63px 0 transparent;
+#field-slideshow-1-controls .next{
+     background: url("../images/gallery-arrows.png") no-repeat scroll -31px 0 transparent;
        display: block;  
-    height: 53px;
+    height: 55px;
     margin-right: 20px;
     position: absolute;
     right: 0;
     text-indent: -99999px;
     top: 1px;
-    width: 55px;
+    width: 31px;
 }
-.node-type-casas #main-wrapper #main #content .section .group-right .field-items .field-slideshow-caption
-{
+.node-type-casas .field-slideshow-caption{
     background: url(../images/bg_des_slide.png) repeat center center;
 
     display: block;
@@ -717,24 +687,16 @@ padding-bottom: 75px;
     position: absolute;
     top: 404px;
     width: 605px;
-    padding-left: 10px;
+    line-height:47px;
+    opacity:0.6;
+    text-align:center;
+    padding:0 10px;
 }
 
 /*Group Footer*/
 .node-type-casas #main-wrapper #main #content .section .group-footer{
     text-align: center;;
     padding-top: 20px;
-}
-.node-type-casas #main-wrapper #main #content .section .group-footer .field-items > div > a.link_reservar_ahora{
-    background: url(../images/button-ft.png) repeat-x top center;
-    width: 301px;
-    height: 49px;
-    display:inline-block;
-    color: #fff;
-    line-height: 49px;
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 /*end*/
 #main-menu-links {
@@ -844,14 +806,10 @@ padding-bottom: 75px;
 /* ----------------- Content ------------------ */
 
 h1#page-title {
-    font-size: 2em;
+    font-size: 20px;
     line-height: 1;
 }
-#content h2 {
-    margin-bottom: 2px;
-    font-size: 1.429em;
-    line-height: 1.4;
-}
+
 .node .content {
     font-size: 1.071em;
 }
@@ -1030,12 +988,12 @@ ul.links {
     margin: 0 0 20px;
 }
 .sidebar h2 {
-    margin: 0 0 0.5em;
+    /*margin: 0 0 0.5em;
     border-bottom: 1px solid #d6d6d6;
     padding-bottom: 5px;
     text-shadow: 0 1px 0 #fff;
     font-size: 1.071em;
-    line-height: 1.2;
+    line-height: 1.2;*/
 }
 .sidebar .block .content {
     font-size: 0.914em;
@@ -1191,7 +1149,6 @@ ul.links {
     letter-spacing: 0.2px;
     min-width: 920px;
     width: 970px;
-    padding-top: 85px;
 }
 
 
@@ -2133,56 +2090,6 @@ mainbody
     height: 25px;
     width: 192px;
 }
-.front #block-rooms-booking-manager-rooms-availability-search{
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 65px;
-}
-.front #block-rooms-booking-manager-rooms-availability-search .content,
-.front #block-rooms-booking-manager-rooms-availability-search h2{
-    background: none repeat scroll 0 0 #FFFFFF;
-    padding: 25px 35px;
-    width: 190px;/*dung chung*/
-}
-.front #block-rooms-booking-manager-rooms-availability-search h2{
-    color: #000000;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.front #main-wrapper .region-content .block-nodeblock ,
-.front #main-wrapper .region-content .block-system{
-    float: left;
-    width: 300px;
-    margin-left: 25px;
-
-}
-.front #main-wrapper .region-content .block-nodeblock .content,
-.front #main-wrapper .region-content .block-system .content,
-.front #main-wrapper .region-content .block-nodeblock  h2,
-.front #main-wrapper .region-content .block-system h2{
-    background: #fff;
-    padding: 30px;
-}
-.front #main-wrapper .region-content .container-inline-date .date-padding{
-    padding: 0;
-}
-.front #main-wrapper .region-content .block-nodeblock,
-.front #main-wrapper .region-content .block-system{
-    position: relative;
-    left: 0;    top: 0;
- 
-}
-.front #main-wrapper .region-content #block-nodeblock-40 .field-name-body {
-    left: 13px;
-    position: absolute;
-    top: 60px;
-
-}
-.front #main-wrapper .region-content  #block-nodeblock-39 h2{
-    padding: 20px 10px 0;
-}
-
 .front #main-wrapper .region-content #block-nodeblock-40 .field-name-body p{
     color: #333;
     text-transform: uppercase;
@@ -2190,19 +2097,6 @@ mainbody
 }
 .front #main-wrapper .region-content .block-system .content{
     margin: 0;
-}
-.front #main-wrapper .region-content .block-nodeblock h2,
-.front #main-wrapper .region-content .block-system h2{
-    color: #1f83b1;
-    margin-bottom: 2px;
-    margin-top: 0;
-    text-align: center;
-    padding: 15px 20px 38px;
-    font-size: 25px;
-    font-weight: bold;
-}
-.front #main-wrapper .region-content #block-nodeblock-39{
-    margin-left: 0
 }
 .front #main-wrapper .region-content #block-nodeblock-40 .field-name-field-imagen{
     height: 150px
@@ -2222,25 +2116,9 @@ mainbody
     position: absolute;
 
 }
-.front #main-wrapper .region-content .field-type-link-field a{
-   background: url("../images/all_arrow.png") no-repeat scroll -5px -6px transparent;
-    border: 10px solid #FFFFFF;
-    border-radius: 60px 60px 60px 60px;
-    border-radius: 50px;
-    display: block;
-    height: 37px;
-    left: 100px;
-    position: relative;
-    text-indent: -99999px;
-    top: -10px;
-    width: 40px;
-}
+
 .front #main-wrapper .region-content #block-nodeblock-40 .field-type-link-field a{
      top: -25px;
-}
-.front.background3,.front.background2,.front.background1,.front.background0{
-    background-position: center;
-    background-repeat: no-repeat;
 }
 /* footer
 */

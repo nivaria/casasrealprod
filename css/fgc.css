@@ -15,17 +15,6 @@
     border: none;
 } 
 /* search submit*/
-.form-submit{
-    background: url(../images/bgbutton.png)  repeat-x left top;
-    border: medium none;
-    color: #BDDCE9;
-    font-weight: bold;
-    height: 50px;
-    text-transform: uppercase;
-    width: 234px;
-    cursor: pointer;
-
-}
 /*.form-submit:hover{
             background: url(../images/bgbutton.png)  no-repeat left top;
           border: medium none;
@@ -49,8 +38,8 @@
     cursor: pointer;
     font-size: 12px;
 }*/
-/**/
-#block-nodeblock-30  .field-item p {
+/*DELETE: "Consulta nuestra política de cancelación*/
+/*#block-nodeblock-30  .field-item p {
     background: url(../images/bgbutton.png)  repeat-x left top;
     color: #FFFFFF;
     cursor: pointer;
@@ -62,60 +51,47 @@
     text-transform: uppercase;
     width: 210px;
 
-}
+}*/
 .front #rooms-booking-availability-search-form .form-submit{
-    font-size: 12px;
-    height: 50px;
-    width: 190px;
+    width: 100%;
 }
 /*page-reservas*/
 .page-reservas {
 
 }
-#block-nodeblock-30 h2, #block-nodeblock-30  ul{
+/*#block-nodeblock-30 h2,
+#block-nodeblock-30  ul{
     padding: 0;
-}
+}*/
 #block-nodeblock-30 h2
 {
-    background: url("../images/all_icon1.png") no-repeat scroll 5px 11px transparent;
+    background: url("../images/all_icon1.png") no-repeat scroll 5px 3px transparent;
     color: #000000;
     display: block !important;
-    font-size: 18px;
+    /*font-size: 18px;
     font-weight: bold !important;
     margin-bottom: 10px;
-    margin-left: -21px;
-    padding: 15px 0 15px 41px;
-    width: 216px;
-
+    margin-left: -21px;*/
+    padding: 0 0 0 41px;
 }
 
-#block-nodeblock-30 li{
-   background: url("../images/icon_select_check.png") no-repeat scroll -89px 7px transparent;
-    color: #666666;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 26px;
-    list-style: none outside none;
-    padding-left: 30px;
-    text-transform: uppercase;
-}
+
 #block-nodeblock-20 .field-name-field-imagen img{
-    height: 155px;
-    margin-left: -30px;
-    width: 255px;
+    margin-left: -21px;
+    margin-top:16px;
 }
-#block-nodeblock-20,
+/*#block-nodeblock-20,
 #block-nodeblock-30{
     left: 0;
     padding-top: 0 !important;
     position: relative;
     top: 0;
     width: 215px;
-}
+}*/
 /*#block-nodeblock-30 .content{
       padding: 15px 20px;
 }*/
-#block-nodeblock-20 h2{
+/*#block-nodeblock-20 h2{
     border-bottom: medium none;
     color: #000000;
     display: block !important;
@@ -134,7 +110,7 @@
     color: #999;
     margin: 0;
     padding-top: 25px;
-}
+}*/
 /*
 menu sidebar*/
 /*phan menu dung chung ko thay doi*/
@@ -183,9 +159,6 @@ menu sidebar*/
     width: 227px;
 
 }
-#sidebar-first .block{
-    padding: 15px 20px;
-}
 #main-wrapper #main .sidebar .block-menu-block .content ul li span.menu-link-title a {
     color: #1F83B1;
     font-size: 20px;
@@ -201,8 +174,8 @@ node-type-casas
 */
 .node-type-casas #content .section  .region-content .node-casas .group-left .field-name-field-caracteristicas .field-label,
 .node-type-instalaciones .group-third .field-name-field-caracteristicas .field-item p {
-    background: url("../images/all_icon1.png") no-repeat scroll 20px -359px, url("../images/bg_menu.png") repeat scroll center top transparent;
-    padding: 35px 0 10px 60px;
+    background: url("../images/all_icon1.png") no-repeat scroll 20px -383px, url("../images/bg_menu.png") repeat scroll center top transparent;
+    padding: 12px 0 10px 60px;
     border-bottom: 2px solid #fff;
 }
 .node-type-casas #content .section  .region-content .node-casas .group-left .field-name-field-caracteristicas  .field-items,
@@ -341,7 +314,7 @@ table.fc-border-separate td{
     left: 579px!important;
     position: absolute;
     text-indent: -99999px;
-    top: 102px!important;
+    top: 106px!important;
     width: 20px;
     z-index: 99999;
 }
@@ -520,6 +493,7 @@ table.fc-border-separate td{
     /*    line-height: 33px;*/
     text-transform: uppercase;
     width: 200px!important;
+    width: 242px!important;
     text-align: right;
     margin-left: 5px!important;
 }
@@ -532,11 +506,16 @@ table.fc-border-separate td{
     font-size: 27px;
     margin-top: -3px;
     color: #000;
+    
+    font-weight:normal;
+    font-size:32px;
+    color:#333;
 }
 .page-node-booking .unit-search  .booking-info .label,
 .page-booking  .booking-info .label{
     text-transform: uppercase;
     margin-right: 30px;
+    font-weight:normal;
 }
 .page-node-booking .unit-search  .booking-info .booking-avg-price .label,
 .page-booking .unit-search  .booking-info .booking-avg-price .label{
@@ -545,7 +524,7 @@ table.fc-border-separate td{
 .page-node-booking  .unit-search-result .unit-result{
     left: 0;
     padding-bottom: 0px!important;
-    padding-top: 100px;
+    padding-top: 68px;
     position: relative;
     top: 0;
 }
@@ -586,7 +565,6 @@ table.fc-border-separate td{
 }
 .unit-search #nivaria-rooms-booking-display-unit-availability-search-form label,
 .front #rooms-booking-availability-search-form label,
-.front #rooms-booking-availability-search-form .description,
 .unit-search #nivaria-rooms-booking-display-unit-availability-search-form .description,
 .region-sidebar-first #block-rooms-booking-manager-rooms-availability-search #rooms-booking-availability-search-form label,
 .region-sidebar-first #block-rooms-booking-manager-rooms-availability-search #rooms-booking-availability-search-form .description{
@@ -639,11 +617,11 @@ table.fc-border-separate td{
     width: 100%;
 }
 /*page-node-8*/
-.page-node-8 #content .section,
+/*.page-node-8 #content .section,
 .page-node-7 #content .section,
 .page-node-9 #content .section{
     padding: 0 40px;
-}
+}*/
 .page-node-8 #content .section  .group-right,
 .page-node-7 #content .section  .group-right,
 .page-node-9 #content .section  .group-right{
@@ -774,9 +752,7 @@ body.page-booking #rooms-booking-availability-search-form {
 
     width: 930px;
 }
-.page-booking  .booking-info .booking-price .data{
-    color: #000;
-}
+
 
 body.page-booking #rooms-booking-availability-search-form .form-submit{
     position: relative;
@@ -794,18 +770,19 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     cursor: pointer;
     height: 50px;
     left: 445px;
+    left:465px;
     position: absolute;
     top: -80px;
     z-index: 999999;
 }
-.page-booking .form-submit:hover{
+/*.page-booking .form-submit:hover{
     cursor: pointer;
     height: 50px;
     left: 445px;
     position: absolute;
     top: -79px;
     z-index: 999999;
-}
+}*/
 .page-node-booking .form-submit{
     bottom: 26px;
     cursor: pointer;
@@ -814,15 +791,18 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     position: absolute;
     width: 163px;
     z-index: 99999;
+    
+    left:465px;
 }
-.page-node-booking .form-submit:hover{
+/*.page-node-booking .form-submit:hover{
     bottom: 22px;
     left: 442px;
     position: absolute;
     width: 163px; 
     cursor: pointer;
     z-index: 99999;
-}.page-node-booking .unit-search-result-alt form{
+}*/
+.page-node-booking .unit-search-result-alt form{
     position: relative;
     left: 0;
     bottom: 0;
@@ -831,8 +811,5 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     display: block !important;
 }
 #rooms-booking-availability-search-form .form-item-children-count label {
-    display: block !important;
-}
-#rooms-booking-availability-search-form .form-item-children-count div.description {
     display: block !important;
 }

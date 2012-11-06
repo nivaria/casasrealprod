@@ -105,7 +105,7 @@ print $hide_site_name;?>
         <?php if ($breadcrumb): ?>
         <div id="breadcrumb"><?php print $breadcrumb; ?>
           <?php if ($title != ""): ?>
-          <div class="breadcrumb">&raquo; <?php print t($title) ?></div>
+          <div class="breadcrumb">&nbsp;|&nbsp;&nbsp;<span><?php print t($title) ?></span></div>
           <?php endif; ?>
           <?php if ($title): ?>
             <h1 class="title" id="page-title"> <?php print $title; ?> </h1>
@@ -216,6 +216,7 @@ print $hide_site_name;?>
     <!-- /#triptych, /#triptych-wrapper -->
     <?php endif; ?>
 <!--footer-->
+    <div id="pre-footer-holder"><div id="pre-footer"></div></div>
     <div id="footer-wrapper">
       <div class="section">
         <?php if ($page['footer_firstcolumn'] || $page['footer_secondcolumn'] || $page['footer_thirdcolumn'] || $page['footer_fourthcolumn']): ?>
