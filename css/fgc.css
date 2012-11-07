@@ -373,8 +373,8 @@ table.fc-border-separate td{
         width: 39px !important;
         z-index: 1;
         left: -2px;*/
-    background-color: #FFFFFF !important;
-    border: medium none !important;
+    /*background-color: #FFFFFF !important;
+    border: medium none !important;*/
     text-align: center;
     width: 32px;
 }
@@ -756,7 +756,7 @@ body.page-booking #rooms-booking-availability-search-form {
 body.page-booking #rooms-booking-availability-search-form .form-submit{
     position: relative;
     left: 0;
-    top: 0;
+    top: 24px;
 }
 .page-booking .content #rooms-booking-availability-search-form{
     position: relative;

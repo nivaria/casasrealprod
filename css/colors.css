@@ -26,6 +26,7 @@ body.overlay {
     position: absolute;
     top: 0;
     width: 100%;
+    height:158px;
 }
 
 a {
@@ -593,7 +594,6 @@ body.page-booking .form-actions .form-submit{
 body.page-booking #edit-actions #edit-submit:hover{
     cursor: pointer;
 }
-body.page-booking #rooms-booking-availability-search-form > div > div label,
 body.page-booking #rooms-booking-availability-search-form > div > div .description{
     display: none;
 }
