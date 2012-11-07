@@ -56,8 +56,8 @@ jQuery(document).ready(function($){
             height: content + "px"
         })
     }
-    $("#rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0").attr("value","ENTRADA");
-    $("#rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0").attr("value","SALIDA");
+    /*$("#rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0").attr("value","ENTRADA");
+    $("#rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0").attr("value","SALIDA");*/
     //$("#rooms-booking-availability-search-form #edit-adults-count").find('option')
     //.removeAttr('selected')
     //.eq(0).attr('selected', 'selected')

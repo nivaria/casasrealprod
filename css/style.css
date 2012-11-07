@@ -303,7 +303,10 @@ ul.tips {
 }
 #logo {
     float: left; /* LTR */
-    padding: 15px 15px 20px 10px; /* LTR */
+    /*padding: 15px 15px 20px 10px;*/
+    position:relative;
+    top:16px;
+    left:25px;
 }
 #name-and-slogan {
     float: left; /* LTR */
@@ -695,20 +698,29 @@ h1#site-name {
 
 /*Group Footer*/
 .node-type-casas #main-wrapper #main #content .section .group-footer{
-    text-align: center;;
+    text-align: center;
     padding-top: 20px;
 }
 /*end*/
 #main-menu-links {
     font-size: 0.929em;
     margin: 0;
-    padding: 0 15px;
 }
 #main-menu-links li {
     float: left; /* LTR */
     list-style: none;
     padding: 0 1px;
     margin: 0 1px;
+}
+#main-menu-links li.first a,
+#main-menu-links li.first{
+    margin-left: 0;
+    padding-left: 0;
+}
+#main-menu-links li.last a,
+#main-menu-links li.last{
+    margin-right: 0;
+    padding-right: 0;
 }
 #main-menu-links a {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
@@ -724,7 +736,11 @@ h1#site-name {
     border-left:  1px solid #999;
 }
 #main-menu  #main-menu-links{
-    padding-top: 85px;
+     display: block;
+    left: 296px;
+    padding: 0;
+    position: absolute;
+    top: 95px;
 }
 
 #main-menu-links li a:hover,
@@ -1074,6 +1090,7 @@ ul.links {
     position: relative;
     top: 0;
     left: 0;
+    height:214px;
 }
 #footer-wrapper a {
     color: #fcfcfc;
@@ -1098,11 +1115,11 @@ ul.links {
     border: none;
 }
 #footer .block {
-    margin: 0.5em 0;
+    /*margin: 0.5em 0;*/
 }
 #footer .block .content {
-    padding: 0.5em 0;
-    margin-top: 0;
+    /*padding: 0.5em 0;
+    margin-top: 0;*/
 }
 #footer .block h2 {
     margin: 0;
@@ -1149,6 +1166,7 @@ ul.links {
     letter-spacing: 0.2px;
     min-width: 920px;
     width: 970px;
+    padding-top:24px;
 }
 
 
@@ -1220,7 +1238,8 @@ ul.links {
     line-height: 22px;
     text-transform: uppercase
 }
-#footer-wrapper li a{
+#footer-wrapper li a,
+#footer-wrapper li a:hover{
     border: none;
     color: #5F5F5F;
 }
@@ -1241,6 +1260,8 @@ ul.links {
     margin: 0;
     position: absolute;
     width: 100%;
+    padding-bottom:12px;
+    padding-top:18px;
 }
 #footer-wrapper #block-menu-menu-privacy-menu .content{
     width: 970px;
@@ -2040,7 +2061,7 @@ header*/
 
 }
 #header #logo{
-    background: url("../images/logo.png") no-repeat scroll center center transparent;
+    background: url("../images/logo-casas-camino-real.png") no-repeat scroll center center transparent;
     height: 94px;
     width: 210px;
 }
@@ -2103,6 +2124,7 @@ mainbody
 }
 .front #main-wrapper .region-content #block-nodeblock-40 .content{
     padding: 10px;
+    height:150px;
 }
 
 .front #main-wrapper .region-content #block-nodeblock-40 .field-name-field-imagen img{
