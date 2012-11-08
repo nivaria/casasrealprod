@@ -571,7 +571,6 @@ table.fc-border-separate td{
     padding-left: 7px;
 }
 .unit-search #nivaria-rooms-booking-display-unit-availability-search-form .description,
-.region-sidebar-first #block-rooms-booking-manager-rooms-availability-search #rooms-booking-availability-search-form label,
 .region-sidebar-first #block-rooms-booking-manager-rooms-availability-search #rooms-booking-availability-search-form .description{
     display: none;
 }
@@ -669,7 +668,7 @@ table.fc-border-separate td{
 .page-reservas .region-sidebar-first #block-rooms-booking-manager-rooms-availability-search #rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0,
 .page-reservas .region-sidebar-first #block-rooms-booking-manager-rooms-availability-search #rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0
 {
-    background: url("../images/input_search.png") no-repeat scroll -4px 0 transparent;
+    /*background: url("../images/input_search.png") no-repeat scroll -4px 0 transparent;*/
 
     border: medium none;
     height: 31px;

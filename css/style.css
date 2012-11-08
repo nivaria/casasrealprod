@@ -531,15 +531,11 @@ h1#site-name {
     right: 24px;
     top: 26px;
 }*/
-.node-type-casas #main-wrapper #main #content .section .content .group-right{
-    position: absolute;
-    width: 615px;
-    margin-top:10px;
-}
 
-.node-type-casas #main-wrapper #main #content .section .content .group-right .field-label{
+
+/*.node-type-casas #main-wrapper #main #content .section .content .group-right .field-label{
     display: none;
-}
+}*/
 .node-type-casas #main-wrapper #main #content .section .group-right .field-items p{
     margin: 0;
 }
@@ -567,31 +563,7 @@ h1#site-name {
 }
 
 /* Group left*/
-.node-type-casas #main-wrapper #main #content .section .content .group-left{
-    left: 0;
-    position: relative;
-    top: 0;
-    /*padding-top: 420px;*/
-    padding-top:512px;
-}
-.node-type-casas #main-wrapper #main #content .section .content .group-left{
-    width: 45%;
-}
-.node-type-casas #main-wrapper #main #content .section .content .group-left .field-name-field-caracteristicas{
-    left: 320px;
-    position: absolute;
-    top: 500px;
-    width: 296px;
-}
 
-.node-type-casas #main-wrapper #main #content .section .group-left .field-items p.position1{
-    padding-left: 20px;
-    position: absolute;
-    top: -69px;
-    z-index: 9999;
-
-
-}
 .node-type-casas #main-wrapper #main #content .section .group-left .field-items p.position1 span {
     color: #1f84b2;
     font-size: 17px!important;
@@ -683,18 +655,19 @@ h1#site-name {
     height: 47px;
     left: 0;
     position: absolute;
-    top: 404px;
     width: 605px;
     line-height:47px;
     opacity:0.6;
     text-align:center;
     padding:0 10px;
+    bottom:0px;
 }
 
 /*Group Footer*/
 .node-type-casas #main-wrapper #main #content .section .group-footer{
     text-align: center;
     padding-top: 20px;
+    padding-bottom:20px;
 }
 /*end*/
 #main-menu-links {
@@ -893,7 +866,6 @@ h1#page-title {
 .link-wrapper {
     text-align: right;
 }
-.field-type-image img,
 .user-picture img {
     margin: 0 0 1em;
 }

@@ -94,7 +94,7 @@ body.front #pre-footer{
 }
 /* lists */
 
-
+.field-type-text-long ul,
 .field-name-body ul,
 .field-type-text ul,
 .field-type-text-with-summary ul,
@@ -104,6 +104,7 @@ body.front #pre-footer{
     margin:0;
     padding:0;
 }
+.field-type-text-long ul li,
 .field-name-body ul li,
 .field-type-text ul li,
 .field-type-text-with-summary ul li,
@@ -220,6 +221,7 @@ body.front #pre-footer{
     background-color: #F7F7F7;
     margin-top: 16px;
     padding: 24px 20px;
+    margin-bottom:16px;
 }
 .node-type-casas .group-header .field-name-field-capacidad .field-label,
 .node-type-casas .group-header .field-name-field-precio-desde .field-label{
@@ -836,9 +838,9 @@ body.page-checkout-complete #block-views-2665b9c087df1fe94339a321de598d08{
 .unit-search-form label{
     white-space:nowrap;
 }
-.field-name-field-caracteristicas .field-label{
+/*.field-name-field-caracteristicas .field-label{
     display:none;
-}
+}*/
 body.page-libro-de-visitas #sidebar-second .field-name-field-enlace a{
     font-size: 13px;
     letter-spacing: 0;
@@ -948,4 +950,18 @@ body.node-type-webform form textarea{
 }
 body.node-type-webform #edit-captcha-response{
     width:216px;
+}
+.field-slideshow-wrapper{
+    position:relative;
+}
+body.node-type-casas .field-name-field-imagenes{
+     background-color: #FFFFFF;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-top: 1em;
+}
+.field-slideshow-slide{
+    width:640px !important;
+    height:420px !important;
+    text-align:center;
 }
