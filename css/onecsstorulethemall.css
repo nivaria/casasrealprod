@@ -729,6 +729,7 @@ body.page-checkout input[type=text]{
 }
 body .selectBox-dropdown,
 form input[type=text],
+form input[type=email],
 form textarea{
     -webkit-box-shadow: inset 0px 1px 1px 1px #ddd;
     box-shadow: inset 0px 1px 1px 1px #ddd;
@@ -939,4 +940,12 @@ body.page-node-add-libro-de-visitas #edit-actions{
      float: right;
     margin: 1em 0 0;
     padding-top: 0;
+}
+body.node-type-webform form input[type=text],
+body.node-type-webform form input[type=email],
+body.node-type-webform form textarea{
+    width:426px;
+}
+body.node-type-webform #edit-captcha-response{
+    width:216px;
 }

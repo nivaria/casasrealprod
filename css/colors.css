@@ -87,20 +87,20 @@ body.node-type-webform #content .region.region-content{
     padding: 20px 40px;
 
 }
-#edit-submitted-nombre-contacto,
+/*#edit-submitted-nombre-contacto,
 #edit-submitted-email-contacto{
 background: url("../images/bg_input_contact.png") no-repeat scroll -8px 0 transparent;
     border: medium none;
     height: 25px;
     width: 417px;
-}
-#edit-submitted-comentario-contacto{
+}*/
+/*#edit-submitted-comentario-contacto{
        background: url("../images/bg_input_contact.png") no-repeat scroll -7px -33px transparent;
     height: 128px;
     border: medium none;
     padding: 7px;
     width: 426px;
-}
+}*/
 body.node-type-webform #content .grippie{
     display: none;
 }
@@ -117,12 +117,12 @@ body.node-type-webform #content img{
     float: left;
     padding-right: 10px;
 }
-body.node-type-webform #content #edit-captcha-response{
+/*body.node-type-webform #content #edit-captcha-response{
    background: url("../images/bg_input_contact.png") no-repeat scroll -6px -168px transparent;
     border: medium none;
     height: 23px;
     width: 230px;
-}
+}*/
 body.node-type-webform #content #edit-submit{
     background: url("../images/bgbuttoncontact.png") repeat-x scroll 0 0 transparent;
     border: medium none;
