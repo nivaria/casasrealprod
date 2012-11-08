@@ -200,7 +200,7 @@ body.page-booking  #page-wrapper{
 }
 .page-servicios-extras #page-wrapper .section,
 .node-type-instalaciones #page-wrapper .section{
-    padding-right: 3px;
+    /*padding-right: 3px;*/
     padding-top: 3px;
 }
 body.page-servicios-extras #content,
@@ -282,17 +282,12 @@ body.page-servicios-extras .group-right img{
     width: 100%;
 }
 .node-type-instalaciones .group-third{
-    float: right;
-    position: absolute;
-    right: 0;
-    top: 495px;
-    width: 45%;
+   position: static;
+    width: 50%;
+    float:right;
 }
 .node-type-instalaciones .group-fourth{
-    position: absolute;
-    right: 0;
-    top: 740px;
-    width: 45%;
+
 }
 .node-type-instalaciones .group-fourth .field-item p
 /*.node-type-instalaciones .group-first .field-name-body .field-item p*/{
@@ -308,8 +303,12 @@ body.page-servicios-extras .group-right img{
     padding: 30px;
 }
 .node-type-instalaciones .group-first{
-    padding-top: 447px;
-    width: 45%;
+    float: none;
+    height: 420px;
+    margin-bottom: 1em;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
 }
 /*.node-type-instalaciones .group-first .field-name-body .field-item p strong{
       background: url("../images/note1.png") no-repeat scroll left top transparent;
@@ -323,8 +322,9 @@ body.page-servicios-extras .group-right img{
 }*/
 
 .node-type-instalaciones .group-second{
-    position: absolute;
-    top: 0;
+  float: left;
+    position: static;
+    width: 50%;
 }
 .node-type-instalaciones .field-slideshow-caption{
     background: url("../images/bg_des_slide.png") repeat scroll 0 0 transparent;
@@ -776,7 +776,7 @@ li.active-trail{
     text-align: left;
 }
 .page-libro-de-visitas #content{
-    padding: 0 40px;
+    padding: 20px 40px;
     width: 620px
 }
 .page-reservas #main-wrapper #main #sidebar-first .section{
@@ -884,10 +884,6 @@ div.fivestar-widget-static .star span.on{
 .page-libro-de-visitas #page-wrapper #sidebar-second .section .content .view-content .views-row .views-field .field-content img{
     width:255px;
     height: 150px;
-}
-.page-libro-de-visitas #page-wrapper #sidebar-second .section #block-views-casas-block{
-    background: none;
-    border: none;
 }
 .page-libro-de-visitas #page-wrapper #sidebar-second .section #block-nodeblock-42 h2{
     display: none;

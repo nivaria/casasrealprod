@@ -648,10 +648,6 @@ h1#site-name {
     color: #000;
     font-weight: bold;
 }
-/*slide show control*/
-.field-slideshow{
-    height:696px !important;
-}
 #field-slideshow-1-controls{
     position: absolute;
     top: 204px;

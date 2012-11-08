@@ -236,12 +236,13 @@ body.front #pre-footer{
     font-weight: normal;
 }
 fieldset.group-comentario{
-    float: right;
-    width: 296px;
     border:0 none;
+    margin:1em 0 0;
+    top:auto;
 }
 fieldset.group-comentario .fieldset-wrapper{
     margin:0;
+    padding:0;
 }
 fieldset.group-comentario legend{
     display:none;
@@ -296,7 +297,7 @@ fieldset.group-comentario .field-name-field-titulo-comentario{
 fieldset.group-comentario .field-name-field-comentario{
      background: url("../images/bg_menu.png") repeat scroll center top transparent;
     border:0 none;
-    padding: 12px 0 10px 24px;
+    padding: 12px 24px 10px 24px;
 }
 fieldset.group-comentario,
 .node-type-casas .field-items {
@@ -833,4 +834,109 @@ body.page-checkout-complete #block-views-2665b9c087df1fe94339a321de598d08{
 }
 .unit-search-form label{
     white-space:nowrap;
+}
+.field-name-field-caracteristicas .field-label{
+    display:none;
+}
+body.page-libro-de-visitas #sidebar-second .field-name-field-enlace a{
+    font-size: 13px;
+    letter-spacing: 0;
+}
+body.page-libro-de-visitas .field-name-field-casas .field-item{
+    display:inline;
+    padding-right:0.5em;
+}
+body.page-libro-de-visitas #block-views-casas-block{
+    background: none;
+    border: none;
+    padding:0;
+    width:252px;
+}
+body.page-libro-de-visitas #block-nodeblock-42.block{
+    padding: 10px;
+    width: 232px;
+}
+/* formulario libro de visitas */
+body.page-node-add-libro-de-visitas #content{
+    padding:0 0 20px;
+    width:100%;
+    overflow:hidden;
+}
+body.page-node-add-libro-de-visitas #content .section{
+    margin: 20px 42px;
+    padding: 20px 22px;
+    background-image:url('../images/bg_menu.png');
+    background-repeat: repeat;
+}
+body.page-node-add-libro-de-visitas form input[type=text]{
+    width:100%;
+}
+body.page-node-add-libro-de-visitas #edit-field-nombre{
+     float: left;
+    width: 48%;
+}
+body.page-node-add-libro-de-visitas #edit-field-email{
+     float: right;
+    width: 48%;
+}
+body.page-node-add-libro-de-visitas #edit-field-casas{
+    clear:both;
+     float: left;
+    width: 48%;
+}
+body.page-node-add-libro-de-visitas #edit-field-fecha-de-la-estancia{
+     float: right;
+    width: 48%;
+}
+body.page-node-add-libro-de-visitas #edit-field-fecha-de-la-estancia fieldset{
+       background-color: transparent;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+body.page-node-add-libro-de-visitas #edit-field-fecha-de-la-estancia fieldset legend{
+        background-color: transparent;
+    border: 0 none;
+    font-family: arial;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    position: static;
+    text-indent: 0;
+}
+body.page-node-add-libro-de-visitas #edit-field-fecha-de-la-estancia fieldset .fieldset-wrapper{
+        margin: 0;
+    padding: 0;
+}
+body.page-node-add-libro-de-visitas #edit-field-fecha-de-la-estancia fieldset .fieldset-wrapper .date-padding{
+     float: none;
+    padding: 0;
+}
+body.page-node-add-libro-de-visitas #edit-field-fecha-de-la-estancia .form-type-select{
+    margin-right:0.5em;
+}
+body.page-node-add-libro-de-visitas .form-item-title{
+    clear:both;
+}
+body.page-node-add-libro-de-visitas #edit-field-casas .form-type-checkbox{
+    float:left;
+    width:50%;
+}
+#edit-field-acepto-condiciones .description{
+    display:inline;
+}
+body.page-node-add-libro-de-visitas #edit-field-acepto-condiciones{
+     float: left;
+    margin-top: 1em;
+    width: 44%;
+}
+body.page-node-add-libro-de-visitas #edit-field-acepto-condiciones .form-item{
+    margin:0;
+}
+body.page-node-add-libro-de-visitas #edit-actions{
+     float: right;
+    margin: 1em 0 0;
+    padding-top: 0;
 }

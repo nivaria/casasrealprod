@@ -67,6 +67,8 @@ jQuery(document).ready(function($){
     //.eq(0).attr('selected', 'selected')
     //.prepend("<option value=''>NIÑOS*</option>");
     //add select
+    jQuery("#edit-field-fecha-de-la-estancia-und-0-value-year").selectBox();
+    jQuery("#edit-field-fecha-de-la-estancia-und-0-value-month").selectBox();
     $("#rooms-booking-availability-search-form SELECT").selectBox();
     $("#nivaria-rooms-booking-display-unit-availability-search-form SELECT").selectBox();
     $("#rooms-booking-availability-search-form #edit-children-count").next().after('<div class="description"><12 ' + Drupal.t('years') + '</div>');
