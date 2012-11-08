@@ -447,10 +447,6 @@ table.fc-border-separate td{
     top: -69px;
     width: 100%;
 }*/
-.page-node-booking .unit-search  .unit-description .field-name-title h2
-{
-     background: url("../images/all_icon1.png") no-repeat scroll -6px -147px transparent;
-}
 .page-node-booking .unit-search  .unit-description .field-name-title h2,
 .page-booking .unit-search  .unit-description .field-name-title h2
 {
@@ -633,18 +629,7 @@ table.fc-border-separate td{
     text-transform: uppercase;
     width: 100%;
 }
-/*page-node-8*/
-/*.page-node-8 #content .section,
-.page-node-7 #content .section,
-.page-node-9 #content .section{
-    padding: 0 40px;
-}*/
-.page-node-8 #content .section  .group-right,
-.page-node-7 #content .section  .group-right,
-.page-node-9 #content .section  .group-right{
-    float: right;
-    width: 100%;
-}
+
 /**/
 .page-reservas #block-system-main .view-casas .view-header p{
     font-weight: bold;
@@ -709,11 +694,12 @@ body.page-booking #rooms-booking-availability-search-form {
 .page-booking  .unit-result .unit-description .node-casas .field-name-title
 {
     border-bottom: 2px solid #FFFFFF;
-    margin: 0 0 0 -20px!important;
+    /*margin: 0 0 0 -20px!important;*/
     padding: 0 0 10px 25px;
     position: absolute!important;
     top: 0;
     width: 97%;
+    left:0;
 }
 .unit-result .unit-description .node-casas .field-name-title
 {

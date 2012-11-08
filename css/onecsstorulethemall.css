@@ -268,7 +268,7 @@ fieldset.group-comentario legend{
 }
 #block-views-que-hacer-block-3 h2,
 #block-views-servicios-block-2 h2{
-         background: url("../images/all_icon.png") no-repeat scroll 20px -464px, url("../images/bg_menu.png") repeat scroll center top transparent;
+         background: url("../images/all_icon1.png") no-repeat scroll 20px -918px, url("../images/bg_menu.png") repeat scroll center top transparent;
 }
 #block-views-servicios-block-2{
     clear:both;
@@ -501,7 +501,7 @@ body.page-checkout-complete #content .block.block-views h2,
 body.page-checkout-complete #content .block-casasreal-functions h2,
 body.page-checkout-complete #content .block.block-block h2,
 body.page-checkout-complete #content .block.block-views h2{
-         background: url("../images/all_icon.png") no-repeat scroll 3px -464px, url("../images/bg_menu.png") repeat scroll center top transparent;
+         background: url("../images/all_icon1.png") no-repeat scroll 3px -918px, url("../images/bg_menu.png") repeat scroll center top transparent;
 }
 .view-casas-checkout-complete .views-row .views-field-field-imagenes,
 .view-casas-booking-cart-form .views-row .views-field-field-imagenes{
@@ -964,4 +964,13 @@ body.node-type-casas .field-name-field-imagenes{
     width:640px !important;
     height:420px !important;
     text-align:center;
+}
+.unit-result h2 a,
+.casascaminoreal_icon{
+    background-image:url('../images/all_icon1.png');
+    background-repeat:no-repeat;
+}
+.unit-result h2 a,
+.house_icon{
+    background-position:-8px -245px;
 }

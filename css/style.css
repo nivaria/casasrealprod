@@ -2074,7 +2074,7 @@ mainbody
 */
 .front #rooms-booking-availability-search-form  #edit-rooms-start-date-datepicker-popup-0,
 .front #rooms-booking-availability-search-form  #edit-rooms-end-date-datepicker-popup-0{
-   background: url("../images/input_search.png") no-repeat scroll -4px -44px transparent;
+   /*background: url("../images/input_search.png") no-repeat scroll -4px -44px transparent;*/
     border: medium none;
     height: 25px;
     width: 192px;
