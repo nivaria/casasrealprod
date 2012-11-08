@@ -602,7 +602,7 @@ body.page-booking #rooms-booking-availability-search-form > div > div .descripti
 #nivaria-rooms-booking-display-unit-availability-search-form #edit-rooms-end-date-datepicker-popup-0,
 #rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0, 
 #rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0{
-   background: url("../images/input_search.png") no-repeat scroll -4px -86px transparent;
+   /*background: url("../images/input_search.png") no-repeat scroll -4px -86px transparent;*/
     border: medium none;
     color: #CCCCCC;
     font-size: 11px;
@@ -619,17 +619,18 @@ product
 .unit-result .booking-date span.label {
     float: left;
     width: 190px;
-    width:216px;
+    width:200px;
 }
 .unit-result .booking-occupants span.label {
     float: left;
     width: 190px;
-    width:216px;
+    width:200px;
 }
 .unit-result .booking-avg-price span.label {
     float: left;
     margin-right: 28px;
-    width:216px;
+    margin-right:0;
+    width:200px;
 }
 .unit-result{
     padding-left: 20px;

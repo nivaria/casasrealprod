@@ -84,22 +84,29 @@ body.front #pre-footer{
     height: 32px;
     line-height: 32px;
     padding: 0 16px;
-    position: absolute;
-    right: 16px;
-    top: 16px;
+    position: static;
     width: auto;
-    z-index:100;
+    float:right;
+    margin-right:16px;
 }
 #ui-datepicker-div {
     z-index:9999 !important;
 }
 /* lists */
+
+
+.field-name-body ul,
+.field-type-text ul,
+.field-type-text-with-summary ul,
 #sidebar-second .block-views ul,
 #sidebar-second .block-nodeblock ul,
 #sidebar-first .block-nodeblock ul{
     margin:0;
     padding:0;
 }
+.field-name-body ul li,
+.field-type-text ul li,
+.field-type-text-with-summary ul li,
 #sidebar-second .block-views li,
 #sidebar-second .block-nodeblock li,
 #sidebar-first .block-nodeblock li,
@@ -719,13 +726,20 @@ body.page-checkout input[type=text]{
     color:#666;
     font-weight:normal;
 }
-body.page-checkout input[type=text],
-body.page-checkout textarea{
-    -webkit-box-shadow: inset 0px 1px 1px 1px #bbb;
-    box-shadow: inset 0px 1px 1px 1px #bbb;
+body .selectBox-dropdown,
+form input[type=text],
+form textarea{
+    -webkit-box-shadow: inset 0px 1px 1px 1px #ddd;
+    box-shadow: inset 0px 1px 1px 1px #ddd;
     border:0 none;
     border-radius:4px;
     -webkit-border-radius:4px;
+    background-image:none;
+}
+form input.hasDatepicker{
+    background-repeat:no-repeat;
+    background-image:url('../images/calendar-icon.png');
+    background-position:right center;
 }
 #edit-cart-contents legend{
     display:none;
@@ -804,4 +818,19 @@ body.page-checkout-complete #block-views-servicios-block-3{
 }
 body.page-checkout-complete #block-views-2665b9c087df1fe94339a321de598d08{
     clear:both;
+}
+#legend .not-available {
+    background-color: #f5f5f5;
+}
+.unit-search-info{
+     font-size: 12px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+}
+.nivaria-rooms-availability-field-calendar table{
+    margin-bottom:0;
+    margin-top:26px;
+}
+.unit-search-form label{
+    white-space:nowrap;
 }
