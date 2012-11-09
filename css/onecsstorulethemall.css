@@ -403,11 +403,6 @@ body.node-type-que-hacer #content .field-name-field-telefono{
 body.page-bookings #content .section{
     padding:32px 24px 32px 64px;
 }
-body.page-bookings #block-block-1{
-     color: #000000;
-    margin-top: -60px;
-    width: 224px;
-}
 body.page-bookings .commerce-order-handler-area-order-total{
     text-align:right;
     text-transform: uppercase;
@@ -972,17 +967,21 @@ body.node-type-webform #edit-captcha-response{
 .field-slideshow-wrapper{
     position:relative;
 }
-body.node-type-casas .field-slideshow-wrapper .field-name-field-imagenes{
+body.node-type-casas .group-header .field-name-field-imagenes{
      background-color: #FFFFFF;
-    margin-left: -20px;
-    margin-right: -20px;
+    left:0;
     padding-top: 1em;
     
     position:absolute;
+    
     bottom:0;
 }
+.field-slideshow {
+    overflow: hidden;
+    padding:0 !important;
+}
 .field-slideshow-slide{
-    width:640px !important;
+    width:624px !important;
     height:420px !important;
     text-align:center;
 }

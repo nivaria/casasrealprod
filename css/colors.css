@@ -314,14 +314,14 @@ body.page-servicios-extras .group-right img{
     position: static;
     width: 50%;
 }
-.node-type-instalaciones .field-slideshow-caption{
+/*.node-type-instalaciones .field-slideshow-caption{
     background: url("../images/bg_des_slide.png") repeat scroll 0 0 transparent;
     bottom: 20px;
     left: 0;
     padding: 10px 20px;
     position: absolute;
     width: 100%;
-}
+}*/
 .field-slideshow-caption-text{
     color: #fff;
 }

@@ -541,11 +541,6 @@ table.fc-border-separate td{
     background: none repeat scroll 0 0 #FFFFFF;
     text-align: right;
 }
-.region-sidebar-first #block-rooms-booking-manager-rooms-availability-search h2{
-    border: none;
-    font-size: 17px;
-    font-weight: bold;
-}
 #nivaria-rooms-booking-display-unit-availability-search-form{
     padding-left: 7px;
 }

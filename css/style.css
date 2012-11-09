@@ -648,7 +648,7 @@ h1#site-name {
     top: 1px;
     width: 31px;
 }
-.node-type-casas .field-slideshow-caption{
+.field-slideshow-caption{
     background: url(../images/bg_des_slide.png) repeat center center;
 
     display: block;
@@ -709,6 +709,7 @@ h1#site-name {
     padding: 0;
     position: absolute;
     top: 95px;
+    width:100%;
 }
 
 #main-menu-links li a:hover,
