@@ -83,11 +83,11 @@ body.node-type-webform #content{
     margin: 2px 0 0 15px;
     width: 705px;
 }
-body.node-type-webform #content .region.region-content{
+/*body.node-type-webform #content .region.region-content{
     padding: 20px 40px;
 
 }
-/*#edit-submitted-nombre-contacto,
+#edit-submitted-nombre-contacto,
 #edit-submitted-email-contacto{
 background: url("../images/bg_input_contact.png") no-repeat scroll -8px 0 transparent;
     border: medium none;
@@ -152,13 +152,16 @@ right
 #sidebar-second #block-nodeblock-6 .content{
     padding-left: 18px;
 }
-#sidebar-second h2,
 #sidebar-second h2{
-    background: url("../images/eye.png") no-repeat scroll 10px 0 transparent;
     font-weight: bold;
-    padding-left: 40px;
+    padding-left: 0;
     margin-bottom: 15px;
     padding-bottom: 10px;
+    
+    line-height:20px;
+}
+#block-nodeblock-53 h2{
+    padding-left:36px;
 }
 #sidebar-second .block-nodeblock li{
       background: url("../images/icon_select_check.png") no-repeat scroll -90px 6px transparent;
@@ -169,21 +172,6 @@ right
 }
 #sidebar-second .block-nodeblock ul{
     padding: 0;
-}
-#sidebar-second #block-nodeblock-5 h2{
-    background: none repeat scroll 0 0 transparent;
-    border: medium none;
-    bottom: 81px;
-    display: block;
-    padding-left: 0;
-    position: absolute;
-    width: 100%;
-}
-#block-nodeblock-5{
-    position: relative;
-}
-#sidebar-second #block-nodeblock-5 .field-name-body{
-    padding-top: 20px;
 }
 /*
 Spa
@@ -402,12 +390,12 @@ body.page-servicios-extras .sidebar .block.block-nodeblock h2
 {
     display: none;
 }
-body.page-servicios-extras .sidebar .block.block-nodeblock .field-type-image img,
+/*body.page-servicios-extras .sidebar .block.block-nodeblock .field-type-image img,
 body.node-type-instalaciones .sidebar .block.block-nodeblock .field-type-image img,
 body.page-booking .sidebar .block.block-nodeblock .field-type-image img{
     width: 100%;
     height: 100%;
-}
+}*/
 /*body.page-servicios-extras .sidebar .block.block-nodeblock .field-name-body.field-type-text-with-summary,
 body.node-type-instalaciones .sidebar .block.block-nodeblock .field-name-body.field-type-text-with-summary,
 body.page-booking .sidebar .block.block-nodeblock .field-name-body.field-type-text-with-summary{
@@ -466,11 +454,6 @@ body.page-node-13 #content #block-system-main .field-items h3{
 body.page-node-13 #content #block-system-main .field-items img{
     margin-right: 20px;
 }
-body.node-type-webform #sidebar-second #block-nodeblock-5,
-body.page-node-13 #sidebar-second #block-nodeblock-5{
-    padding: 0;    
-    text-align: center;
-}
 body.node-type-webform #sidebar-second .block,
 body.page-node-13 #sidebar-second .block{
     background: none repeat scroll 0 0 #FFFFFF;
@@ -479,79 +462,67 @@ body.node-type-webform #sidebar-second #block-nodeblock-5 h2
 body.page-node-13 #sidebar-second #block-nodeblock-5 h2{
     display: none;
 }
-body.node-type-webform #sidebar-second #block-nodeblock-5 .field-item img,
+/*body.node-type-webform #sidebar-second #block-nodeblock-5 .field-item img,
 body.page-node-13 #sidebar-second #block-nodeblock-5 .field-item img{
     width: 100%;
-}
-body.node-type-webform #sidebar-second #block-nodeblock-5 .field-item a,
-body.page-node-13 #sidebar-second #block-nodeblock-5 .field-item a{
-    background: url("../images/bgbuttonr.png") repeat-x scroll 0 center transparent;
-    color: #FFFFFF;
-    display: block;
-    margin: 0 10px 10px;
-    padding: 10px 0;
-    text-transform: uppercase;
-}
+}*/
 body.page-node-13 #sidebar-second #block-nodeblock-5 .content{
     padding: 0;
 }
-body.page-node-13 #sidebar-second #block-locationmap-image,
-body.node-type-webform #sidebar-second #block-locationmap-image{
-    padding: 0;
-}
-body.page-node-13 #sidebar-second #block-locationmap-image .content,
+/*body.page-node-13 #sidebar-second #block-locationmap-image .content,
 body.node-type-webform #sidebar-second #block-locationmap-image .content{
-    /*    padding: 0 10px 20px;*/
     text-align: center;
     padding-top: 10px;
-}
-body.page-node-13 #sidebar-second #block-locationmap-image .content img,
+}*/
+/*body.page-node-13 #sidebar-second #block-locationmap-image .content img,
 body.node-type-webform #sidebar-second #block-locationmap-image .content img{
     height: 248px;
     width: 230px;
-}
+}*/
 
-#block-locationmap-image .content{
-    padding-bottom: 120px;
-    padding-top: 15px;
-    position: relative;
-
-}
-#block-nodeblock-5,
-#sidebar-second #block-locationmap-image{
-    width:252px;
+/* Bloque dónde estamos */
+#page #block-locationmap-image{
+    width:232px;
+    padding:10px;
     overflow:visible;
+    position:relative;
+    margin-bottom:40px;
+    text-align:center;
+}
+#block-locationmap-image .content{
+    padding-bottom: 130px;
 }
 #sidebar-second #block-locationmap-image h2 {
     background: none repeat scroll 0 center transparent;
     border: medium none;
-    bottom: 90px;
+    color: #000000;
     display: block;
-    padding-left: 0;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
     position: absolute;
     text-align: center;
-    width: 94%;
-    color: #000;
-    font-size: 18px;
+    top: 150px;
+    width: 232px;
 }
 #locationmap-block-text-top {
-    bottom: 50px;
     position: absolute;
-    width: 93%;
+    top: 180px;
+    width: 232px;
 }
 #locationmap-block-text-top a{
     background: url("../images/all_arrow.png") no-repeat scroll -2px -3px transparent;
     border: 10px solid #FFFFFF;
     border-radius: 60px 60px 60px 60px;
-    bottom: -78px;
+    bottom: -60px;
     display: block;
     height: 42px;
-    left: 42%;
+    left: 83px;
     position: absolute;
     text-indent: -9999px;
     width: 45px;
 }
-#block-locationmap-image p {
+#block-locationmap-image p:last-child {
     margin-bottom: 0;
 }
 body.page-node-13 #sidebar-second li{
@@ -560,9 +531,6 @@ body.page-node-13 #sidebar-second li{
     text-transform: uppercase;
     font-size: 12px;
 
-}
-#sidebar-second h2{
-   background: url("../images/all_icon1.png") no-repeat scroll 7px -886px transparent;
 }
 /*
 booking
@@ -794,7 +762,7 @@ page-libro-de-visitas
     float: left;
 }
 .page-libro-de-visitas .field-name-title.field-type-ds h2{
-     background: url("../images/all_icon1.png") no-repeat scroll 0 -309px transparent;
+     background: url("../images/all_icon1.png") no-repeat scroll -5px -392px transparent;
     padding: 0 0 0 40px;
 }
 .page-libro-de-visitas .field-name-field-valoracion{

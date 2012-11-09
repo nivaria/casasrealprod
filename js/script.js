@@ -44,6 +44,25 @@ jQuery(function($){
     });
 })
 jQuery(document).ready(function($){
+          if( jQuery("body").hasClass("page-checkout") ){
+                    var marker1=jQuery("<div class='progress_marker first'>1</div>");
+                    var marker2=jQuery("<div class='progress_marker second'>2</div>");
+                    var marker3=jQuery("<div class='progress_marker third'>3</div>");
+                    
+                    marker1.addClass("active");
+                    if( jQuery("body").hasClass("page-checkout-review") ){
+                              marker2.addClass("active");
+                              marker1.removeClass("active");
+                    }
+                    if( jQuery("body").hasClass("page-checkout-complete") ){
+                              marker3.addClass("active");
+                              marker1.removeClass("active");
+                    }
+                    
+                    jQuery("#block-commerce-checkout-progress-indication").append(marker1);
+                    jQuery("#block-commerce-checkout-progress-indication").append(marker2);
+                    jQuery("#block-commerce-checkout-progress-indication").append(marker3);
+          }
     var sidebar_first = $("#sidebar-first").height();
     var content = $("#content").height();
     var sidebar_second = $("#sidebar-second").height();
