@@ -70,6 +70,7 @@ body.not-front.node-type-casas #content .section{
     text-transform: uppercase;
     text-align:center;
     cursor:pointer;
+    white-space:nowrap;
 }
 .link-disponibilidad:hover,
 #block-nodeblock-42 .field-type-link-field a:hover,
