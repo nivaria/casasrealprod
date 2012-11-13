@@ -2039,6 +2039,9 @@ header*/
     height: 30px;
     width: 100%;
 
+  left: 0;
+    position: absolute;
+    top: 0;
 }
 #top_header #top-bar {
     margin: 0 auto;

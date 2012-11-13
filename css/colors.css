@@ -49,9 +49,11 @@ a:active {
 .region-header a,
 .region-header li a.active,
 #name-and-slogan,
-#name-and-slogan a,
-#secondary-menu-links li a {
+#name-and-slogan a{
     color: #000;
+}
+#secondary-menu-links li a {
+    color: #fff;
 }
 #sidebar-second .section{
     padding-top: 15px;

@@ -29,6 +29,7 @@ body,
 #header div.section {
   position: relative;
   padding: 0!important;
+  margin-top:30px;
 }
 /*
 .region-header
@@ -51,6 +52,10 @@ body,
   right: 0; /* LTR */
   top: 0;
   width: 480px;
+  
+    right: -180px;
+    top: -34px;
+    width: auto;
 }
 #content,
 #sidebar-first,
