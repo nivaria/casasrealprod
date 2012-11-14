@@ -2138,3 +2138,52 @@ mainbody
     bottom: 20px;
     left: 30%;
 }*/
+
+/*triptych changes*/
+#triptych-wrapper {
+    border: 0 none;
+    overflow: hidden;
+}
+#triptych{
+    width:auto;
+}
+.region-triptych-first,
+.region-triptych-middle,
+.region-triptych-last {
+    display: block;
+    float: left;
+    margin: 1em 1em 0 0;
+    width:342px;
+}
+.region-triptych-middle,
+.region-triptych-last {
+    margin-right:0;
+}
+#triptych .block {
+    border: 0 none;
+    padding-bottom: 20px;
+    position: relative;  
+}
+#triptych h2 {
+    color: #1B83B1;
+    font-size: 28px;
+    line-height: 120%;
+    text-shadow: none;
+    white-space:nowrap;
+    
+    background-color: #FFFFFF;
+    padding: 15px 20px;
+    margin-bottom:2px;
+    padding-bottom: 32px;
+}
+#triptych .content{
+    background-color: #FFFFFF;
+    padding: 15px 20px;
+}
+#triptych .content .field-name-body{
+    color: #333333;
+    left: 20px;
+    position: absolute;
+    text-align: center;
+    top: 52px;
+}
