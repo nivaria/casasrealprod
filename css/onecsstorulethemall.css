@@ -1097,3 +1097,6 @@ body.page-bookings .view-servicios .views-row .views-field-title{
 .progress_marker.third{
     left:491px;
 }
+body.admin-menu.html{
+    margin:0 !important;
+}
