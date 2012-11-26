@@ -687,8 +687,8 @@ body.page-booking #rooms-booking-availability-search-form {
     width: 100%;
 }
 .unit-result .unit-description .node-casas .field-name-field-imagenes img{
-    width: 180px!important;
-    height: 130px!important;
+    /*width: 180px!important;
+    height: 130px!important;*/
     padding-top: 20px;
 }
 .unit-result  .booking-info{

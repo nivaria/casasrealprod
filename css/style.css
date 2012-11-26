@@ -655,7 +655,7 @@ h1#site-name {
     height: 47px;
     left: 0;
     position: absolute;
-    width: 605px;
+    width: 604px;
     line-height:47px;
     opacity:0.6;
     text-align:center;
@@ -709,7 +709,7 @@ h1#site-name {
     padding: 0;
     position: absolute;
     top: 95px;
-    width:100%;
+    width:auto;
 }
 
 #main-menu-links li a:hover,
@@ -2180,10 +2180,11 @@ mainbody
     background-color: #FFFFFF;
     padding: 15px 20px;
 }
-#triptych .content .field-name-body{
+#triptych .content .field-name-field-subtitulo{
     color: #333333;
-    left: 20px;
+    left: 0;
     position: absolute;
     text-align: center;
     top: 52px;
+    width:100%;
 }
