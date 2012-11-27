@@ -25,7 +25,7 @@
                                                             <td bgcolor="#fff" width="452" valign="top" >
                                                                 <div style="font-size:20px;color:#1f83b1;margin-bottom:8px;" ><?php print $room['title']; ?></div>
                                                                 <div style="font-size:12px;margin-bottom:8px;">
-                                                                  <img src="<?php print url($directory.'/images/email_check_icon.png', array('absolute' => TRUE, 'language' => 'en')); ?>"/>&nbsp;<?php print t('Arrival date'); ?>: <?php print $room['departure_date']; ?>
+                                                                  <img src="<?php print url($directory.'/images/email_check_icon.png', array('absolute' => TRUE, 'language' => 'en')); ?>"/>&nbsp;<?php print t('Arrival date'); ?>: <?php print $room['arrival_date']; ?>
                                                                 </div>
                                                                 <div style="font-size:12px;margin-bottom:8px;">
                                                                   <img src="<?php print url($directory.'/images/email_check_icon.png', array('absolute' => TRUE, 'language' => 'en')); ?>"/>&nbsp;<?php print t('Departure date'); ?>: <?php print $room['departure_date']; ?>
