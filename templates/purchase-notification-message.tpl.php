@@ -53,7 +53,7 @@
                                                 <td valign="top" bgcolor="#fff" cellpadding="0" width="298" style="border-collapse: collapse;">
                                                     <table border="0" cellpadding="16" cellspacing="0">
                                                         <tr>
-                                                            <td valign="top" bgcolor="#fff" width="588" style="border-bottom:2px solid #ededed;border-collapse: collapse;font-size:20px;color:#000;">Remember</td>
+                                                            <td valign="top" bgcolor="#fff" width="588" style="border-bottom:2px solid #ededed;border-collapse: collapse;font-size:20px;color:#000;"><?php print t('Remember'); ?></td>
                                                         </tr>
                                                         <tr>
                                                             <td bgcolor="#fff" valign="top" >
@@ -134,7 +134,7 @@
                                                             <td valign="top" bgcolor="#fff" style="border-collapse: collapse;">
                                                                 <table border="0" cellpadding="16" cellspacing="0">
                                                                     <tr>
-                                                                        <td valign="top" bgcolor="#fff" width="588" style="text-align:center;border-bottom:2px solid #ededed;border-collapse: collapse;font-size:20px;color:#000;">Dónde estamos</td>
+                                                                        <td valign="top" bgcolor="#fff" width="588" style="text-align:center;border-bottom:2px solid #ededed;border-collapse: collapse;font-size:20px;color:#000;"><?php print t('Where are we located?'); ?></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td bgcolor="#fff" valign="top" style="text-align:center">
@@ -167,9 +167,9 @@
                                                                     </tr>
                                                                     <tr>
                                                                         <td bgcolor="#fff" valign="top" >
-                                                                            <div style="font-size:12px;margin-bottom:8px;text-transform:uppercase;"><img src="<?php print url($directory.'/images/email_check_icon.png', array('absolute' => TRUE, 'language' => $variables['lang'])); ?>"/>&nbsp;Servicios que puedes contratar</div>
-                                                                            <div style="font-size:12px;margin-bottom:8px;text-transform:uppercase;"><img src="<?php print url($directory.'/images/email_check_icon.png', array('absolute' => TRUE, 'language' => $variables['lang'])); ?>"/>&nbsp;Actividades que puedes realizar</div>
-                                                                            <div style="font-size:12px;margin-bottom:8px;text-transform:uppercase;"><img src="<?php print url($directory.'/images/email_check_icon.png', array('absolute' => TRUE, 'language' => $variables['lang'])); ?>"/>&nbsp;¿Organizas un evento?</div>                                                              
+                                                                            <div style="font-size:12px;margin-bottom:8px;text-transform:uppercase;"><img src="<?php print url($directory.'/images/email_check_icon.png', array('absolute' => TRUE, 'language' => $variables['lang'])); ?>"/>&nbsp;Servicios que puedes contratar</div><!-- Servicios que puedes contratar -->
+                                                                            <div style="font-size:12px;margin-bottom:8px;text-transform:uppercase;"><img src="<?php print url($directory.'/images/email_check_icon.png', array('absolute' => TRUE, 'language' => $variables['lang'])); ?>"/>&nbsp;Actividades que puedes realizar</div><!-- Actividades que puedes realizar -->
+                                                                            <div style="font-size:12px;margin-bottom:8px;text-transform:uppercase;"><img src="<?php print url($directory.'/images/email_check_icon.png', array('absolute' => TRUE, 'language' => $variables['lang'])); ?>"/>&nbsp;¿Organizas un evento?</div><!-- ¿Organizas un evento? -->                                                              
                                                                         </td>
                                                                     </tr>
                                                                 </table>
