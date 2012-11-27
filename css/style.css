@@ -2188,3 +2188,7 @@ mainbody
     top: 52px;
     width:100%;
 }
+
+#messages {
+  display:none;
+}
