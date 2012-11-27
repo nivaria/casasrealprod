@@ -231,6 +231,10 @@ print $hide_site_name;?>
         <div id="footer" class="clearfix"> <?php print render($page['footer']); ?> </div>
         <!-- /#footer -->
         <?php endif; ?>
+        <?php if ($page['footer_second']): ?>
+        <div id="footer_second" class="clearfix"> <?php print render($page['footer_second']); ?> </div>
+        <!-- /#footer -->
+        <?php endif; ?>
       </div>
     </div>
     <!-- /.section, /#footer-wrapper -->

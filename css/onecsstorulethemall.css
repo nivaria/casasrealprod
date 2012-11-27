@@ -203,6 +203,9 @@ body.page-bookings #block-rooms-booking-manager-rooms-availability-search h2{
     height:110px;
     overflow:hidden;
 }
+.front-block.contextual-links-region .content{
+    overflow:visible;
+}
 .front-block .content,
 .front-block h2{
     background: #fff;
@@ -214,6 +217,17 @@ body.page-bookings #block-rooms-booking-manager-rooms-availability-search h2{
     top: 52px;
     width: 100%;
     text-transform:uppercase;
+}
+.front-block.contextual-links-region .content .field-name-field-subtitulo .field-item{
+    line-height: 16px;
+    top: -55px;
+}
+.front-block .content .field-name-body .field-item{
+    height:105px;
+    overflow:hidden;
+}
+.region.region-footer.contextual-links-region{
+    overflow:hidden;
 }
 .front-block .field-type-link-field a{
    background: url("../images/all_arrow.png") no-repeat scroll -5px -6px transparent;
@@ -991,6 +1005,7 @@ body.node-type-casas .group-header .field-name-field-imagenes{
     overflow: hidden;
     padding:0 !important;
     width:624px !important;
+    background-color:#ccc;
 }
 .field-slideshow-slide{
     width:624px !important;
@@ -1011,6 +1026,10 @@ body.node-type-casas .group-header .field-name-field-imagenes{
         left: 0;
     position: absolute;
     top: 0;
+}
+#block-nodeblock-20.contextual-links-region .field-name-field-imagen img{
+    left: -23px;
+    top: -325px;
 }
 /* icons -by styles as I can't enable skinr checkboxes in this theme */
 .commerce-order-handler-area-order-total-title, body.page-checkout .view-casas-checkout-form .views-row .views-field-title,
@@ -1136,5 +1155,5 @@ body .selectBox-dropdown {
 }
 .field-name-field-field-cr-customer-peticion .form-item .description{
     display: block;
-    padding-top: 0.5em; 
+    padding-top: 0.5em;
 }
