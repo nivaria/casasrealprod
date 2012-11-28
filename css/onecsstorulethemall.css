@@ -1157,3 +1157,9 @@ body .selectBox-dropdown {
     display: block;
     padding-top: 0.5em;
 }
+.region-page-bottom{
+       left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
