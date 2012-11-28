@@ -230,10 +230,10 @@ function casasrealprod_commerce_price_formatted_components($variables) {
  */
 function casasrealprod_field_widget_form_alter(&$element, &$form_state, $context) {
   if ($element['#field_name'] == 'field_cr_customer_condiciones') {
-    $element['#title'] = t('Acepto la !policy',
+    $element['#title'] = t('I accept the !policy',
       array(
         '!policy' => l(
-                t('política de privacidad y las condiciones de uso'),
+                t('private policy and use conditions'),
                 $context['field']['settings']['policy'],
                 array('attributes' => array('target' => '_blank')))
       )
