@@ -623,7 +623,7 @@ h1#site-name {
 #field-slideshow-1-controls{
     position: absolute;
     top: 204px;
-    z-index: 99999;
+    z-index: 100;
     width: 100%;
 }
 #field-slideshow-1-controls .prev{
@@ -647,6 +647,9 @@ h1#site-name {
     text-indent: -99999px;
     top: 1px;
     width: 31px;
+}
+div.contextual-links-wrapper {
+    z-index:200;
 }
 .field-slideshow-caption{
     background: url(../images/bg_des_slide.png) repeat center center;
