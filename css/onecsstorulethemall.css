@@ -222,6 +222,15 @@ body.page-bookings #block-rooms-booking-manager-rooms-availability-search h2{
     line-height: 16px;
     top: -55px;
 }
+#block-nodeblock-52.front-block.contextual-links-region .content .field-name-field-subtitulo .field-item{
+    top:-71px;
+}
+#block-nodeblock-40.front-block.contextual-links-region .content .field-name-field-subtitulo .field-item{
+    top:-40px;
+}
+#block-nodeblock-39.front-block.contextual-links-region .content .field-name-field-subtitulo .field-item{
+    top:-68px;
+}
 .front-block .content .field-name-body .field-item{
     height:105px;
     overflow:hidden;
