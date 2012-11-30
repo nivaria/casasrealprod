@@ -713,6 +713,9 @@ div.contextual-links-wrapper {
     position: absolute;
     top: 95px;
     width:auto;
+    
+    width:712px;
+    left:256px;
 }
 
 #main-menu-links li a:hover,
