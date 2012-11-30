@@ -197,6 +197,7 @@ body.page-bookings #block-rooms-booking-manager-rooms-availability-search h2{
     font-size: 25px;
     font-weight: bold;
     white-space:nowrap;
+    letter-spacing:-1.4px;
 }
 .front-block .content{
     padding: 30px;
