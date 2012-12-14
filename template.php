@@ -100,6 +100,19 @@ function casasrealprod_process_page(&$variables) {
   if (strpos(drupal_get_path_alias(), 'bookings') !== FALSE) {
     drupal_add_js(drupal_get_path('theme', 'casasrealprod') . '/js/casas_booking_manager.js');
   }
+  
+  if (strpos(drupal_get_path_alias(), 'checkout') !== FALSE) {
+    $parts = explode('/', current_path());
+    $last = array_pop($parts);
+    $title = drupal_get_title();
+    if ($last == 1) {
+      $title = t('Fill your personal data');
+    }
+    else if ($last == 'review') {
+      $title = t('Review order');
+    } 
+    $variables['title'] = $title;
+  }  
 }
 
 /**
