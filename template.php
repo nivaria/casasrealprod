@@ -92,7 +92,8 @@ function casasrealprod_process_page(&$variables) {
     $breadcrumbs[] = l(t('Home'), '<front>');
     $breadcrumbs[] = l(t('Las Casas'), 'node/10');
     $breadcrumbs[] = l($variables['node']->title, 'node/'.$variables['node']->nid);
-    drupal_set_breadcrumb($breadcrumbs);    
+    drupal_set_breadcrumb($breadcrumbs);
+    $variables['title'] = t('Search for Availability');
     $variables['breadcrumb'] = theme('breadcrumb', array('breadcrumb' => drupal_get_breadcrumb()));
   }
 
