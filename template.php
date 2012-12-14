@@ -105,7 +105,7 @@ function casasrealprod_process_page(&$variables) {
     $parts = explode('/', current_path());
     $last = array_pop($parts);
     $title = drupal_get_title();
-    if ($last == 1) {
+    if (is_numeric($last)) {
       $title = t('Fill your personal data');
     }
     else if ($last == 'review') {
