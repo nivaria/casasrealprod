@@ -669,8 +669,7 @@ body.page-booking #rooms-booking-availability-search-form {
     width: 100%;
 }
 .page-node-booking  .unit-result .unit-description .node-casas .field-name-title,
-.page-booking  .unit-result .unit-description .node-casas .field-name-title
-{
+.page-booking  .unit-result .unit-description .node-casas .field-name-title{
     border-bottom: 2px solid #FFFFFF;
     /*margin: 0 0 0 -20px!important;*/
     padding: 0 0 10px 25px;
@@ -678,6 +677,12 @@ body.page-booking #rooms-booking-availability-search-form {
     top: 0;
     width: 97%;
     left:0;
+}
+.page-node-booking  .unit-result .unit-description .node-casas.contextual-links-region .field-name-title,
+.page-booking  .unit-result .unit-description .node-casas.contextual-links-region .field-name-title{
+      left: -24px;
+    top: -79px;
+    white-space: nowrap;
 }
 .unit-result .unit-description .node-casas .field-name-title
 {
@@ -687,8 +692,8 @@ body.page-booking #rooms-booking-availability-search-form {
     width: 100%;
 }
 .unit-result .unit-description .node-casas .field-name-field-imagenes img{
-    width: 180px!important;
-    height: 130px!important;
+    /*width: 180px!important;
+    height: 130px!important;*/
     padding-top: 20px;
 }
 .unit-result  .booking-info{

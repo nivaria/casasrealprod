@@ -92,13 +92,27 @@ function casasrealprod_process_page(&$variables) {
     $breadcrumbs[] = l(t('Home'), '<front>');
     $breadcrumbs[] = l(t('Las Casas'), 'node/10');
     $breadcrumbs[] = l($variables['node']->title, 'node/'.$variables['node']->nid);
-    drupal_set_breadcrumb($breadcrumbs);    
+    drupal_set_breadcrumb($breadcrumbs);
+    $variables['title'] = t('Search for Availability');
     $variables['breadcrumb'] = theme('breadcrumb', array('breadcrumb' => drupal_get_breadcrumb()));
   }
 
   if (strpos(drupal_get_path_alias(), 'bookings') !== FALSE) {
     drupal_add_js(drupal_get_path('theme', 'casasrealprod') . '/js/casas_booking_manager.js');
   }
+  
+  if (strpos(drupal_get_path_alias(), 'checkout') !== FALSE) {
+    $parts = explode('/', current_path());
+    $last = array_pop($parts);
+    $title = drupal_get_title();
+    if (is_numeric($last)) {
+      $title = t('Fill your personal data');
+    }
+    else if ($last == 'review') {
+      $title = t('Review order');
+    } 
+    $variables['title'] = $title;
+  }  
 }
 
 /**
@@ -230,10 +244,10 @@ function casasrealprod_commerce_price_formatted_components($variables) {
  */
 function casasrealprod_field_widget_form_alter(&$element, &$form_state, $context) {
   if ($element['#field_name'] == 'field_cr_customer_condiciones') {
-    $element['#title'] = t('Acepto la !policy',
+    $element['#title'] = t('I accept the !policy',
       array(
         '!policy' => l(
-                t('política de privacidad y las condiciones de uso'),
+                t('private policy and use conditions'),
                 $context['field']['settings']['policy'],
                 array('attributes' => array('target' => '_blank')))
       )

@@ -623,7 +623,7 @@ h1#site-name {
 #field-slideshow-1-controls{
     position: absolute;
     top: 204px;
-    z-index: 99999;
+    z-index: 100;
     width: 100%;
 }
 #field-slideshow-1-controls .prev{
@@ -648,6 +648,9 @@ h1#site-name {
     top: 1px;
     width: 31px;
 }
+div.contextual-links-wrapper {
+    z-index:200;
+}
 .field-slideshow-caption{
     background: url(../images/bg_des_slide.png) repeat center center;
 
@@ -655,7 +658,7 @@ h1#site-name {
     height: 47px;
     left: 0;
     position: absolute;
-    width: 605px;
+    width: 604px;
     line-height:47px;
     opacity:0.6;
     text-align:center;
@@ -709,7 +712,10 @@ h1#site-name {
     padding: 0;
     position: absolute;
     top: 95px;
-    width:100%;
+    width:auto;
+    
+    width:712px;
+    left:256px;
 }
 
 #main-menu-links li a:hover,
@@ -1076,6 +1082,11 @@ ul.links {
     border-color: rgba(255, 255, 255, 0.1);
     padding: 10px;
 }
+#footer-wrapper #footer_second .block{
+        border: 0 none;
+    margin: 0;
+    padding: 0;
+}
 #footer-columns .block-menu,
 #footer .block {
     margin: 0;
@@ -1213,15 +1224,16 @@ ul.links {
 }
 #footer-wrapper #block-menu-menu-inferior-menu ul ul,
 #footer-wrapper #block-menu-menu-inferior-menu li,
-#footer-wrapper #block-menu-menu-privacy-menu li{
+#footer_second #block-menu-menu-privacy-menu li{
     float: left;
+    list-style:none;
 }
 #footer-wrapper #block-menu-menu-inferior-menu li li{
     float: none;
 }
 
 
-#footer-wrapper #block-menu-menu-privacy-menu{
+#footer_second{
     background: none repeat scroll 0 0 #FFFFFF;
     bottom: 0;
     left: 0;
@@ -1230,12 +1242,13 @@ ul.links {
     width: 100%;
     padding-bottom:12px;
     padding-top:18px;
+    z-index:10;
 }
-#footer-wrapper #block-menu-menu-privacy-menu .content{
+#footer_second #block-menu-menu-privacy-menu .content{
     width: 970px;
     margin: 0 auto;
 }
-#footer-wrapper #block-menu-menu-privacy-menu li a{
+#footer_second #block-menu-menu-privacy-menu li a{
     text-transform: uppercase;
 }
 #footer-wrapper #block-menu-menu-inferior-menu{
@@ -2180,10 +2193,15 @@ mainbody
     background-color: #FFFFFF;
     padding: 15px 20px;
 }
-#triptych .content .field-name-body{
+#triptych .content .field-name-field-subtitulo{
     color: #333333;
-    left: 20px;
+    left: 0;
     position: absolute;
     text-align: center;
     top: 52px;
+    width:100%;
+}
+
+#messages {
+  display:none;
 }

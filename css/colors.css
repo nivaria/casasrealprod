@@ -574,11 +574,13 @@ body.page-booking #rooms-booking-availability-search-form > div > div .descripti
 #rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0{
    /*background: url("../images/input_search.png") no-repeat scroll -4px -86px transparent;*/
     border: medium none;
-    color: #CCCCCC;
+    color: #666666;
     font-size: 11px;
     font-weight: bold;
     height: 25px;
     width: 115px;
+    
+    width:194px;
 }
 body.page-booking .no-booking-data{
     clear: both;

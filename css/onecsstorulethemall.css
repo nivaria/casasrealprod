@@ -140,6 +140,7 @@ body.not-front.node-type-casas #content .section{
     margin-bottom: 64px;
     padding: 16px 36px 24px;
     margin-top:53px;
+    width:224px;
 }
 #block-rooms-booking-manager-rooms-availability-search h2{
     color: #000000;
@@ -152,9 +153,15 @@ body.not-front.node-type-casas #content .section{
         font-size: 18px;
     font-weight: normal;
     text-transform: uppercase;
+    text-align:center;
+}
+body.page-bookings #block-rooms-booking-manager-rooms-availability-search h2{
+    text-align:left;
+    white-space:normal;
 }
 #block-rooms-booking-manager-rooms-availability-search .container-inline-date > .form-item {
     margin-right:0;
+    width:100%;
 }
 #block-rooms-booking-manager-rooms-availability-search .container-inline-date .date-padding,
 #block-rooms-booking-manager-rooms-availability-search .container-inline-date .form-item .form-item{
@@ -166,7 +173,7 @@ body.not-front.node-type-casas #content .section{
     margin-right:0;
 }
 #rooms-booking-availability-search-form .form-item-children-count{
-    float:right;
+    margin-left:1em;
 }
 #rooms-booking-availability-search-form .form-item-children-count div.description {
     display: block;
@@ -190,11 +197,16 @@ body.not-front.node-type-casas #content .section{
     font-size: 25px;
     font-weight: bold;
     white-space:nowrap;
+    letter-spacing:-1.4px;
+    font-weight:normal;
 }
 .front-block .content{
     padding: 30px;
     height:110px;
     overflow:hidden;
+}
+.front-block.contextual-links-region .content{
+    overflow:visible;
 }
 .front-block .content,
 .front-block h2{
@@ -207,6 +219,26 @@ body.not-front.node-type-casas #content .section{
     top: 52px;
     width: 100%;
     text-transform:uppercase;
+}
+.front-block.contextual-links-region .content .field-name-field-subtitulo .field-item{
+    line-height: 16px;
+    top: -55px;
+}
+#block-nodeblock-52.front-block.contextual-links-region .content .field-name-field-subtitulo .field-item{
+    top:-71px;
+}
+#block-nodeblock-40.front-block.contextual-links-region .content .field-name-field-subtitulo .field-item{
+    top:-51px;
+}
+#block-nodeblock-39.front-block.contextual-links-region .content .field-name-field-subtitulo .field-item{
+    top:-68px;
+}
+.front-block .content .field-name-body .field-item{
+    height:105px;
+    overflow:hidden;
+}
+.region.region-footer.contextual-links-region{
+    overflow:hidden;
 }
 .front-block .field-type-link-field a{
    background: url("../images/all_arrow.png") no-repeat scroll -5px -6px transparent;
@@ -415,6 +447,8 @@ body.page-bookings .commerce-order-handler-area-order-total .commerce-price-form
 }
 body.page-bookings .commerce-order-handler-area-order-total .commerce-price-formatted-components div{
     padding-bottom:0.6em;
+    float:right;
+    clear:both;
 }
 body.page-bookings .commerce-order-handler-area-order-total .commerce-price-formatted-components span{
     padding-left:1em;
@@ -649,6 +683,7 @@ body.page-bookings .view-servicios .views-row .views-field-add-to-cart-form .for
     height: 40px;
     line-height: 40px;
     width: 180px;
+    font-weight:normal;
 }
 body.page-checkout .view-casas-checkout-form .views-row .views-field-rooms-booking-dates-1,
 body.page-checkout .view-casas-checkout-form .views-row .views-field-rooms-booking-dates,
@@ -980,6 +1015,8 @@ body.node-type-casas .group-header .field-name-field-imagenes{
 .field-slideshow {
     overflow: hidden;
     padding:0 !important;
+    width:624px !important;
+    background-color:#ccc;
 }
 .field-slideshow-slide{
     width:624px !important;
@@ -1000,6 +1037,10 @@ body.node-type-casas .group-header .field-name-field-imagenes{
         left: 0;
     position: absolute;
     top: 0;
+}
+#block-nodeblock-20.contextual-links-region .field-name-field-imagen img{
+    left: -23px;
+    top: -325px;
 }
 /* icons -by styles as I can't enable skinr checkboxes in this theme */
 .commerce-order-handler-area-order-total-title, body.page-checkout .view-casas-checkout-form .views-row .views-field-title,
@@ -1099,4 +1140,37 @@ body.page-bookings .view-servicios .views-row .views-field-title{
 }
 body.admin-menu.html{
     margin:0 !important;
+}
+.field-name-body .field-item h3{
+    color: #3B3B3B;
+    font-size: 14px;
+    font-weight: bold;
+}
+.front #rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0,
+.front #rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0 {
+    width: 100%;
+}
+body .selectBox-dropdown {
+    color: #666666 !important;
+}
+.not-available{
+    font-weight:bold;
+}
+.commerce-line-item-views-form .commerce-line-item-actions {
+    clear: both;
+    text-align: right;
+}
+#views-form-casas-booking-cart-form-default .default_button{
+    width:200px;
+    font-weight:normal;
+}
+.field-name-field-field-cr-customer-peticion .form-item .description{
+    display: block;
+    padding-top: 0.5em;
+}
+.region-page-bottom{
+       left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
