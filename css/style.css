@@ -664,6 +664,14 @@ div.contextual-links-wrapper {
     text-align:center;
     padding:0 10px;
     bottom:0px;
+    
+    /* Mai requests */
+    font-weight: bold;
+    height: auto;
+    line-height: 28px;
+    min-height: 40px;
+    text-align: left;
+    padding-top:6px;
 }
 
 /*Group Footer*/
@@ -1143,9 +1151,16 @@ ul.links {
 }
 #footer {
     letter-spacing: 0.2px;
-    min-width: 920px;
+    /*min-width: 920px;*/
     width: 970px;
     padding-top:24px;
+    
+    background-image:url('../images/logo-footer.png');
+    background-repeat:no-repeat;
+    background-position: 52px 30px;
+    overflow: hidden;
+    padding-left: 302px;
+    width: 663px;
 }
 
 

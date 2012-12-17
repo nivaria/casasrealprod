@@ -289,7 +289,7 @@ table.fc-border-separate td{
     text-indent: -99999px;
     top: 100px!important;
     width: 20px;
-    z-index: 99999;
+    z-index: 200;
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar .navigation .next{
     background: url("../images/all_arrow.png") no-repeat scroll -184px -3px transparent;
@@ -301,7 +301,7 @@ table.fc-border-separate td{
     text-indent: -99999px;
     top: 100px!important;
     width: 20px;
-    z-index: 99999;
+    z-index: 200;
 }
 .page-node-booking  .region-content #block-system-main .content{
     background:  url(../images/bgbreadcrumb.png) repeat  center center;
@@ -337,7 +337,7 @@ table.fc-border-separate td{
 .page-node-booking .nivaria-rooms-availability-field-calendar .fc-grid .fc-day-number{
     position: relative;
     text-align: center;
-    z-index: 999;
+    z-index: 200;
     width: 100%;
 }
 .page-node-booking .nivaria-rooms-availability-field-calendar .fc-event{
@@ -372,6 +372,7 @@ table.fc-border-separate td{
 .page-node-booking .nivaria-rooms-availability-field-calendar .fc-event-time, 
 .page-node-booking .nivaria-rooms-availability-field-calendar .fc-event-title {
     color: #ADADAD;
+    color: #fff;
     font-size: 12px;
     padding: 0 1px;
 }
@@ -683,6 +684,7 @@ body.page-booking #rooms-booking-availability-search-form {
       left: -24px;
     top: -79px;
     white-space: nowrap;
+    top:-54px;
 }
 .unit-result .unit-description .node-casas .field-name-title
 {
@@ -721,7 +723,7 @@ body.page-booking #rooms-booking-availability-search-form {
 
 .page-booking  .booking-info .booking-price,
 .page-node-booking .booking-info .booking-price{
-    border-top: 2px solid #FFFFFF;
+    /*border-top: 2px solid #FFFFFF;*/
     display: block;
     margin: 20px 0 0 -20px;
     padding: 20px 0 0;
