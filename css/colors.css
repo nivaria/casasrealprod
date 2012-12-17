@@ -801,7 +801,7 @@ page-libro-de-visitas
     margin-bottom: 0;
 }
 /* libro-de-visitas page */
-div.fivestar-widget-static .star{
+/*div.fivestar-widget-static .star{
     background: none;
 }
 div.fivestar-widget-static .star span.off{
@@ -827,7 +827,7 @@ div.fivestar-widget-static .star span.on{
 }
 .page-libro-de-visitas div.fivestar-widget-static .star-5 span.on{
     background: url("../images/all_circle.png") no-repeat scroll -47px 0 transparent;
-}
+}*/
 /*.page-libro-de-visitas #page-wrapper #page #main #breadcrumb h1#page-title{
     color: #9c5b3d;
     font-weight: normal;
