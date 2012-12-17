@@ -372,7 +372,7 @@ table.fc-border-separate td{
 .page-node-booking .nivaria-rooms-availability-field-calendar .fc-event-time, 
 .page-node-booking .nivaria-rooms-availability-field-calendar .fc-event-title {
     color: #ADADAD;
-    color: #fff;
+    /*color: #fff;*/
     font-size: 12px;
     padding: 0 1px;
 }
@@ -729,7 +729,7 @@ body.page-booking #rooms-booking-availability-search-form {
     padding: 20px 0 0;
     position: relative!important;
 
-    z-index: 99999;
+    z-index: 200;
     overflow: hidden;
 
 }
