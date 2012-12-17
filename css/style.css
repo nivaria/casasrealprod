@@ -598,13 +598,13 @@ h1#site-name {
     padding-left: 20px;
     position: absolute;
     top: -40px;
-    z-index: 9999;
+    z-index: 200;
 }
 .node-type-casas #main-wrapper #main #content .section .group-left .field-items p.position4{
     /*    color: #fff;
         position: absolute;
           top: 427px;
-        z-index: 7777;
+        z-index: 200;
         width: 605px;
         background: url(../images/lineslide.png) repeat-x top center;
         line-height: 37px;

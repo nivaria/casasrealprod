@@ -753,6 +753,9 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
 .page-booking .content form{
     position: absolute;
 }
+.fc-event-skin {
+    color:#adadad;
+}
 .page-booking .form-submit
 {
     cursor: pointer;
@@ -761,7 +764,7 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     left:465px;
     position: absolute;
     top: -80px;
-    z-index: 999999;
+    z-index: 200;
 }
 /*.page-booking .form-submit:hover{
     cursor: pointer;
@@ -769,7 +772,7 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     left: 445px;
     position: absolute;
     top: -79px;
-    z-index: 999999;
+    z-index: 200;
 }*/
 .page-node-booking .form-submit{
     bottom: 26px;
@@ -778,7 +781,7 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     left: 442px;
     position: absolute;
     width: 163px;
-    z-index: 99999;
+    z-index: 200;
     
     left:465px;
 }
@@ -788,7 +791,7 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     position: absolute;
     width: 163px; 
     cursor: pointer;
-    z-index: 99999;
+    z-index: 200;
 }*/
 .page-node-booking .unit-search-result-alt form{
     position: relative;
