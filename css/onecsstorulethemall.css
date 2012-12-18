@@ -24,6 +24,7 @@ body.front #pre-footer{
     background-repeat: no-repeat;
     width:100%;
 }
+
 body.not-front #content .section{
     padding: 20px 40px;
 }
@@ -36,6 +37,9 @@ body.not-front.node-type-casas #content .section{
 .breadcrumb span,
 .breadcrumb a{
     vertical-align:middle;
+}
+.front #breadcrumb {
+  display: none;
 }
 .form-item .description {
     color: #999999;
