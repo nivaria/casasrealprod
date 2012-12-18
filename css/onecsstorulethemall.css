@@ -106,7 +106,7 @@ body.not-front.node-type-casas #content .section{
     margin-right:16px;
 }
 #ui-datepicker-div {
-    z-index:9999 !important;
+    z-index:200 !important;
 }
 /* lists */
 

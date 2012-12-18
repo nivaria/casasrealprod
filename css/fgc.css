@@ -651,9 +651,6 @@ table.fc-border-separate td{
 }
 /*************29**************/
 /**booking**/
-body.page-booking #content{
-    width: 930px !important;
-}
 body.page-booking  #content .section{
     background: url("../images/bgbreadcrumb.png") repeat scroll left top transparent;    
 }
@@ -735,10 +732,6 @@ body.page-booking #rooms-booking-availability-search-form {
 }
 .page-node-booking .booking-info .booking-price{
     width: 620px;
-}
-.page-booking  .booking-info .booking-price{
-
-    width: 930px;
 }
 
 
