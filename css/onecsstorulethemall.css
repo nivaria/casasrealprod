@@ -940,6 +940,9 @@ body.page-node-add-libro-de-visitas #edit-field-email{
      float: right;
     width: 48%;
 }
+body.page-node-add-libro-de-visitas.not-logged-in .form-item-language{
+    display: none;
+}
 body.page-node-add-libro-de-visitas #edit-field-casas{
     clear:both;
      float: left;
