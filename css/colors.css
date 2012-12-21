@@ -1,4 +1,3 @@
-
 /* ---------- Color Module Styles ----------- */
 a{
     outline: none;
@@ -854,7 +853,6 @@ div.fivestar-widget-static .star span.on{
 }
 .page-libro-de-visitas #page-wrapper #sidebar-second .section .content .view-content .views-row .views-field .field-content img{
     width:255px;
-    height: 150px;
 }
 .page-libro-de-visitas #page-wrapper #sidebar-second .section #block-nodeblock-42 h2{
     display: none;
