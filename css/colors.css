@@ -244,7 +244,7 @@ body.page-servicios-extras #content .group-left h2{
 body.page-servicios-extras .view-header{
     background: none repeat scroll 0 0 #F6F6F2;
     margin-bottom: 15px;
-    padding: 10px 0 15px;
+    padding: 10px 15px;
 }
 body.page-servicios-extras .views-row{
     background: none repeat scroll 0 0 #F6F6F2;
@@ -270,6 +270,7 @@ body.page-servicios-extras .group-left .field-name-commerce-price{
     
     float: right;
     position: static;
+    margin-right:1em;
 }
 body.page-servicios-extras .group-left .field-name-commerce-service-pricing-method{
     position: absolute;
@@ -278,7 +279,6 @@ body.page-servicios-extras .group-left .field-name-commerce-service-pricing-meth
     
        float: right;
     position: static;
-    margin-right:1em;
 }
 body.page-servicios-extras .group-right img{
     margin: 60px 0 0;
