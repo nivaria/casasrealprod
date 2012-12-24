@@ -1040,19 +1040,17 @@ body.node-type-casas .group-header .field-name-field-imagenes{
 }
 #page #block-nodeblock-20{
     position:relative;
-    padding-top:280px;
 }
 #page #block-nodeblock-20 h2{
     text-align:center;
+	margin-bottom:12px;
+margin-top:12px;
 }
 #block-nodeblock-20 .field-name-field-imagen img{
-        left: 0;
-    position: absolute;
-    top: 0;
+	 margin-left: -20px;
+    margin-top: -15px;
 }
 #block-nodeblock-20.contextual-links-region .field-name-field-imagen img{
-    left: -23px;
-    top: -325px;
 }
 /* icons -by styles as I can't enable skinr checkboxes in this theme */
 .commerce-order-handler-area-order-total-title, body.page-checkout .view-casas-checkout-form .views-row .views-field-title,
