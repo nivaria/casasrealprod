@@ -387,10 +387,6 @@ body.page-booking .sidebar .block.block-nodeblock{
     border: medium none;
     padding: 0;
 }
-body.page-servicios-extras .sidebar .block.block-nodeblock h2
-{
-    display: none;
-}
 /*body.page-servicios-extras .sidebar .block.block-nodeblock .field-type-image img,
 body.node-type-instalaciones .sidebar .block.block-nodeblock .field-type-image img,
 body.page-booking .sidebar .block.block-nodeblock .field-type-image img{

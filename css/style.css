@@ -2216,7 +2216,9 @@ mainbody
     top: 52px;
     width:100%;
 }
-
+#triptych .block.contextual-links-region .content .field-name-field-subtitulo{
+	top:-46px;
+}
 #messages {
   display:none;
 }
