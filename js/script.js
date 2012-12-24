@@ -91,6 +91,10 @@ jQuery(document).ready(function($){
     $("#rooms-booking-availability-search-form SELECT").selectBox();
     $("#nivaria-rooms-booking-display-unit-availability-search-form SELECT").selectBox();
     $("#rooms-booking-availability-search-form #edit-children-count").next().after('<div class="description"><12 ' + Drupal.t('years') + '</div>');
+    $("#block-menu-block-1 a.active").each(function() {
+      $(this).addClass('active-trail');
+      $(this).parent().parent().addClass('active-trail');
+    });    
 })
 jQuery(document).ready(function($){
 })
