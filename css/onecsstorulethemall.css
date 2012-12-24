@@ -1188,3 +1188,6 @@ body .selectBox-dropdown {
 #block-nodeblock-6 h2 {
     padding-bottom: 9px;
 }
+body.page-servicios-extras .group-left .field-name-body{
+    clear:both;
+}

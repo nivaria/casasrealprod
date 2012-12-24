@@ -107,6 +107,7 @@ body.node-type-webform #content .grippie{
 }
 fieldset.captcha{
     border: none;
+    clear:both;
 }
 fieldset.captcha legend{
     display: none;
