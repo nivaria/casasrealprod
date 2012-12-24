@@ -993,11 +993,12 @@ body.page-node-add-libro-de-visitas #edit-field-casas .form-type-checkbox{
 }
 #edit-field-acepto-condiciones .description{
     display:inline;
+    white-space:nowrap;
 }
 body.page-node-add-libro-de-visitas #edit-field-acepto-condiciones{
-     float: left;
+     float: none;
     margin-top: 1em;
-    width: 44%;
+    width: auto;
 }
 body.page-node-add-libro-de-visitas #edit-field-acepto-condiciones .form-item{
     margin:0;
