@@ -291,6 +291,26 @@ body.page-bookings #block-rooms-booking-manager-rooms-availability-search h2{
     font-size: 20px;
     font-weight: normal;
 }
+
+.node-type-casas .group-header .field-name-field-precio-adulto-extra .field-label,
+.node-type-casas .group-header .field-name-field-precio-nino-extra .field-label{
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 178px;
+}
+.node-type-casas .group-header .field-name-field-precio-adulto-extra .field-item,
+.node-type-casas .group-header .field-name-field-precio-nino-extra .field-item{
+    color: #1F84B2;
+    font-size: 14px;
+    font-weight: normal;
+}
+.node-type-casas .group-header .field-name-field-precio-adulto-extra {
+    float: left;
+    margin-right: 2em;
+}
+
 fieldset.group-comentario{
     border:0 none;
     margin:1em 0 0;
