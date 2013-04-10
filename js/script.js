@@ -90,7 +90,7 @@ jQuery(document).ready(function($){
     jQuery("#edit-field-fecha-de-la-estancia-und-0-value-month").selectBox();
     $("#rooms-booking-availability-search-form SELECT").selectBox();
     $("#nivaria-rooms-booking-display-unit-availability-search-form SELECT").selectBox();
-    $("#rooms-booking-availability-search-form #edit-children-count").next().after('<div class="description"><12 ' + Drupal.t('years') + '</div>');
+    
 })
 jQuery(document).ready(function($){
 })
