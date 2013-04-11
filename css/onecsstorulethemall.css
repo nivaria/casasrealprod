@@ -179,12 +179,12 @@ body.page-bookings #block-rooms-booking-manager-rooms-availability-search h2{
     float: none;
     padding: 0px;
 }
-#rooms-booking-availability-search-form .form-item-adults-count,
-#rooms-booking-availability-search-form .form-item-children-count{
+#rooms-booking-availability-search-form .form-item{
     margin-right:0;
-}
-#rooms-booking-availability-search-form .form-item-children-count{
     margin-left:1em;
+}
+#rooms-booking-availability-search-form .form-item:first-child{
+    margin-left:0;
 }
 #rooms-booking-availability-search-form .form-item-children-count div.description {
     display: block;
