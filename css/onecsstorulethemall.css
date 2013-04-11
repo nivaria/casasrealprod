@@ -104,6 +104,9 @@ body.not-front.node-type-casas #content .section{
     width: auto;
     float:right;
     margin-right:16px;
+    
+    position:relative;
+    z-index:100;
 }
 #ui-datepicker-div {
     z-index:200 !important;
@@ -176,12 +179,12 @@ body.page-bookings #block-rooms-booking-manager-rooms-availability-search h2{
     float: none;
     padding: 0px;
 }
-#rooms-booking-availability-search-form .form-item-adults-count,
-#rooms-booking-availability-search-form .form-item-children-count{
+#rooms-booking-availability-search-form .form-item{
     margin-right:0;
-}
-#rooms-booking-availability-search-form .form-item-children-count{
     margin-left:1em;
+}
+#rooms-booking-availability-search-form .form-item:first-child{
+    margin-left:0;
 }
 #rooms-booking-availability-search-form .form-item-children-count div.description {
     display: block;
@@ -288,6 +291,26 @@ body.page-bookings #block-rooms-booking-manager-rooms-availability-search h2{
     font-size: 20px;
     font-weight: normal;
 }
+
+.node-type-casas .group-header .field-name-field-precio-adulto-extra .field-label,
+.node-type-casas .group-header .field-name-field-precio-nino-extra .field-label{
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 178px;
+}
+.node-type-casas .group-header .field-name-field-precio-adulto-extra .field-item,
+.node-type-casas .group-header .field-name-field-precio-nino-extra .field-item{
+    color: #1F84B2;
+    font-size: 14px;
+    font-weight: normal;
+}
+.node-type-casas .group-header .field-name-field-precio-adulto-extra {
+    float: left;
+    margin-right: 2em;
+}
+
 fieldset.group-comentario{
     border:0 none;
     margin:1em 0 0;
@@ -990,11 +1013,12 @@ body.page-node-add-libro-de-visitas #edit-field-casas .form-type-checkbox{
 }
 #edit-field-acepto-condiciones .description{
     display:inline;
+    white-space:nowrap;
 }
 body.page-node-add-libro-de-visitas #edit-field-acepto-condiciones{
-     float: left;
+     float: none;
     margin-top: 1em;
-    width: 44%;
+    width: auto;
 }
 body.page-node-add-libro-de-visitas #edit-field-acepto-condiciones .form-item{
     margin:0;
@@ -1009,7 +1033,7 @@ body.node-type-webform form input[type=email],
 body.node-type-webform form textarea{
     width:426px;
 }
-body.node-type-webform #edit-captcha-response{
+#edit-captcha-response{
     width:216px;
 }
 .field-slideshow-wrapper{
@@ -1040,19 +1064,17 @@ body.node-type-casas .group-header .field-name-field-imagenes{
 }
 #page #block-nodeblock-20{
     position:relative;
-    padding-top:280px;
 }
 #page #block-nodeblock-20 h2{
     text-align:center;
+	margin-bottom:12px;
+margin-top:12px;
 }
 #block-nodeblock-20 .field-name-field-imagen img{
-        left: 0;
-    position: absolute;
-    top: 0;
+	 margin-left: -20px;
+    margin-top: -15px;
 }
 #block-nodeblock-20.contextual-links-region .field-name-field-imagen img{
-    left: -23px;
-    top: -325px;
 }
 /* icons -by styles as I can't enable skinr checkboxes in this theme */
 .commerce-order-handler-area-order-total-title, body.page-checkout .view-casas-checkout-form .views-row .views-field-title,
@@ -1107,13 +1129,11 @@ body.page-bookings .view-servicios .views-row .views-field-title{
     font-weight:bold;
 }
 #page #block-nodeblock-5{
-    padding-top:150px;
     text-align:center;
 }
 #page #block-nodeblock-5 .field-name-field-imagen img{
-        left: 0;
-    position: absolute;
-    top: 0;
+    margin-left: -70px;
+    margin-top: -18px;
 }
 #sidebar-second #block-nodeblock-5 h2{
     text-align:center;
@@ -1185,4 +1205,10 @@ body .selectBox-dropdown {
     position: absolute;
     top: 0;
     width: 100%;
+}
+#block-nodeblock-6 h2 {
+    padding-bottom: 9px;
+}
+body.page-servicios-extras .group-left .field-name-body{
+    clear:both;
 }

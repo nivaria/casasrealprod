@@ -116,9 +116,8 @@
                                                                     </tr>
                                                                     <tr>
                                                                         <td bgcolor="#fff" valign="top" style="text-align:center;">
-                                                                            <p><?php print t('Telephone'); ?>: (0034) 922 000 000</p>
+                                                                            <p><?php print t('Telephone'); ?>:  00 34 651 131 597</p>
                                                                             <p><?php print t('We speak english and spanish'); ?></p>
-                                                                            <img typeof="foaf:Image" src="<?php print url(variable_get('file_public_path', conf_path() . '/files').'/bloques/bloque_mita_nicolas.jpg', array('absolute' => TRUE, 'language' => $variables['lang'])); ?>" width="184" height="137" alt="" style="border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;">
                                                                             <p><a href="<?php print url('contacto', array('absolute' => TRUE)); ?>" style="color:#666;text-decoration:none;"><img src="<?php print url($directory.'/images/email_contact_icon.png', array('absolute' => TRUE, 'language' => $variables['lang'])); ?>"/></a></p>
                                                                         </td>
                                                                     </tr>

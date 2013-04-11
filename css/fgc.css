@@ -771,12 +771,11 @@ body.page-booking #rooms-booking-availability-search-form .form-submit{
     bottom: 26px;
     cursor: pointer;
     height: 50px;
-    left: 442px;
     position: absolute;
-    width: 163px;
     z-index: 200;
     
-    left:465px;
+    width:auto;
+    right:0;
 }
 /*.page-node-booking .form-submit:hover{
     bottom: 22px;

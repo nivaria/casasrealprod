@@ -12,6 +12,7 @@ body.overlay {
 #main-menu-links li a.active,
 #main-menu-links li.active-trail a {
     background: #ffffff;
+    color: #1F83B1;
 }
 .tabs ul.primary li a.active {
     background-color: #ffffff;
@@ -105,16 +106,20 @@ background: url("../images/bg_input_contact.png") no-repeat scroll -8px 0 transp
 body.node-type-webform #content .grippie{
     display: none;
 }
-body.node-type-webform #content fieldset{
+fieldset.captcha{
     border: none;
+    clear:both;
 }
-body.node-type-webform #content fieldset legend{
+fieldset.captcha legend{
     display: none;
+}
+fieldset.captcha .fieldset-wrapper{
+    padding:0;
 }
 body.node-type-webform #content .fieldset-description{
     display: none;
 }
-body.node-type-webform #content img{
+fieldset.captcha .fieldset-wrapper img{
     float: left;
     padding-right: 10px;
 }
@@ -221,17 +226,26 @@ body.node-type-instalaciones .group-right{
     text-align: right;
     width: 25%;
 }
+body.page-servicios-extras .group-left{
+        float: none;
+    padding-right: 1em;
+    padding-top: 1em;
+    width: auto;
+}
 body.page-servicios-extras #content .group-left h2{
     background: url("../images/bookfade.png") no-repeat scroll 0 0 transparent;
     color: #0071B3;
     padding-left: 40px;
     vertical-align: middle;
     margin: 15px 0 20px;
+    
+    float:left;
+    margin-top:0;
 }
 body.page-servicios-extras .view-header{
     background: none repeat scroll 0 0 #F6F6F2;
     margin-bottom: 15px;
-    padding: 10px 0 15px;
+    padding: 10px 15px;
 }
 body.page-servicios-extras .views-row{
     background: none repeat scroll 0 0 #F6F6F2;
@@ -254,11 +268,18 @@ body.page-servicios-extras .group-left .field-name-commerce-price{
     position: absolute;
     right: 135px;
     top: 20px;
+    
+    float: right;
+    position: static;
+    margin-right:1em;
 }
 body.page-servicios-extras .group-left .field-name-commerce-service-pricing-method{
     position: absolute;
     right: 25px;
     top: 20px;
+    
+       float: right;
+    position: static;
 }
 body.page-servicios-extras .group-right img{
     margin: 60px 0 0;
@@ -386,10 +407,6 @@ body.page-booking .sidebar .block.block-nodeblock{
     background: none repeat scroll 0 0 #FFFFFF;
     border: medium none;
     padding: 0;
-}
-body.page-servicios-extras .sidebar .block.block-nodeblock h2
-{
-    display: none;
 }
 /*body.page-servicios-extras .sidebar .block.block-nodeblock .field-type-image img,
 body.node-type-instalaciones .sidebar .block.block-nodeblock .field-type-image img,
