@@ -105,7 +105,7 @@ print $hide_site_name;?>
         <?php if ($breadcrumb): ?>
         <div id="breadcrumb"><?php print $breadcrumb; ?>
           <?php if ($title != ""): ?>
-          <div class="breadcrumb">&raquo; <?php print t($title) ?></div>
+          <div class="breadcrumb">&nbsp;|&nbsp;&nbsp;<span><?php print t($title) ?></span></div>
           <?php endif; ?>
           <?php if ($title): ?>
             <h1 class="title" id="page-title"> <?php print $title; ?> </h1>
@@ -135,8 +135,17 @@ print $hide_site_name;?>
             </ul>
             <?php endif; ?>
             <?php print render($page['content']); ?> <?php print $feed_icons; ?> </div>
+          
+            <?php if ($page['triptych_first'] || $page['triptych_middle'] || $page['triptych_last']): ?>
+    <div id="triptych-wrapper">
+      <div id="triptych" class="clearfix"> <?php print render($page['triptych_first']); ?> <?php print render($page['triptych_middle']); ?> <?php print render($page['triptych_last']); ?> </div>
+    </div>
+    <!-- /#triptych, /#triptych-wrapper -->
+    <?php endif; ?>
+          
         </div>
         <!-- /.section, /#content -->
+
         <?php if ($page['sidebar_second']): ?>
         <div id="sidebar-second" class="column sidebar">
           <div class="section"> <?php print render($page['sidebar_second']); ?> </div>
@@ -209,13 +218,9 @@ print $hide_site_name;?>
     <!-- /.section, /#header -->
   
 
-    <?php if ($page['triptych_first'] || $page['triptych_middle'] || $page['triptych_last']): ?>
-    <div id="triptych-wrapper">
-      <div id="triptych" class="clearfix"> <?php print render($page['triptych_first']); ?> <?php print render($page['triptych_middle']); ?> <?php print render($page['triptych_last']); ?> </div>
-    </div>
-    <!-- /#triptych, /#triptych-wrapper -->
-    <?php endif; ?>
+
 <!--footer-->
+    <div id="pre-footer-holder"><div id="pre-footer"></div></div>
     <div id="footer-wrapper">
       <div class="section">
         <?php if ($page['footer_firstcolumn'] || $page['footer_secondcolumn'] || $page['footer_thirdcolumn'] || $page['footer_fourthcolumn']): ?>
@@ -224,6 +229,10 @@ print $hide_site_name;?>
         <?php endif; ?>
         <?php if ($page['footer']): ?>
         <div id="footer" class="clearfix"> <?php print render($page['footer']); ?> </div>
+        <!-- /#footer -->
+        <?php endif; ?>
+        <?php if ($page['footer_second']): ?>
+        <div id="footer_second" class="clearfix"> <?php print render($page['footer_second']); ?> </div>
         <!-- /#footer -->
         <?php endif; ?>
       </div>

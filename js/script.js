@@ -42,37 +42,27 @@ jQuery(function($){
         })
 
     });
-    //select
-    //$(".form-item-adults-count #edit-adults-count").fgcSelect();
-    //$(".form-item-children-count #edit-children-count").fgcSelect();
-    //string
-    var tx=$("#block-nodeblock-39 h2").text();
-    var tx1=$("#block-nodeblock-32 h2").text();
-    var myArray = tx.split(",");
-   
-    var st1=myArray[0];
-    var st2=myArray[1];
-    var str_array = tx1.split(" ");
-    var st3=str_array[0];
-    var st4=str_array[1];
-    var st5=str_array[2];
-    var st6=str_array[3];
-    var st7=str_array[4];
-    $("#block-nodeblock-39 h2").html(st1+"<span style='color: #333;  padding-top: 8px; display: block; font-weight: normal; padding-bottom: 8px;font-size: 12px;text-transform: uppercase;'>"+st2+"</span>")
-    //$("#block-nodeblock-32 h2").html("<span style='color: #666'>"+st3+" "+st4+"</span></br>"+st5+" "+st6+ " "+st7);
-    //or
-    var n=Math.round((str_array.length)/2);
-    $("#block-nodeblock-32 h2").html("");//xoa bo dl c?
-    for(var j = 0; j < n-1; j++){
-        $("#block-nodeblock-32 h2").append("<span style='color:#666'>"+str_array[j]+" "+"</span>");
-    }
-    $("#block-nodeblock-32 h2").append("</br>");
-    for(var i = n-1; i < str_array.length; i++)
-    {
-        $("#block-nodeblock-32 h2").append("<span>"+str_array[i]+" "+"</span>");
-    }
 })
 jQuery(document).ready(function($){
+          if( jQuery("body").hasClass("page-checkout") ){
+                    var marker1=jQuery("<div class='progress_marker first'>1</div>");
+                    var marker2=jQuery("<div class='progress_marker second'>2</div>");
+                    var marker3=jQuery("<div class='progress_marker third'>3</div>");
+                    
+                    marker1.addClass("active");
+                    if( jQuery("body").hasClass("page-checkout-review") ){
+                              marker2.addClass("active");
+                              marker1.removeClass("active");
+                    }
+                    if( jQuery("body").hasClass("page-checkout-complete") ){
+                              marker3.addClass("active");
+                              marker1.removeClass("active");
+                    }
+                    
+                    jQuery("#block-commerce-checkout-progress-indication").append(marker1);
+                    jQuery("#block-commerce-checkout-progress-indication").append(marker2);
+                    jQuery("#block-commerce-checkout-progress-indication").append(marker3);
+          }
     var sidebar_first = $("#sidebar-first").height();
     var content = $("#content").height();
     var sidebar_second = $("#sidebar-second").height();
@@ -85,8 +75,8 @@ jQuery(document).ready(function($){
             height: content + "px"
         })
     }
-    $("#rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0").attr("value","ENTRADA");
-    $("#rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0").attr("value","SALIDA");
+    /*$("#rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0").attr("value","ENTRADA");
+    $("#rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0").attr("value","SALIDA");*/
     //$("#rooms-booking-availability-search-form #edit-adults-count").find('option')
     //.removeAttr('selected')
     //.eq(0).attr('selected', 'selected')
@@ -96,21 +86,17 @@ jQuery(document).ready(function($){
     //.eq(0).attr('selected', 'selected')
     //.prepend("<option value=''>NIÑOS*</option>");
     //add select
+    jQuery("#edit-field-fecha-de-la-estancia-und-0-value-year").selectBox();
+    jQuery("#edit-field-fecha-de-la-estancia-und-0-value-month").selectBox();
     $("#rooms-booking-availability-search-form SELECT").selectBox();
     $("#nivaria-rooms-booking-display-unit-availability-search-form SELECT").selectBox();
     $("#rooms-booking-availability-search-form #edit-children-count").next().after('<div class="description"><12 ' + Drupal.t('years') + '</div>');
+    $("#block-menu-block-1 a.active").each(function() {
+      $(this).addClass('active-trail');
+      $(this).parent().parent().addClass('active-trail');
+    });    
 })
 jQuery(document).ready(function($){
-    $('.node-type-casas #main-wrapper #main #content .section .group-left .field-items p:first').next().addClass('position1');
-    $('.node-type-casas #main-wrapper #main #content .section .group-left .field-items p:first').next().next().addClass('position2');
-    $('.node-type-casas #main-wrapper #main #content .section .group-left .field-items p:first').next().next().next().addClass('position3');
-    $('.node-type-casas #main-wrapper #main #content .section .group-left .field-items p:first').next().next().next().next().addClass('position4');
-    $('.node-type-casas #main-wrapper #main #content .section .group-left .field-items .field-item div:first').addClass('position6');
-    $('.node-type-casas #main-wrapper #main #content .section .group-right .field-items p:first').next().next().css('display','none');
-    $('.node-type-casas #main-wrapper #main #content .section .group-right .field-items p:first').next().addClass('position7');
-    $('.node-type-casas #main-wrapper #main #content .section .group-right .field-items p:first').next().next().next().addClass('position8');
-    
-    
 })
 
 

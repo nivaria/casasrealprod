@@ -1,4 +1,3 @@
-
 /* ---------- Color Module Styles ----------- */
 a{
     outline: none;
@@ -13,6 +12,7 @@ body.overlay {
 #main-menu-links li a.active,
 #main-menu-links li.active-trail a {
     background: #ffffff;
+    color: #1F83B1;
 }
 .tabs ul.primary li a.active {
     background-color: #ffffff;
@@ -26,6 +26,7 @@ body.overlay {
     position: absolute;
     top: 0;
     width: 100%;
+    height:158px;
 }
 
 a {
@@ -48,9 +49,11 @@ a:active {
 .region-header a,
 .region-header li a.active,
 #name-and-slogan,
-#name-and-slogan a,
-#secondary-menu-links li a {
+#name-and-slogan a{
     color: #000;
+}
+#secondary-menu-links li a {
+    color: #fff;
 }
 #sidebar-second .section{
     padding-top: 15px;
@@ -58,9 +61,9 @@ a:active {
 /*
 contact
 */
-#breadcrumb #page-title{
+/*#breadcrumb #page-title{
     font-weight: bold;
-}
+}*/
 #breadcrumb{
     background: url("../images/bgbreadcrumb.png") repeat scroll center top transparent;
     height: 60px;
@@ -74,7 +77,6 @@ body.page-node-13 #breadcrumb{
     padding: 20px 0 15px 40px;
 }
 h1#page-title{
-    font-size: 2em;
     margin: 15px 0 0;
     text-transform: uppercase;
 }
@@ -83,7 +85,7 @@ body.node-type-webform #content{
     margin: 2px 0 0 15px;
     width: 705px;
 }
-body.node-type-webform #content .region.region-content{
+/*body.node-type-webform #content .region.region-content{
     padding: 20px 40px;
 
 }
@@ -93,36 +95,40 @@ background: url("../images/bg_input_contact.png") no-repeat scroll -8px 0 transp
     border: medium none;
     height: 25px;
     width: 417px;
-}
-#edit-submitted-comentario-contacto{
+}*/
+/*#edit-submitted-comentario-contacto{
        background: url("../images/bg_input_contact.png") no-repeat scroll -7px -33px transparent;
     height: 128px;
     border: medium none;
     padding: 7px;
     width: 426px;
-}
+}*/
 body.node-type-webform #content .grippie{
     display: none;
 }
-body.node-type-webform #content fieldset{
+fieldset.captcha{
     border: none;
+    clear:both;
 }
-body.node-type-webform #content fieldset legend{
+fieldset.captcha legend{
     display: none;
+}
+fieldset.captcha .fieldset-wrapper{
+    padding:0;
 }
 body.node-type-webform #content .fieldset-description{
     display: none;
 }
-body.node-type-webform #content img{
+fieldset.captcha .fieldset-wrapper img{
     float: left;
     padding-right: 10px;
 }
-body.node-type-webform #content #edit-captcha-response{
+/*body.node-type-webform #content #edit-captcha-response{
    background: url("../images/bg_input_contact.png") no-repeat scroll -6px -168px transparent;
     border: medium none;
     height: 23px;
     width: 230px;
-}
+}*/
 body.node-type-webform #content #edit-submit{
     background: url("../images/bgbuttoncontact.png") repeat-x scroll 0 0 transparent;
     border: medium none;
@@ -152,13 +158,16 @@ right
 #sidebar-second #block-nodeblock-6 .content{
     padding-left: 18px;
 }
-#sidebar-second h2,
 #sidebar-second h2{
-    background: url("../images/eye.png") no-repeat scroll 10px 0 transparent;
     font-weight: bold;
-    padding-left: 40px;
+    padding-left: 0;
     margin-bottom: 15px;
     padding-bottom: 10px;
+    
+    line-height:20px;
+}
+#block-nodeblock-53 h2{
+    padding-left:36px;
 }
 #sidebar-second .block-nodeblock li{
       background: url("../images/icon_select_check.png") no-repeat scroll -90px 6px transparent;
@@ -169,21 +178,6 @@ right
 }
 #sidebar-second .block-nodeblock ul{
     padding: 0;
-}
-#sidebar-second #block-nodeblock-5 h2{
-    background: none repeat scroll 0 0 transparent;
-    border: medium none;
-    bottom: 81px;
-    display: block;
-    padding-left: 0;
-    position: absolute;
-    width: 100%;
-}
-#block-nodeblock-5{
-    position: relative;
-}
-#sidebar-second #block-nodeblock-5 .field-name-body{
-    padding-top: 20px;
 }
 /*
 Spa
@@ -200,7 +194,7 @@ body.page-booking  #page-wrapper{
 }
 .page-servicios-extras #page-wrapper .section,
 .node-type-instalaciones #page-wrapper .section{
-    padding-right: 3px;
+    /*padding-right: 3px;*/
     padding-top: 3px;
 }
 body.page-servicios-extras #content,
@@ -232,17 +226,26 @@ body.node-type-instalaciones .group-right{
     text-align: right;
     width: 25%;
 }
+body.page-servicios-extras .group-left{
+        float: none;
+    padding-right: 1em;
+    padding-top: 1em;
+    width: auto;
+}
 body.page-servicios-extras #content .group-left h2{
     background: url("../images/bookfade.png") no-repeat scroll 0 0 transparent;
     color: #0071B3;
     padding-left: 40px;
     vertical-align: middle;
     margin: 15px 0 20px;
+    
+    float:left;
+    margin-top:0;
 }
 body.page-servicios-extras .view-header{
     background: none repeat scroll 0 0 #F6F6F2;
     margin-bottom: 15px;
-    padding: 10px 0 15px;
+    padding: 10px 15px;
 }
 body.page-servicios-extras .views-row{
     background: none repeat scroll 0 0 #F6F6F2;
@@ -265,11 +268,18 @@ body.page-servicios-extras .group-left .field-name-commerce-price{
     position: absolute;
     right: 135px;
     top: 20px;
+    
+    float: right;
+    position: static;
+    margin-right:1em;
 }
 body.page-servicios-extras .group-left .field-name-commerce-service-pricing-method{
     position: absolute;
     right: 25px;
     top: 20px;
+    
+       float: right;
+    position: static;
 }
 body.page-servicios-extras .group-right img{
     margin: 60px 0 0;
@@ -282,17 +292,12 @@ body.page-servicios-extras .group-right img{
     width: 100%;
 }
 .node-type-instalaciones .group-third{
-    float: right;
-    position: absolute;
-    right: 0;
-    top: 495px;
-    width: 45%;
+   position: static;
+    width: 50%;
+    float:right;
 }
 .node-type-instalaciones .group-fourth{
-    position: absolute;
-    right: 0;
-    top: 740px;
-    width: 45%;
+
 }
 .node-type-instalaciones .group-fourth .field-item p
 /*.node-type-instalaciones .group-first .field-name-body .field-item p*/{
@@ -308,8 +313,12 @@ body.page-servicios-extras .group-right img{
     padding: 30px;
 }
 .node-type-instalaciones .group-first{
-    padding-top: 447px;
-    width: 45%;
+    float: none;
+    height: 420px;
+    margin-bottom: 1em;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
 }
 /*.node-type-instalaciones .group-first .field-name-body .field-item p strong{
       background: url("../images/note1.png") no-repeat scroll left top transparent;
@@ -323,17 +332,18 @@ body.page-servicios-extras .group-right img{
 }*/
 
 .node-type-instalaciones .group-second{
-    position: absolute;
-    top: 0;
+  float: left;
+    position: static;
+    width: 50%;
 }
-.node-type-instalaciones .field-slideshow-caption{
+/*.node-type-instalaciones .field-slideshow-caption{
     background: url("../images/bg_des_slide.png") repeat scroll 0 0 transparent;
     bottom: 20px;
     left: 0;
     padding: 10px 20px;
     position: absolute;
     width: 100%;
-}
+}*/
 .field-slideshow-caption-text{
     color: #fff;
 }
@@ -398,35 +408,31 @@ body.page-booking .sidebar .block.block-nodeblock{
     border: medium none;
     padding: 0;
 }
-body.page-servicios-extras .sidebar .block.block-nodeblock h2
-{
-    display: none;
-}
-body.page-servicios-extras .sidebar .block.block-nodeblock .field-type-image img,
+/*body.page-servicios-extras .sidebar .block.block-nodeblock .field-type-image img,
 body.node-type-instalaciones .sidebar .block.block-nodeblock .field-type-image img,
 body.page-booking .sidebar .block.block-nodeblock .field-type-image img{
     width: 100%;
     height: 100%;
-}
-body.page-servicios-extras .sidebar .block.block-nodeblock .field-name-body.field-type-text-with-summary,
+}*/
+/*body.page-servicios-extras .sidebar .block.block-nodeblock .field-name-body.field-type-text-with-summary,
 body.node-type-instalaciones .sidebar .block.block-nodeblock .field-name-body.field-type-text-with-summary,
 body.page-booking .sidebar .block.block-nodeblock .field-name-body.field-type-text-with-summary{
     text-align: center;
-}
-body.node-type-instalaciones .sidebar .block.block-nodeblock h2,
+}*/
+/*body.node-type-instalaciones .sidebar .block.block-nodeblock h2,
 body.page-booking .sidebar .block.block-nodeblock h2{
     background: url("../images/bagfade.png") no-repeat scroll 15px center transparent;
     font-weight: bold;
     padding: 5px 10px 5px 40px;
-}
+}*/
 body.node-type-instalaciones #block-nodeblock-30 .content{
     padding-left: 10px;
 }
-body.node-type-instalaciones .sidebar .block.block-nodeblock ul,
+/*body.node-type-instalaciones .sidebar .block.block-nodeblock ul,
 body.page-booking .sidebar .block.block-nodeblock ul{
     padding-left: 25px;
     padding-right: 10px;
-}
+}*/
 body.node-type-instalaciones .sidebar .block.block-nodeblock li,
 body.page-booking .sidebar .block.block-nodeblock li{
     list-style: disc outside url("../images/checkfade.png");
@@ -466,11 +472,6 @@ body.page-node-13 #content #block-system-main .field-items h3{
 body.page-node-13 #content #block-system-main .field-items img{
     margin-right: 20px;
 }
-body.node-type-webform #sidebar-second #block-nodeblock-5,
-body.page-node-13 #sidebar-second #block-nodeblock-5{
-    padding: 0;    
-    text-align: center;
-}
 body.node-type-webform #sidebar-second .block,
 body.page-node-13 #sidebar-second .block{
     background: none repeat scroll 0 0 #FFFFFF;
@@ -479,74 +480,67 @@ body.node-type-webform #sidebar-second #block-nodeblock-5 h2
 body.page-node-13 #sidebar-second #block-nodeblock-5 h2{
     display: none;
 }
-body.node-type-webform #sidebar-second #block-nodeblock-5 .field-item img,
+/*body.node-type-webform #sidebar-second #block-nodeblock-5 .field-item img,
 body.page-node-13 #sidebar-second #block-nodeblock-5 .field-item img{
     width: 100%;
-}
-body.node-type-webform #sidebar-second #block-nodeblock-5 .field-item a,
-body.page-node-13 #sidebar-second #block-nodeblock-5 .field-item a{
-    background: url("../images/bgbuttonr.png") repeat-x scroll 0 center transparent;
-    color: #FFFFFF;
-    display: block;
-    margin: 0 10px 10px;
-    padding: 10px 0;
-    text-transform: uppercase;
-}
+}*/
 body.page-node-13 #sidebar-second #block-nodeblock-5 .content{
     padding: 0;
 }
-body.page-node-13 #sidebar-second #block-locationmap-image,
-body.node-type-webform #sidebar-second #block-locationmap-image{
-    padding: 0;
-}
-body.page-node-13 #sidebar-second #block-locationmap-image .content,
+/*body.page-node-13 #sidebar-second #block-locationmap-image .content,
 body.node-type-webform #sidebar-second #block-locationmap-image .content{
-    /*    padding: 0 10px 20px;*/
     text-align: center;
     padding-top: 10px;
-}
-body.page-node-13 #sidebar-second #block-locationmap-image .content img,
+}*/
+/*body.page-node-13 #sidebar-second #block-locationmap-image .content img,
 body.node-type-webform #sidebar-second #block-locationmap-image .content img{
     height: 248px;
     width: 230px;
+}*/
+
+/* Bloque dónde estamos */
+#page #block-locationmap-image{
+    width:232px;
+    padding:10px;
+    overflow:visible;
+    position:relative;
+    margin-bottom:40px;
+    text-align:center;
 }
-
 #block-locationmap-image .content{
-    padding-bottom: 120px;
-    padding-top: 15px;
-    position: relative;
-
+    padding-bottom: 130px;
 }
 #sidebar-second #block-locationmap-image h2 {
     background: none repeat scroll 0 center transparent;
     border: medium none;
-    bottom: 90px;
+    color: #000000;
     display: block;
-    padding-left: 0;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
     position: absolute;
     text-align: center;
-    width: 94%;
-    color: #000;
-    font-size: 18px;
+    top: 150px;
+    width: 232px;
 }
 #locationmap-block-text-top {
-    bottom: 50px;
     position: absolute;
-    width: 93%;
+    top: 180px;
+    width: 232px;
 }
 #locationmap-block-text-top a{
     background: url("../images/all_arrow.png") no-repeat scroll -2px -3px transparent;
     border: 10px solid #FFFFFF;
     border-radius: 60px 60px 60px 60px;
-    bottom: -78px;
+    bottom: -60px;
     display: block;
     height: 42px;
-    left: 42%;
+    left: 83px;
     position: absolute;
     text-indent: -9999px;
     width: 45px;
 }
-#block-locationmap-image p {
+#block-locationmap-image p:last-child {
     margin-bottom: 0;
 }
 body.page-node-13 #sidebar-second li{
@@ -555,9 +549,6 @@ body.page-node-13 #sidebar-second li{
     text-transform: uppercase;
     font-size: 12px;
 
-}
-#sidebar-second h2{
-   background: url("../images/all_icon1.png") no-repeat scroll 7px -886px transparent;
 }
 /*
 booking
@@ -589,7 +580,6 @@ body.page-booking .form-actions .form-submit{
 body.page-booking #edit-actions #edit-submit:hover{
     cursor: pointer;
 }
-body.page-booking #rooms-booking-availability-search-form > div > div label,
 body.page-booking #rooms-booking-availability-search-form > div > div .description{
     display: none;
 }
@@ -598,13 +588,15 @@ body.page-booking #rooms-booking-availability-search-form > div > div .descripti
 #nivaria-rooms-booking-display-unit-availability-search-form #edit-rooms-end-date-datepicker-popup-0,
 #rooms-booking-availability-search-form #edit-rooms-end-date-datepicker-popup-0, 
 #rooms-booking-availability-search-form #edit-rooms-start-date-datepicker-popup-0{
-   background: url("../images/input_search.png") no-repeat scroll -4px -86px transparent;
+   /*background: url("../images/input_search.png") no-repeat scroll -4px -86px transparent;*/
     border: medium none;
-    color: #CCCCCC;
+    color: #666666;
     font-size: 11px;
     font-weight: bold;
     height: 25px;
     width: 115px;
+    
+    width:194px;
 }
 body.page-booking .no-booking-data{
     clear: both;
@@ -615,14 +607,18 @@ product
 .unit-result .booking-date span.label {
     float: left;
     width: 190px;
+    width:200px;
 }
 .unit-result .booking-occupants span.label {
     float: left;
     width: 190px;
+    width:200px;
 }
 .unit-result .booking-avg-price span.label {
     float: left;
     margin-right: 28px;
+    margin-right:0;
+    width:200px;
 }
 .unit-result{
     padding-left: 20px;
@@ -639,7 +635,6 @@ product
     padding-top: 60px;
 }
 .unit-result h2 {
-       background: url("../images/all_icon1.png") no-repeat scroll 0 -164px transparent;
     color: #0071B3;
     margin: 15px 0 20px;
     padding-left: 40px;
@@ -724,13 +719,7 @@ li.active-trail{
     width: 100%;
     border: none;
 }
-.front #block-rooms-booking-manager-rooms-availability-search .form-type-select{
-    margin-right: 26px;
-}
 .page-reservas #block-rooms-booking-manager-rooms-availability-search .form-type-select{
-    margin-right: 40px;
-}
-#block-rooms-booking-manager-rooms-availability-search .form-type-select.form-item-children-count{
     margin-right: 0;
 }
 .node-type-que-hacer #sidebar-first .section{
@@ -754,9 +743,8 @@ li.active-trail{
 .one-sidebar #content, .page-que-hacer #sidebar-first{
     margin-top: 1px;
 }
-.node-type-que-hacer #content{
-    padding: 20px 40px;
-    /*    width: 930px;*/
+.node-type-que-hacer #content > .section{
+    padding: 20px;
 }
 #block-views-casas-block .field-content{
     text-align: center;
@@ -775,7 +763,7 @@ li.active-trail{
     text-align: left;
 }
 .page-libro-de-visitas #content{
-    padding: 0 40px;
+    padding: 20px 40px;
     width: 620px
 }
 .page-reservas #main-wrapper #main #sidebar-first .section{
@@ -794,12 +782,11 @@ page-libro-de-visitas
     float: left;
 }
 .page-libro-de-visitas .field-name-title.field-type-ds h2{
-     background: url("../images/all_icon1.png") no-repeat scroll 0 -309px transparent;
+     background: url("../images/all_icon1.png") no-repeat scroll -5px -392px transparent;
     padding: 0 0 0 40px;
 }
 .page-libro-de-visitas .field-name-field-valoracion{
     float: right;
-    margin-bottom: 30px;
 }
 .page-libro-de-visitas .field-name-field-casas{
     clear: both;
@@ -830,7 +817,7 @@ page-libro-de-visitas
     margin-bottom: 0;
 }
 /* libro-de-visitas page */
-div.fivestar-widget-static .star{
+/*div.fivestar-widget-static .star{
     background: none;
 }
 div.fivestar-widget-static .star span.off{
@@ -856,12 +843,12 @@ div.fivestar-widget-static .star span.on{
 }
 .page-libro-de-visitas div.fivestar-widget-static .star-5 span.on{
     background: url("../images/all_circle.png") no-repeat scroll -47px 0 transparent;
-}
-.page-libro-de-visitas #page-wrapper #page #main #breadcrumb h1#page-title{
+}*/
+/*.page-libro-de-visitas #page-wrapper #page #main #breadcrumb h1#page-title{
     color: #9c5b3d;
     font-weight: normal;
     font-size: 20px;
-}
+}*/
 .page-libro-de-visitas .field-name-field-casas{
     border-top: 2px solid #FFFFFF;
     margin-left: -20px;
@@ -883,29 +870,9 @@ div.fivestar-widget-static .star span.on{
 }
 .page-libro-de-visitas #page-wrapper #sidebar-second .section .content .view-content .views-row .views-field .field-content img{
     width:255px;
-    height: 150px;
-}
-.page-libro-de-visitas #page-wrapper #sidebar-second .section #block-views-casas-block{
-    background: none;
-    border: none;
 }
 .page-libro-de-visitas #page-wrapper #sidebar-second .section #block-nodeblock-42 h2{
     display: none;
-}
-.page-libro-de-visitas #page-wrapper #sidebar-second .section #block-nodeblock-42 .field-type-link-field
-{
-    background: url("../images/bgbutton.png") repeat-x scroll center center transparent;
-    height: 50px;
-    margin: 0 auto;
-    text-align: center;
-    width: 227px;
-}
-
-.page-libro-de-visitas #page-wrapper #sidebar-second .section #block-nodeblock-42 .field-type-link-field a{
-        font-size: 14px;
-    line-height: 48px;
-    text-transform: uppercase;
-    color: #fff;
 }
 /*page*/
 .page-libro-de-visitas .view-libro-de-visitas .item-list{

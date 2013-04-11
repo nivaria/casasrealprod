@@ -95,8 +95,13 @@
         <?php if ($breadcrumb): ?>
         <div id="breadcrumb"><?php print $breadcrumb; ?>
           <?php if ($title != ""): ?>
-          <div class="breadcrumb">&raquo; <?php print t($title) ?></div>
+          <div class="breadcrumb">&nbsp;|&nbsp;&nbsp;<span><?php print t($title) ?></span></div>
           <?php endif; ?>
+ <?php print render($title_prefix); ?>
+            <?php if ($title): ?>
+            <h1 class="title" id="page-title"> <?php print $title; ?> </h1>
+            <?php endif; ?>
+            <?php print render($title_suffix); ?>
         </div>
         <?php endif; ?>
               <!-- /.section, /#header -->
@@ -123,11 +128,7 @@
             <?php if ($page['highlighted']): ?>
             <div id="highlighted"><?php print render($page['highlighted']); ?></div>
             <?php endif; ?>
-            <a id="main-content"></a> <?php print render($title_prefix); ?>
-            <?php if ($title): ?>
-            <h1 class="title" id="page-title"> <?php print $title; ?> </h1>
-            <?php endif; ?>
-            <?php print render($title_suffix); ?>
+            <a id="main-content"></a>
             <?php if ($tabs): ?>
             <div class="tabs"> <?php print render($tabs); ?> </div>
             <?php endif; ?>
@@ -219,6 +220,7 @@
     <!-- /#triptych, /#triptych-wrapper -->
     <?php endif; ?>
 <!--footer-->
+    <div id="pre-footer-holder"><div id="pre-footer"></div></div>
     <div id="footer-wrapper">
       <div class="section">
         <?php if ($page['footer_firstcolumn'] || $page['footer_secondcolumn'] || $page['footer_thirdcolumn'] || $page['footer_fourthcolumn']): ?>
@@ -227,6 +229,10 @@
         <?php endif; ?>
         <?php if ($page['footer']): ?>
         <div id="footer" class="clearfix"> <?php print render($page['footer']); ?> </div>
+        <!-- /#footer -->
+        <?php endif; ?>
+        <?php if ($page['footer_second']): ?>
+        <div id="footer_second" class="clearfix"> <?php print render($page['footer_second']); ?> </div>
         <!-- /#footer -->
         <?php endif; ?>
       </div>
