@@ -143,9 +143,8 @@ body.not-front.node-type-casas #content .section{
 
 /* front blocks */
 #block-rooms-booking-manager-rooms-availability-search{
-    background-color: #FFFFFF;
-    height:274px;
-    height:318px;
+    background-color: #FFFFFF;    
+    height:auto;
     width: 192px;
     overflow: hidden;
     margin-bottom: 64px;
@@ -179,15 +178,29 @@ body.page-bookings #block-rooms-booking-manager-rooms-availability-search h2{
     float: none;
     padding: 0px;
 }
-#rooms-booking-availability-search-form .form-item{
+#rooms-booking-availability-search-form .form-item.form-type-select{
     margin-right:0;
     margin-left:1em;
+    float:left;
 }
-#rooms-booking-availability-search-form .form-item:first-child{
+#rooms-booking-availability-search-form .form-item.form-item-adults-count{
     margin-left:0;
 }
-#rooms-booking-availability-search-form .form-item-children-count div.description {
+#rooms-booking-availability-search-form .form-item.form-item-children-count{
+    margin-top:22px;
+}
+#rooms-booking-availability-search-form .form-item.form-item-children-count label{
+    display:none !important;
+}
+#rooms-booking-availability-search-form .form-item.form-item-children-free-count{
+    float:right;
+    margin-top:22px;
+}
+#rooms-booking-availability-search-form .form-item div.description {
     display: block;
+}
+#rooms-booking-availability-search-form .form-item .selectBox-dropdown{
+    width:64px !important;
 }
 .front-block{
     float:left;
