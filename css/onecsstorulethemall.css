@@ -192,18 +192,12 @@ body.page-booking #rooms-booking-availability-search-form .form-item.form-type-s
 #rooms-booking-availability-search-form .form-item.form-item-adults-count{
     margin-left:0;
 }
-#rooms-booking-availability-search-form .form-item.form-item-children-count{
-    margin-top:22px;
-}
 body.page-bookings #rooms-booking-availability-search-form .form-item.form-item-children-count{
     margin-top:19px;
     margin-left:4px;
 }
 body.page-bookings #rooms-booking-availability-search-form .form-submit{
     width:100%;
-}
-#rooms-booking-availability-search-form .form-item.form-item-children-count label{
-    display:none !important;
 }
 #rooms-booking-availability-search-form .form-item.form-item-children-free-count{
     float:right;
@@ -223,10 +217,6 @@ body.page-node-booking #page #nivaria-rooms-booking-display-unit-availability-se
 body.page-node-booking #page #nivaria-rooms-booking-display-unit-availability-search-form #edit-rooms-start-date input{
     width:117px;
 }
-body.page-node-booking #page #nivaria-rooms-booking-display-unit-availability-search-form .form-item.form-item-children-count label{
-    display:none;
-}
-body.page-node-booking #page #nivaria-rooms-booking-display-unit-availability-search-form .form-item.form-item-children-count,
 body.page-node-booking #page #nivaria-rooms-booking-display-unit-availability-search-form .form-item.form-item-children-free-count{
     margin-top:19px;
 }
