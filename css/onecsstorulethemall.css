@@ -212,6 +212,7 @@ body.page-booking #rooms-booking-availability-search-form .form-item.form-item-c
     float:left;
     margin-top:20px;
 }
+#rooms-booking-availability-search-form .form-item label,
 .unit-search-form label{
     min-height:20px;
 }
