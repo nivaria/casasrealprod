@@ -200,10 +200,10 @@ body.page-bookings #rooms-booking-availability-search-form .form-submit{
 }
 #rooms-booking-availability-search-form .form-item.form-item-children-free-count{
     float:right;
-    margin-top:22px;
+    margin-top:19px;
 }
 body.page-bookings #rooms-booking-availability-search-form .form-item.form-item-children-free-count{
-    margin-top:19px;
+    margin-top:18px;
 }
 body.page-booking #rooms-booking-availability-search-form .form-item.form-item-children-free-count{
     float:left;
