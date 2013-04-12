@@ -203,13 +203,14 @@ body.page-bookings #rooms-booking-availability-search-form .form-submit{
     margin-top:19px;
 }
 body.front #rooms-booking-availability-search-form .form-item.form-item-children-free-count{
-    margin-top:22p;
+    margin-top:22px;
 }
 body.page-bookings #rooms-booking-availability-search-form .form-item.form-item-children-free-count{
-    margin-top:18px;
+    margin-top:19px;
 }
 body.page-booking #rooms-booking-availability-search-form .form-item.form-item-children-free-count{
     float:left;
+    margin-top:20px;
 }
 /*body.page-booking #rooms-booking-availability-search-form .form-item div.description,*/
 body.page-node-booking #page #nivaria-rooms-booking-display-unit-availability-search-form .form-item{
