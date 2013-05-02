@@ -16,6 +16,7 @@
  *
  * @see template_preprocess_mimemail_message()
  */
+global $base_url;
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -60,7 +61,7 @@
 							<table border="0" cellpadding="0" cellspacing="0" >
 								<tr>
 									<td width="620" height="126">
-										<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="http://coarco.nivaria.com/sites/all/themes/coarco_omega/images/logo-for-newsletter.png" alt="<?php print t('Home'); ?>" /></a>
+										<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $base_url . '/'. path_to_theme();?>/images/logo-for-newsletter.png" alt="<?php print t('Home'); ?>" /></a>
 									</td>
 								</tr>
 							</table>
